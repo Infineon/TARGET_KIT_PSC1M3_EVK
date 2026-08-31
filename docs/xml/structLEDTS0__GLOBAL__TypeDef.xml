@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structLEDTS0__GLOBAL__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>LEDTS0_GLOBAL_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a5591b0e6fc12fd8c9a69ff11f85ac6b3" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t LEDTS0_GLOBAL_TypeDef::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50020000) LEDTS Structure <linebreak/>
+ (@ 0x50020000) Module Identification Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="462" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1accf6a313d3089f1feadec00555633d36" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::GLOBCTL</definition>
+        <argsstring></argsstring>
+        <name>GLOBCTL</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::GLOBCTL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020004) Global Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="463" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a27e4ae16fd76bccd21b1ff91eb081bb4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::FNCTL</definition>
+        <argsstring></argsstring>
+        <name>FNCTL</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::FNCTL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020008) Function Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="464" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1ad0578c28500c788d65d1e00a45e2dc22" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t LEDTS0_GLOBAL_TypeDef::EVFR</definition>
+        <argsstring></argsstring>
+        <name>EVFR</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::EVFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5002000C) Event Flag Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="465" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a7259ee795a3c9d84067d00b57be0ce1f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::TSVAL</definition>
+        <argsstring></argsstring>
+        <name>TSVAL</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::TSVAL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020010) Touch-sense TS-Counter Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="466" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a2ba8fd8df82b48b13d4d3792a03d345e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::LINE0</definition>
+        <argsstring></argsstring>
+        <name>LINE0</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::LINE0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020014) Line Pattern Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="467" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a86e49eaa6be97388f20c77adce7dd38e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::LINE1</definition>
+        <argsstring></argsstring>
+        <name>LINE1</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::LINE1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020018) Line Pattern Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="468" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a8fa1da2c467d495358038bf612416999" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::LDCMP0</definition>
+        <argsstring></argsstring>
+        <name>LDCMP0</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::LDCMP0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5002001C) LED Compare Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="469" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a3764031c57b0fd6b8f2363996d9bb288" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::LDCMP1</definition>
+        <argsstring></argsstring>
+        <name>LDCMP1</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::LDCMP1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020020) LED Compare Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="470" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1ae081100ec7bc7ee34a20de66d1108fb5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::TSCMP0</definition>
+        <argsstring></argsstring>
+        <name>TSCMP0</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::TSCMP0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020024) Touch-sense Compare Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="471" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLEDTS0__GLOBAL__TypeDef_1a75f22bfe94167b715961f3461a46fd26" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LEDTS0_GLOBAL_TypeDef::TSCMP1</definition>
+        <argsstring></argsstring>
+        <name>TSCMP1</name>
+        <qualifiedname>LEDTS0_GLOBAL_TypeDef::TSCMP1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50020028) Touch-sense Compare Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="472" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>LED and Touch Sense Unit 0 (LEDTS) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="461" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="461" bodyend="473"/>
+    <listofallmembers>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1ad0578c28500c788d65d1e00a45e2dc22" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>EVFR</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a27e4ae16fd76bccd21b1ff91eb081bb4" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>FNCTL</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1accf6a313d3089f1feadec00555633d36" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>GLOBCTL</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a5591b0e6fc12fd8c9a69ff11f85ac6b3" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>ID</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a8fa1da2c467d495358038bf612416999" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>LDCMP0</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a3764031c57b0fd6b8f2363996d9bb288" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>LDCMP1</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a2ba8fd8df82b48b13d4d3792a03d345e" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>LINE0</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a86e49eaa6be97388f20c77adce7dd38e" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>LINE1</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1ae081100ec7bc7ee34a20de66d1108fb5" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>TSCMP0</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a75f22bfe94167b715961f3461a46fd26" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>TSCMP1</name></member>
+      <member refid="structLEDTS0__GLOBAL__TypeDef_1a7259ee795a3c9d84067d00b57be0ce1f" prot="public" virt="non-virtual"><scope>LEDTS0_GLOBAL_TypeDef</scope><name>TSVAL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

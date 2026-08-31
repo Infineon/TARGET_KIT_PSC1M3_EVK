@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="bsp__settings_8md" kind="file" language="Markdown">
+    <compoundname>bsp_settings.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Peripheral<sp/>Default<sp/>BSP<sp/>Settings</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Clock<sp/>Configuration</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>Clock<sp/><sp/><sp/><sp/>|<sp/>Source<sp/><sp/><sp/><sp/>|<sp/>Output<sp/>Frequency<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|----------|-----------|------------------|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>OSC_HP<sp/><sp/><sp/>|<sp/>XTAL1<sp/><sp/><sp/><sp/><sp/>|<sp/>20.0<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>MCLK<sp/><sp/><sp/><sp/><sp/>|<sp/>DCO1<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>48.0<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CPUCLK<sp/><sp/><sp/>|<sp/>MCLK<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>48.0<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>PCLK<sp/><sp/><sp/><sp/><sp/>|<sp/>MCLK<sp/>x<sp/>2<sp/><sp/>|<sp/>96.0<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline><highlight class="normal">©<sp/>Infineon<sp/>Technologies<sp/>AG,<sp/>2026.</highlight></codeline>
+    </programlisting>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/bsp_settings.md"/>
+  </compounddef>
+</doxygen>

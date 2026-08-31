@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSHS__Type" kind="struct" language="C++" prot="public">
+    <compoundname>SHS_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSHS__Type_1af13486c080d8745d8f308da351b8ce87" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>SHS_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x48034000) SHS Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1087" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1087" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a1232b7ad298822d53138f5a3458e742a" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>SHS_Type::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034008) Module Identification Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1088" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1088" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a1c165c892ef0d348d27ef6d0b0d51e38" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED1[13]</definition>
+        <argsstring>[13]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>SHS_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1089" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1089" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a85bdd3c10f59207ee586809a8edfde88" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::SHSCFG</definition>
+        <argsstring></argsstring>
+        <name>SHSCFG</name>
+        <qualifiedname>SHS_Type::SHSCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034040) SHS Configuration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1090" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1090" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a285bdf17ba99b0b028c6dbbd1c94fe62" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::STEPCFG</definition>
+        <argsstring></argsstring>
+        <name>STEPCFG</name>
+        <qualifiedname>SHS_Type::STEPCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034044) Stepper Configuration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1091" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1091" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1ac807c5c6c90ae2a43754b8e9b08810e8" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED2[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>SHS_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1092" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1092" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a72db5bb1433b11862b8d086f7ff03ccc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::LOOP</definition>
+        <argsstring></argsstring>
+        <name>LOOP</name>
+        <qualifiedname>SHS_Type::LOOP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034050) Loop Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1093" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1093" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a7b058db9157c0d21cb57b5974d0eebbb" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED3[11]</definition>
+        <argsstring>[11]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>SHS_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1094" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a4ecc6e62fb9f5af406a98d4c3fc6f937" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::TIMCFG0</definition>
+        <argsstring></argsstring>
+        <name>TIMCFG0</name>
+        <qualifiedname>SHS_Type::TIMCFG0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034080) Timing Configuration Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1095" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1095" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1ac976e7bb127a502db9795a4b8aa6d31e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::TIMCFG1</definition>
+        <argsstring></argsstring>
+        <name>TIMCFG1</name>
+        <qualifiedname>SHS_Type::TIMCFG1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034084) Timing Configuration Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1096" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1096" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a7c296a9c9f996ba80af5db221ebc85a2" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED4[13]</definition>
+        <argsstring>[13]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>SHS_Type::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1097" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1097" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a8cf052605da3a80bab8575c4c307d093" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::CALCTR</definition>
+        <argsstring></argsstring>
+        <name>CALCTR</name>
+        <qualifiedname>SHS_Type::CALCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480340BC) Calibration Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1098" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1098" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1aeb6971002dd0d99c5143380fd87979b8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::CALGC0</definition>
+        <argsstring></argsstring>
+        <name>CALGC0</name>
+        <qualifiedname>SHS_Type::CALGC0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480340C0) Gain Calibration Control Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1099" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1099" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1af3c06d520539043c8fde92d1bcef5a67" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::CALGC1</definition>
+        <argsstring></argsstring>
+        <name>CALGC1</name>
+        <qualifiedname>SHS_Type::CALGC1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480340C4) Gain Calibration Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1100" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a28b8ec6f690ee37fe3a38d36c94cadbf" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED5[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>SHS_Type::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1101" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a6eab6c0b46a63ce79cacbc5869d67abd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::CALOC0</definition>
+        <argsstring></argsstring>
+        <name>CALOC0</name>
+        <qualifiedname>SHS_Type::CALOC0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480340E0) Offset Calibration Control Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1102" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1abb55e536061be6d5a62d3cffcd2d2e7d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::CALOC1</definition>
+        <argsstring></argsstring>
+        <name>CALOC1</name>
+        <qualifiedname>SHS_Type::CALOC1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480340E4) Offset Calibration Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1103" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1aa1696a9460134d59c67e59d4fc7e0ba0" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED6[38]</definition>
+        <argsstring>[38]</argsstring>
+        <name>RESERVED6</name>
+        <qualifiedname>SHS_Type::RESERVED6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1104" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1ab5f1bd29d1d1420c006d90734203984f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::GNCTR00</definition>
+        <argsstring></argsstring>
+        <name>GNCTR00</name>
+        <qualifiedname>SHS_Type::GNCTR00</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034180) Gain Control Register 00 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1105" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a82b11cc419481d407c73823759d87b47" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SHS_Type::RESERVED7[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED7</name>
+        <qualifiedname>SHS_Type::RESERVED7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1106" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSHS__Type_1a1e22e44925832d0bae58df683b9bc532" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SHS_Type::GNCTR10</definition>
+        <argsstring></argsstring>
+        <name>GNCTR10</name>
+        <qualifiedname>SHS_Type::GNCTR10</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48034190) Gain Control Register 10 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1107" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Sample and Hold ADC Sequencer (SHS) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1086" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1086" bodyend="1108"/>
+    <listofallmembers>
+      <member refid="structSHS__Type_1a8cf052605da3a80bab8575c4c307d093" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>CALCTR</name></member>
+      <member refid="structSHS__Type_1aeb6971002dd0d99c5143380fd87979b8" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>CALGC0</name></member>
+      <member refid="structSHS__Type_1af3c06d520539043c8fde92d1bcef5a67" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>CALGC1</name></member>
+      <member refid="structSHS__Type_1a6eab6c0b46a63ce79cacbc5869d67abd" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>CALOC0</name></member>
+      <member refid="structSHS__Type_1abb55e536061be6d5a62d3cffcd2d2e7d" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>CALOC1</name></member>
+      <member refid="structSHS__Type_1ab5f1bd29d1d1420c006d90734203984f" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>GNCTR00</name></member>
+      <member refid="structSHS__Type_1a1e22e44925832d0bae58df683b9bc532" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>GNCTR10</name></member>
+      <member refid="structSHS__Type_1a1232b7ad298822d53138f5a3458e742a" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>ID</name></member>
+      <member refid="structSHS__Type_1a72db5bb1433b11862b8d086f7ff03ccc" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>LOOP</name></member>
+      <member refid="structSHS__Type_1af13486c080d8745d8f308da351b8ce87" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED</name></member>
+      <member refid="structSHS__Type_1a1c165c892ef0d348d27ef6d0b0d51e38" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED1</name></member>
+      <member refid="structSHS__Type_1ac807c5c6c90ae2a43754b8e9b08810e8" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED2</name></member>
+      <member refid="structSHS__Type_1a7b058db9157c0d21cb57b5974d0eebbb" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED3</name></member>
+      <member refid="structSHS__Type_1a7c296a9c9f996ba80af5db221ebc85a2" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED4</name></member>
+      <member refid="structSHS__Type_1a28b8ec6f690ee37fe3a38d36c94cadbf" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED5</name></member>
+      <member refid="structSHS__Type_1aa1696a9460134d59c67e59d4fc7e0ba0" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED6</name></member>
+      <member refid="structSHS__Type_1a82b11cc419481d407c73823759d87b47" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>RESERVED7</name></member>
+      <member refid="structSHS__Type_1a85bdd3c10f59207ee586809a8edfde88" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>SHSCFG</name></member>
+      <member refid="structSHS__Type_1a285bdf17ba99b0b028c6dbbd1c94fe62" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>STEPCFG</name></member>
+      <member refid="structSHS__Type_1a4ecc6e62fb9f5af406a98d4c3fc6f937" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>TIMCFG0</name></member>
+      <member refid="structSHS__Type_1ac976e7bb127a502db9795a4b8aa6d31e" prot="public" virt="non-virtual"><scope>SHS_Type</scope><name>TIMCFG1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCAN__MO__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_MO_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1a827ff01491227117ac19091bd94a4ff7" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MOFCR</definition>
+        <argsstring></argsstring>
+        <name>MOFCR</name>
+        <qualifiedname>CAN_MO_TypeDef::MOFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50041000) Message Object Function Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="232" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1a203bd1a5b4c403c656e867e1dbc1f8fa" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MOFGPR</definition>
+        <argsstring></argsstring>
+        <name>MOFGPR</name>
+        <qualifiedname>CAN_MO_TypeDef::MOFGPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50041004) Message Object FIFO/Gateway Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="233" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1ae087c871060f824d19a305520a5eb8e4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MOIPR</definition>
+        <argsstring></argsstring>
+        <name>MOIPR</name>
+        <qualifiedname>CAN_MO_TypeDef::MOIPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50041008) Message Object Interrupt Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="234" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1a7ddbff4e2b295b533b923794e3bf3b08" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MOAMR</definition>
+        <argsstring></argsstring>
+        <name>MOAMR</name>
+        <qualifiedname>CAN_MO_TypeDef::MOAMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5004100C) Message Object Acceptance Mask Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="235" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1ad816b028641614b2811bbe0ca18c9202" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MODATAL</definition>
+        <argsstring></argsstring>
+        <name>MODATAL</name>
+        <qualifiedname>CAN_MO_TypeDef::MODATAL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50041010) Message Object Data Register Low <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="236" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1ae7ccb52b85397f772ee7eb10182adbf4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MODATAH</definition>
+        <argsstring></argsstring>
+        <name>MODATAH</name>
+        <qualifiedname>CAN_MO_TypeDef::MODATAH</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50041014) Message Object Data Register High <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="237" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1ad5af5484a55ff7a432d38bd866a94668" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_MO_TypeDef::MOAR</definition>
+        <argsstring></argsstring>
+        <name>MOAR</name>
+        <qualifiedname>CAN_MO_TypeDef::MOAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50041018) Message Object Arbitration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="238" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1a146ab53571dbe5522f75823a416974f8" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_MO_TypeDef::MOSTAT</definition>
+        <argsstring></argsstring>
+        <name>MOSTAT</name>
+        <qualifiedname>CAN_MO_TypeDef::MOSTAT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5004101C) Message Object Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="241" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1a6dbef496c67f8a6b5de41511b71fa2f0" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CAN_MO_TypeDef::MOCTR</definition>
+        <argsstring></argsstring>
+        <name>MOCTR</name>
+        <qualifiedname>CAN_MO_TypeDef::MOCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5004101C) Message Object Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="242" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__MO__TypeDef_1a04f4ac0b8a26df09db0db74fd70e8796" prot="public" static="no" mutable="no">
+        <type>union CAN_MO_TypeDef::@0</type>
+        <definition>union CAN_MO_TypeDef::@0 CAN_MO_TypeDef::@1</definition>
+        <argsstring></argsstring>
+        <name>@1</name>
+        <qualifiedname>CAN_MO_TypeDef::@1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="243" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>CAN Message Object Structure. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="231" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="231" bodyend="244"/>
+    <listofallmembers>
+      <member refid="structCAN__MO__TypeDef_1a7ddbff4e2b295b533b923794e3bf3b08" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOAMR</name></member>
+      <member refid="structCAN__MO__TypeDef_1ad5af5484a55ff7a432d38bd866a94668" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOAR</name></member>
+      <member refid="structCAN__MO__TypeDef_1a6dbef496c67f8a6b5de41511b71fa2f0" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOCTR</name></member>
+      <member refid="structCAN__MO__TypeDef_1ae7ccb52b85397f772ee7eb10182adbf4" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MODATAH</name></member>
+      <member refid="structCAN__MO__TypeDef_1ad816b028641614b2811bbe0ca18c9202" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MODATAL</name></member>
+      <member refid="structCAN__MO__TypeDef_1a827ff01491227117ac19091bd94a4ff7" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOFCR</name></member>
+      <member refid="structCAN__MO__TypeDef_1a203bd1a5b4c403c656e867e1dbc1f8fa" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOFGPR</name></member>
+      <member refid="structCAN__MO__TypeDef_1ae087c871060f824d19a305520a5eb8e4" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOIPR</name></member>
+      <member refid="structCAN__MO__TypeDef_1a146ab53571dbe5522f75823a416974f8" prot="public" virt="non-virtual"><scope>CAN_MO_TypeDef</scope><name>MOSTAT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

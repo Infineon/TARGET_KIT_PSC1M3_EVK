@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>KIT_PSC1M3_EVK BSP</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md_output_bsps_TARGET_KIT_PSC1M3_EVK_README"/> </para>
+<sect1 id="index_1autotoc_md1">
+<title>Overview</title>
+<para>The PSOC™ Control C1M3 Kit (KIT_PSC1M3_EVK) is based on the PSOC™ Control family of devices. It enables the evaluation and development of applications for the PSOC™ Control C1M3 MCU.</para>
+<para><bold>Note:</bold></para>
+<para>Programming this kit requires installing <ulink url="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</ulink>.</para>
+<para>To use code from the BSP, simply include a reference to <computeroutput>cybsp.h</computeroutput>.</para>
+</sect1>
+<sect1 id="index_1autotoc_md2">
+<title>Features</title>
+<para>Kit Features:</para>
+<para><itemizedlist>
+<listitem><para>PSOC™ Control C1M3 (ARM® Cortex®-M0 based) Microcontroller in a VQFN48 package</para>
+</listitem><listitem><para>On board Debugger for downloading and debugging of application code</para>
+</listitem><listitem><para>Virtual COM port for UART communication with terminal program e.g. Hyperterminal</para>
+</listitem><listitem><para>2x30 card edge connector for extension to application card e.g. Colour LED Card and White LED Card</para>
+</listitem><listitem><para>4 User LEDs connected to GPIO P4.4, P4.5, P4.6, P4.7</para>
+</listitem><listitem><para>Variable resistor R122 connected to analog input P2.5</para>
+</listitem><listitem><para>All the pins of PSOC™ Control C1M3 are accessible via the connector JP101, JP103, JP104 and JP105</para>
+</listitem><listitem><para>CAN interface with CAN transceiver mounted</para>
+</listitem></itemizedlist>
+</para>
+<para>Kit Contents:</para>
+<para><itemizedlist>
+<listitem><para>KIT_PSC1M3_EVK evaluation board</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="index_1autotoc_md3">
+<title>BSP Configuration</title>
+<para>The BSP has a few hooks that allow its behavior to be configured. Some of these items are enabled by default while others must be explicitly enabled. Items enabled by default are specified in the KIT_PSC1M3_EVK.mk file. The items that are enabled can be changed by creating a custom BSP or by editing the application makefile.</para>
+<para>Components:<itemizedlist>
+<listitem><para>Device specific category reference (e.g.: CAT1) - This component, enabled by default, pulls in any device specific code for this board.</para>
+</listitem></itemizedlist>
+</para>
+<para>Defines:<itemizedlist>
+<listitem><para>CYBSP_WIFI_CAPABLE - This define, disabled by default, causes the BSP to initialize the interface to an onboard wireless chip if it has one.</para>
+</listitem><listitem><para>CY_USING_HAL - This define, enabled by default in some BSPs, specifies that the HAL is intended to be used by the application. This will cause the BSP to include the applicable header file and to initialize the system level drivers. Newer BSPs pull in the v3.x HAL, which enables itself via its own makefile, so CY_USING_HAL is not present.</para>
+</listitem><listitem><para>CYBSP_CUSTOM_SYSCLK_PM_CALLBACK - This define, disabled by default, causes the BSP to skip registering its default SysClk Power Management callback, if any, and instead to invoke the application-defined function <computeroutput>cybsp_register_custom_sysclk_pm_callback</computeroutput> to register an application-specific callback.</para>
+</listitem></itemizedlist>
+</para>
+<para>See the <ulink url="md_bsp_settings.html">BSP Setttings</ulink> for additional board specific configuration settings.</para>
+</sect1>
+<sect1 id="index_1autotoc_md4">
+<title>API Reference Manual</title>
+<para>The KIT_PSC1M3_EVK Board Support Package provides a set of APIs to configure, initialize and use the board resources.</para>
+<para>See the <ulink url="modules.html">BSP API Reference Manual</ulink> for the complete list of the provided interfaces.</para>
+</sect1>
+<sect1 id="index_1autotoc_md5">
+<title>More information</title>
+<para><itemizedlist>
+<listitem><para><ulink url="modules.html">KIT_PSC1M3_EVK BSP API Reference Manual</ulink></para>
+</listitem><listitem><para><ulink url="http://www.infineon.com/KIT_PSC1M3_EVK">KIT_PSC1M3_EVK Documentation</ulink></para>
+</listitem><listitem><para><ulink url="https://www.infineon.com">Infineon Technologies AG</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/Infineon">Infineon GitHub</ulink></para>
+</listitem><listitem><para><ulink url="https://www.infineon.com/modustoolbox">ModusToolbox™</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+ © 2026, Infineon Technologies AG, or an affiliate of Infineon Technologies AG. </para>
+</sect1>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/README.md"/>
+  </compounddef>
+</doxygen>

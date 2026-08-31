@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structNVM__Type" kind="struct" language="C++" prot="public">
+    <compoundname>NVM_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structNVM__Type_1abf93c32c7202b7d8d510d88262dba679" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t NVM_Type::NVMSTATUS</definition>
+        <argsstring></argsstring>
+        <name>NVMSTATUS</name>
+        <qualifiedname>NVM_Type::NVMSTATUS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40050000) NVM Structure <linebreak/>
+ (@ 0x40050000) NVM Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="382" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structNVM__Type_1a586cf5920a86f679562845fd0b496a80" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t NVM_Type::RESERVED</definition>
+        <argsstring></argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>NVM_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="383" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structNVM__Type_1a706368af7e9f9d27be49b833aa8c48cb" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t NVM_Type::NVMPROG</definition>
+        <argsstring></argsstring>
+        <name>NVMPROG</name>
+        <qualifiedname>NVM_Type::NVMPROG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40050004) NVM Programming Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="384" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structNVM__Type_1a5b9eab99127d2e392af3581214fa7064" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t NVM_Type::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>NVM_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="385" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structNVM__Type_1ab58e72f0ffb2f1fb3cfdd20695aabcb8" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t NVM_Type::NVMCONF</definition>
+        <argsstring></argsstring>
+        <name>NVMCONF</name>
+        <qualifiedname>NVM_Type::NVMCONF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40050008) NVM Configuration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="386" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>NVM Unit (NVM) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="381" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="381" bodyend="387"/>
+    <listofallmembers>
+      <member refid="structNVM__Type_1ab58e72f0ffb2f1fb3cfdd20695aabcb8" prot="public" virt="non-virtual"><scope>NVM_Type</scope><name>NVMCONF</name></member>
+      <member refid="structNVM__Type_1a706368af7e9f9d27be49b833aa8c48cb" prot="public" virt="non-virtual"><scope>NVM_Type</scope><name>NVMPROG</name></member>
+      <member refid="structNVM__Type_1abf93c32c7202b7d8d510d88262dba679" prot="public" virt="non-virtual"><scope>NVM_Type</scope><name>NVMSTATUS</name></member>
+      <member refid="structNVM__Type_1a586cf5920a86f679562845fd0b496a80" prot="public" virt="non-virtual"><scope>NVM_Type</scope><name>RESERVED</name></member>
+      <member refid="structNVM__Type_1a5b9eab99127d2e392af3581214fa7064" prot="public" virt="non-virtual"><scope>NVM_Type</scope><name>RESERVED1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

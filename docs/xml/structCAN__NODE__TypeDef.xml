@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCAN__NODE__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_NODE_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1a9368a202f1850f95d637156acd270385" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NCR</definition>
+        <argsstring></argsstring>
+        <name>NCR</name>
+        <qualifiedname>CAN_NODE_TypeDef::NCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50040200) CAN_NODE Structure <linebreak/>
+ (@ 0x50040200) Node Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="594" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1a0f3db0a04c671bbea2b5a5600bd2b4ef" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NSR</definition>
+        <argsstring></argsstring>
+        <name>NSR</name>
+        <qualifiedname>CAN_NODE_TypeDef::NSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040204) Node Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="595" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1afaa953b5148ea108baf0d0ab4988593d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NIPR</definition>
+        <argsstring></argsstring>
+        <name>NIPR</name>
+        <qualifiedname>CAN_NODE_TypeDef::NIPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040208) Node Interrupt Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="596" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="596" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1abf6420cabf68001e4baad0cee1ce0b52" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NPCR</definition>
+        <argsstring></argsstring>
+        <name>NPCR</name>
+        <qualifiedname>CAN_NODE_TypeDef::NPCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5004020C) Node Port Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="597" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1aa67a5a4b81ec13a828e2a97c59163f84" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NBTR</definition>
+        <argsstring></argsstring>
+        <name>NBTR</name>
+        <qualifiedname>CAN_NODE_TypeDef::NBTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040210) Node Bit Timing Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="598" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1a8ea0351358c17b6a4e635949ac871127" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NECNT</definition>
+        <argsstring></argsstring>
+        <name>NECNT</name>
+        <qualifiedname>CAN_NODE_TypeDef::NECNT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040214) Node Error Counter Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="599" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__NODE__TypeDef_1a7f9a681c3f47c66319298fc999b6864b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_NODE_TypeDef::NFCR</definition>
+        <argsstring></argsstring>
+        <name>NFCR</name>
+        <qualifiedname>CAN_NODE_TypeDef::NFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040218) Node Frame Counter Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="600" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="600" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller Area Networks (CAN_NODE) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="593" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="593" bodyend="601"/>
+    <listofallmembers>
+      <member refid="structCAN__NODE__TypeDef_1aa67a5a4b81ec13a828e2a97c59163f84" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NBTR</name></member>
+      <member refid="structCAN__NODE__TypeDef_1a9368a202f1850f95d637156acd270385" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NCR</name></member>
+      <member refid="structCAN__NODE__TypeDef_1a8ea0351358c17b6a4e635949ac871127" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NECNT</name></member>
+      <member refid="structCAN__NODE__TypeDef_1a7f9a681c3f47c66319298fc999b6864b" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NFCR</name></member>
+      <member refid="structCAN__NODE__TypeDef_1afaa953b5148ea108baf0d0ab4988593d" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NIPR</name></member>
+      <member refid="structCAN__NODE__TypeDef_1abf6420cabf68001e4baad0cee1ce0b52" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NPCR</name></member>
+      <member refid="structCAN__NODE__TypeDef_1a0f3db0a04c671bbea2b5a5600bd2b4ef" prot="public" virt="non-virtual"><scope>CAN_NODE_TypeDef</scope><name>NSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

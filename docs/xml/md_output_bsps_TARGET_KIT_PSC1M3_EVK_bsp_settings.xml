@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="md_output_bsps_TARGET_KIT_PSC1M3_EVK_bsp_settings" kind="page">
+    <compoundname>md_output_bsps_TARGET_KIT_PSC1M3_EVK_bsp_settings</compoundname>
+    <title>Peripheral Default BSP Settings</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect2 id="md_output_bsps_TARGET_KIT_PSC1M3_EVK_bsp_settings_1autotoc_md12">
+<title>Clock Configuration</title>
+<para><table rows="5" cols="3"><row>
+<entry thead="yes"><para>Clock   </para>
+</entry><entry thead="yes"><para>Source   </para>
+</entry><entry thead="yes"><para>Output Frequency    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>OSC_HP   </para>
+</entry><entry thead="no"><para>XTAL1   </para>
+</entry><entry thead="no"><para>20.0 MHz    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>MCLK   </para>
+</entry><entry thead="no"><para>DCO1   </para>
+</entry><entry thead="no"><para>48.0 MHz    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>CPUCLK   </para>
+</entry><entry thead="no"><para>MCLK   </para>
+</entry><entry thead="no"><para>48.0 MHz    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>PCLK   </para>
+</entry><entry thead="no"><para>MCLK x 2   </para>
+</entry><entry thead="no"><para>96.0 MHz   </para>
+</entry></row>
+</table>
+</para>
+<para><hruler/>
+ © Infineon Technologies AG, 2026. </para>
+</sect2>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/bsp_settings.md"/>
+  </compounddef>
+</doxygen>

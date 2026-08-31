@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCCU4__GLOBAL__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>CCU4_GLOBAL_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a4b0908d3593ff6dbcfd3d45615999939" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU4_GLOBAL_TypeDef::GCTRL</definition>
+        <argsstring></argsstring>
+        <name>GCTRL</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GCTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x48040000) CCU4 Structure <linebreak/>
+ (@ 0x48040000) Global Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="790" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="790" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a9b6300aaa3e59947d00cd805095b046b" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU4_GLOBAL_TypeDef::GSTAT</definition>
+        <argsstring></argsstring>
+        <name>GSTAT</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GSTAT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48040004) Global Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="791" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a2acd39dcf7a336a49ba9ee1ef94b69c1" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU4_GLOBAL_TypeDef::GIDLS</definition>
+        <argsstring></argsstring>
+        <name>GIDLS</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GIDLS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48040008) Global Idle Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="792" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a627baf51bce291d0f4b9fc75d57ee217" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU4_GLOBAL_TypeDef::GIDLC</definition>
+        <argsstring></argsstring>
+        <name>GIDLC</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GIDLC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4804000C) Global Idle Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="793" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a802cf952378c99c2fe482ea1dc9d60ac" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU4_GLOBAL_TypeDef::GCSS</definition>
+        <argsstring></argsstring>
+        <name>GCSS</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GCSS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48040010) Global Channel Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="794" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a0eb6f2b945d67b9b72fbb4650c9fcd9f" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU4_GLOBAL_TypeDef::GCSC</definition>
+        <argsstring></argsstring>
+        <name>GCSC</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GCSC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48040014) Global Channel Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="795" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1ad09d7027b9559c637a27b4f438c98939" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU4_GLOBAL_TypeDef::GCST</definition>
+        <argsstring></argsstring>
+        <name>GCST</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::GCST</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48040018) Global Channel Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="796" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a24270524d79740b73a3125fd4bd07fad" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU4_GLOBAL_TypeDef::RESERVED[25]</definition>
+        <argsstring>[25]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="797" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU4__GLOBAL__TypeDef_1a327324116d4a65740fbdc02e3c0e05a2" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU4_GLOBAL_TypeDef::MIDR</definition>
+        <argsstring></argsstring>
+        <name>MIDR</name>
+        <qualifiedname>CCU4_GLOBAL_TypeDef::MIDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48040080) Module Identification <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="798" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="798" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Capture Compare Unit 4 - Unit 0 (CCU4) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="789" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="789" bodyend="799"/>
+    <listofallmembers>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a0eb6f2b945d67b9b72fbb4650c9fcd9f" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GCSC</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a802cf952378c99c2fe482ea1dc9d60ac" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GCSS</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1ad09d7027b9559c637a27b4f438c98939" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GCST</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a4b0908d3593ff6dbcfd3d45615999939" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GCTRL</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a627baf51bce291d0f4b9fc75d57ee217" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GIDLC</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a2acd39dcf7a336a49ba9ee1ef94b69c1" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GIDLS</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a9b6300aaa3e59947d00cd805095b046b" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>GSTAT</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a327324116d4a65740fbdc02e3c0e05a2" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>MIDR</name></member>
+      <member refid="structCCU4__GLOBAL__TypeDef_1a24270524d79740b73a3125fd4bd07fad" prot="public" virt="non-virtual"><scope>CCU4_GLOBAL_TypeDef</scope><name>RESERVED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1015 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structVADC__G__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>VADC_G_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ac739f5d1df7ac8c927887d0a70228311" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x48030400) VADC_G Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1011" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aa3ad3fd0a53d90acb4c23b19ea10b235" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ARBCFG</definition>
+        <argsstring></argsstring>
+        <name>ARBCFG</name>
+        <qualifiedname>VADC_G_TypeDef::ARBCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030480) Arbitration Configuration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1012" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1afeb89f2435a0d7a8ad752248e1edcdf5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ARBPR</definition>
+        <argsstring></argsstring>
+        <name>ARBPR</name>
+        <qualifiedname>VADC_G_TypeDef::ARBPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030484) Arbitration Priority Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1013" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a2e5fd8145db8e72dbf2d76e97e696840" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::CHASS</definition>
+        <argsstring></argsstring>
+        <name>CHASS</name>
+        <qualifiedname>VADC_G_TypeDef::CHASS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030488) Channel Assignment Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1014" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1014" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a872f56a94a1da629029d3aff03121f39" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::RRASS</definition>
+        <argsstring></argsstring>
+        <name>RRASS</name>
+        <qualifiedname>VADC_G_TypeDef::RRASS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4803048C) Result Assignment Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1015" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ad97d4a8ed77482174f070a864ff96cf4" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED1[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1016" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a7de9caff2dc1d301dc607cbd6070d9bc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ICLASS[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>ICLASS</name>
+        <qualifiedname>VADC_G_TypeDef::ICLASS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304A0) Input Class Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1017" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1017" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a09244f1a3cf23dd05ea7089d11c9c29e" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED2[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1018" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1018" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aa8d0d79aad9951ade7c463307fd03109" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ALIAS</definition>
+        <argsstring></argsstring>
+        <name>ALIAS</name>
+        <qualifiedname>VADC_G_TypeDef::ALIAS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304B0) Alias Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1019" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1019" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a0796e24cef6282dddcf94357a31597c3" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED3</definition>
+        <argsstring></argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1020" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a16b8b93e2c5cb14ec89cc8705dc8fe66" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::BOUND</definition>
+        <argsstring></argsstring>
+        <name>BOUND</name>
+        <qualifiedname>VADC_G_TypeDef::BOUND</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304B8) Boundary Select Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1021" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1021" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a42f8832be1840ad63361e9044153580e" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED4</definition>
+        <argsstring></argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1022" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1022" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1af5c6c9c8e95eb8d0a66e295196f6ebff" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::SYNCTR</definition>
+        <argsstring></argsstring>
+        <name>SYNCTR</name>
+        <qualifiedname>VADC_G_TypeDef::SYNCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304C0) Synchronization Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1023" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1023" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aed06afeefc88865d869c6abf51c576ba" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED5</definition>
+        <argsstring></argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1024" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1024" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a68897304f2e25843d4b416d0704e0bca" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::BFL</definition>
+        <argsstring></argsstring>
+        <name>BFL</name>
+        <qualifiedname>VADC_G_TypeDef::BFL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304C8) Boundary Flag Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1025" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1025" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a18f78036bc8b272c7ca7bb9da9972438" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t VADC_G_TypeDef::BFLS</definition>
+        <argsstring></argsstring>
+        <name>BFLS</name>
+        <qualifiedname>VADC_G_TypeDef::BFLS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304CC) Boundary Flag Software Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1026" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1026" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a4497502f90a3bcd09c37ae328a89f801" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::BFLC</definition>
+        <argsstring></argsstring>
+        <name>BFLC</name>
+        <qualifiedname>VADC_G_TypeDef::BFLC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304D0) Boundary Flag Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1027" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1027" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a7a7702021f26bec5d98260a050cf455a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::BFLNP</definition>
+        <argsstring></argsstring>
+        <name>BFLNP</name>
+        <qualifiedname>VADC_G_TypeDef::BFLNP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480304D4) Boundary Flag Node Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1028" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1028" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a6bfed010442422d35ee06ac8f5259392" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED6[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>RESERVED6</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1029" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1029" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a6450487faf4f902891bfe48641ec035e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::QCTRL0</definition>
+        <argsstring></argsstring>
+        <name>QCTRL0</name>
+        <qualifiedname>VADC_G_TypeDef::QCTRL0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030500) Queue 0 Source Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1030" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a61a3e398e7c0a97a7e26d4fedf132548" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::QMR0</definition>
+        <argsstring></argsstring>
+        <name>QMR0</name>
+        <qualifiedname>VADC_G_TypeDef::QMR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030504) Queue 0 Mode Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1031" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a32a4fda637c4ce9d2f0631bb8175a0a4" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::QSR0</definition>
+        <argsstring></argsstring>
+        <name>QSR0</name>
+        <qualifiedname>VADC_G_TypeDef::QSR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030508) Queue 0 Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1032" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1032" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a6502cea208181b9817042fbe7a9b97d1" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::Q0R0</definition>
+        <argsstring></argsstring>
+        <name>Q0R0</name>
+        <qualifiedname>VADC_G_TypeDef::Q0R0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4803050C) Queue 0 Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1033" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1033" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1af9328b530f151676f22830be66884b82" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::QBUR0</definition>
+        <argsstring></argsstring>
+        <name>QBUR0</name>
+        <qualifiedname>VADC_G_TypeDef::QBUR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030510) Queue 0 Backup Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1036" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1036" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a3442938819bebbf622e3b7740292a44f" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t VADC_G_TypeDef::QINR0</definition>
+        <argsstring></argsstring>
+        <name>QINR0</name>
+        <qualifiedname>VADC_G_TypeDef::QINR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030510) Queue 0 Input Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1037" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1037" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aa4a88b146e699a32816348ef39be2d47" prot="public" static="no" mutable="no">
+        <type>union VADC_G_TypeDef::@6</type>
+        <definition>union VADC_G_TypeDef::@6 VADC_G_TypeDef::@7</definition>
+        <argsstring></argsstring>
+        <name>@7</name>
+        <qualifiedname>VADC_G_TypeDef::@7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1038" column="3"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ad76722b4342f427a062ac844d5f2bd0f" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED7[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED7</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1039" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1039" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aa3fa64787886577dd990f81e01cadbec" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ASCTRL</definition>
+        <argsstring></argsstring>
+        <name>ASCTRL</name>
+        <qualifiedname>VADC_G_TypeDef::ASCTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030520) Autoscan Source Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1040" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1040" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a0aca9a4ccded86dd244cbd7fcbe12a69" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ASMR</definition>
+        <argsstring></argsstring>
+        <name>ASMR</name>
+        <qualifiedname>VADC_G_TypeDef::ASMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030524) Autoscan Source Mode Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1041" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1041" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ac6679f3e653b8cdf0a42c1f8ff56cbc3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ASSEL</definition>
+        <argsstring></argsstring>
+        <name>ASSEL</name>
+        <qualifiedname>VADC_G_TypeDef::ASSEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030528) Autoscan Source Channel Select Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1042" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1042" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a9d828239de77550911aca73647bdf1c4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::ASPND</definition>
+        <argsstring></argsstring>
+        <name>ASPND</name>
+        <qualifiedname>VADC_G_TypeDef::ASPND</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4803052C) Autoscan Source Pending Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1043" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aaf37dd68aad13a93de4f6f1b992fb573" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED8[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>RESERVED8</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1044" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1af5e4109116619604ae1ab93a0f160944" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::CEFLAG</definition>
+        <argsstring></argsstring>
+        <name>CEFLAG</name>
+        <qualifiedname>VADC_G_TypeDef::CEFLAG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030580) Channel Event Flag Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1045" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1045" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a5ca48dbbfa82d1d05b825232886fed30" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::REFLAG</definition>
+        <argsstring></argsstring>
+        <name>REFLAG</name>
+        <qualifiedname>VADC_G_TypeDef::REFLAG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030584) Result Event Flag Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1046" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1046" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ad4028cce4e4ffa3ab30b39d1f984d23c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::SEFLAG</definition>
+        <argsstring></argsstring>
+        <name>SEFLAG</name>
+        <qualifiedname>VADC_G_TypeDef::SEFLAG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030588) Source Event Flag Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1047" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a11f7c0e0b710eb9521a8576eac71d496" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED9</definition>
+        <argsstring></argsstring>
+        <name>RESERVED9</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED9</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1048" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a4b97bd69b67e96edad1c38099e6b58ab" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t VADC_G_TypeDef::CEFCLR</definition>
+        <argsstring></argsstring>
+        <name>CEFCLR</name>
+        <qualifiedname>VADC_G_TypeDef::CEFCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030590) Channel Event Flag Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1049" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1049" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a66ec88ea588ccc85a700294d6601f4af" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t VADC_G_TypeDef::REFCLR</definition>
+        <argsstring></argsstring>
+        <name>REFCLR</name>
+        <qualifiedname>VADC_G_TypeDef::REFCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030594) Result Event Flag Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1050" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a5e871249cfdcd304f9ab818b7e8271f0" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t VADC_G_TypeDef::SEFCLR</definition>
+        <argsstring></argsstring>
+        <name>SEFCLR</name>
+        <qualifiedname>VADC_G_TypeDef::SEFCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030598) Source Event Flag Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1051" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1af593d57c1ba4bb1c3a46e32b1fe4b532" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED10</definition>
+        <argsstring></argsstring>
+        <name>RESERVED10</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED10</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1052" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a2050786510fd0b3c0dab33975bfd20c9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::CEVNP0</definition>
+        <argsstring></argsstring>
+        <name>CEVNP0</name>
+        <qualifiedname>VADC_G_TypeDef::CEVNP0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305A0) Channel Event Node Pointer Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1053" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a5d1aeeab0c40b8325101ae1d02e51aac" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED11[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED11</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED11</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1054" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a94e1b256179659fa7a6e0a302130bf24" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::REVNP0</definition>
+        <argsstring></argsstring>
+        <name>REVNP0</name>
+        <qualifiedname>VADC_G_TypeDef::REVNP0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305B0) Result Event Node Pointer Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1055" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ac3f8c60959a7853dc1cf34fdf1199b9d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::REVNP1</definition>
+        <argsstring></argsstring>
+        <name>REVNP1</name>
+        <qualifiedname>VADC_G_TypeDef::REVNP1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305B4) Result Event Node Pointer Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1056" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1056" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a69d33e0669b52e905af5fb6daee534d0" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED12[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED12</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED12</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1057" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1057" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a2dc89c5550eb5d72af70167eac523d10" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::SEVNP</definition>
+        <argsstring></argsstring>
+        <name>SEVNP</name>
+        <qualifiedname>VADC_G_TypeDef::SEVNP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305C0) Source Event Node Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1058" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a5b16d6b3242949e872b6ce6854afdab8" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED13</definition>
+        <argsstring></argsstring>
+        <name>RESERVED13</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED13</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1059" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1059" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a1bca2c2e2bcb3c70c9c6e1fcc1e0c4c0" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t VADC_G_TypeDef::SRACT</definition>
+        <argsstring></argsstring>
+        <name>SRACT</name>
+        <qualifiedname>VADC_G_TypeDef::SRACT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305C8) Service Request Software Activation Trigger <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1060" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1060" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a233e81004a1cc470661826d9fcd72129" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED14[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>RESERVED14</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED14</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1061" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1061" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1aaa0ce1682299619d9379a811db04714b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::EMUXCTR</definition>
+        <argsstring></argsstring>
+        <name>EMUXCTR</name>
+        <qualifiedname>VADC_G_TypeDef::EMUXCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305F0) E0ternal Multiplexer Control Register, Group x <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1062" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1062" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ab5990f24ee991383ae8a964d7ad034f4" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED15</definition>
+        <argsstring></argsstring>
+        <name>RESERVED15</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED15</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1064" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1064" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a56bf23dca9b96841e15c19d28a10d6b3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::VFR</definition>
+        <argsstring></argsstring>
+        <name>VFR</name>
+        <qualifiedname>VADC_G_TypeDef::VFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x480305F8) Valid Flag Register, Group 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1065" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1065" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a5610b25eaf5c7655510acd9972e483b3" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED16</definition>
+        <argsstring></argsstring>
+        <name>RESERVED16</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED16</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1066" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1066" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a97d6bc6c46125ad5c480019022d020d3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::CHCTR[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>CHCTR</name>
+        <qualifiedname>VADC_G_TypeDef::CHCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030600) Channel Ctrl. Reg. <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1067" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1067" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a3975f535bd1d5a0c14f46aba71d1c7e8" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED17[24]</definition>
+        <argsstring>[24]</argsstring>
+        <name>RESERVED17</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED17</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1068" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1068" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1adc81be9c970a794b67eb870b414ee200" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::RCR[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>RCR</name>
+        <qualifiedname>VADC_G_TypeDef::RCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030680) Result Control Reg. <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1069" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1069" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a4342a58b0db3d4aa9c64e37ec947e4cc" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED18[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>RESERVED18</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED18</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1070" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1070" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a667a312fb28f8470c8924c6a567b1290" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t VADC_G_TypeDef::RES[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>RES</name>
+        <qualifiedname>VADC_G_TypeDef::RES</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030700) Result Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1071" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1071" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1ae41092bb316a36672cdeeb3071fa1d02" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESERVED19[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>RESERVED19</name>
+        <qualifiedname>VADC_G_TypeDef::RESERVED19</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1072" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1072" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVADC__G__TypeDef_1a9012f289d3d4e3e86b77ed171f616256" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t VADC_G_TypeDef::RESD[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>RESD</name>
+        <qualifiedname>VADC_G_TypeDef::RESD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48030780) Result Register, Debug <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1073" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1073" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Analog to Digital Converter (VADC_G) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1010" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1010" bodyend="1074"/>
+    <listofallmembers>
+      <member refid="structVADC__G__TypeDef_1aa8d0d79aad9951ade7c463307fd03109" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ALIAS</name></member>
+      <member refid="structVADC__G__TypeDef_1aa3ad3fd0a53d90acb4c23b19ea10b235" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ARBCFG</name></member>
+      <member refid="structVADC__G__TypeDef_1afeb89f2435a0d7a8ad752248e1edcdf5" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ARBPR</name></member>
+      <member refid="structVADC__G__TypeDef_1aa3fa64787886577dd990f81e01cadbec" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ASCTRL</name></member>
+      <member refid="structVADC__G__TypeDef_1a0aca9a4ccded86dd244cbd7fcbe12a69" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ASMR</name></member>
+      <member refid="structVADC__G__TypeDef_1a9d828239de77550911aca73647bdf1c4" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ASPND</name></member>
+      <member refid="structVADC__G__TypeDef_1ac6679f3e653b8cdf0a42c1f8ff56cbc3" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ASSEL</name></member>
+      <member refid="structVADC__G__TypeDef_1a68897304f2e25843d4b416d0704e0bca" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>BFL</name></member>
+      <member refid="structVADC__G__TypeDef_1a4497502f90a3bcd09c37ae328a89f801" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>BFLC</name></member>
+      <member refid="structVADC__G__TypeDef_1a7a7702021f26bec5d98260a050cf455a" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>BFLNP</name></member>
+      <member refid="structVADC__G__TypeDef_1a18f78036bc8b272c7ca7bb9da9972438" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>BFLS</name></member>
+      <member refid="structVADC__G__TypeDef_1a16b8b93e2c5cb14ec89cc8705dc8fe66" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>BOUND</name></member>
+      <member refid="structVADC__G__TypeDef_1a4b97bd69b67e96edad1c38099e6b58ab" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>CEFCLR</name></member>
+      <member refid="structVADC__G__TypeDef_1af5e4109116619604ae1ab93a0f160944" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>CEFLAG</name></member>
+      <member refid="structVADC__G__TypeDef_1a2050786510fd0b3c0dab33975bfd20c9" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>CEVNP0</name></member>
+      <member refid="structVADC__G__TypeDef_1a2e5fd8145db8e72dbf2d76e97e696840" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>CHASS</name></member>
+      <member refid="structVADC__G__TypeDef_1a97d6bc6c46125ad5c480019022d020d3" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>CHCTR</name></member>
+      <member refid="structVADC__G__TypeDef_1aaa0ce1682299619d9379a811db04714b" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>EMUXCTR</name></member>
+      <member refid="structVADC__G__TypeDef_1a7de9caff2dc1d301dc607cbd6070d9bc" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>ICLASS</name></member>
+      <member refid="structVADC__G__TypeDef_1a6502cea208181b9817042fbe7a9b97d1" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>Q0R0</name></member>
+      <member refid="structVADC__G__TypeDef_1af9328b530f151676f22830be66884b82" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>QBUR0</name></member>
+      <member refid="structVADC__G__TypeDef_1a6450487faf4f902891bfe48641ec035e" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>QCTRL0</name></member>
+      <member refid="structVADC__G__TypeDef_1a3442938819bebbf622e3b7740292a44f" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>QINR0</name></member>
+      <member refid="structVADC__G__TypeDef_1a61a3e398e7c0a97a7e26d4fedf132548" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>QMR0</name></member>
+      <member refid="structVADC__G__TypeDef_1a32a4fda637c4ce9d2f0631bb8175a0a4" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>QSR0</name></member>
+      <member refid="structVADC__G__TypeDef_1adc81be9c970a794b67eb870b414ee200" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RCR</name></member>
+      <member refid="structVADC__G__TypeDef_1a66ec88ea588ccc85a700294d6601f4af" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>REFCLR</name></member>
+      <member refid="structVADC__G__TypeDef_1a5ca48dbbfa82d1d05b825232886fed30" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>REFLAG</name></member>
+      <member refid="structVADC__G__TypeDef_1a667a312fb28f8470c8924c6a567b1290" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RES</name></member>
+      <member refid="structVADC__G__TypeDef_1a9012f289d3d4e3e86b77ed171f616256" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESD</name></member>
+      <member refid="structVADC__G__TypeDef_1ac739f5d1df7ac8c927887d0a70228311" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="structVADC__G__TypeDef_1ad97d4a8ed77482174f070a864ff96cf4" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="structVADC__G__TypeDef_1af593d57c1ba4bb1c3a46e32b1fe4b532" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED10</name></member>
+      <member refid="structVADC__G__TypeDef_1a5d1aeeab0c40b8325101ae1d02e51aac" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED11</name></member>
+      <member refid="structVADC__G__TypeDef_1a69d33e0669b52e905af5fb6daee534d0" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED12</name></member>
+      <member refid="structVADC__G__TypeDef_1a5b16d6b3242949e872b6ce6854afdab8" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED13</name></member>
+      <member refid="structVADC__G__TypeDef_1a233e81004a1cc470661826d9fcd72129" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED14</name></member>
+      <member refid="structVADC__G__TypeDef_1ab5990f24ee991383ae8a964d7ad034f4" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED15</name></member>
+      <member refid="structVADC__G__TypeDef_1a5610b25eaf5c7655510acd9972e483b3" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED16</name></member>
+      <member refid="structVADC__G__TypeDef_1a3975f535bd1d5a0c14f46aba71d1c7e8" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED17</name></member>
+      <member refid="structVADC__G__TypeDef_1a4342a58b0db3d4aa9c64e37ec947e4cc" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED18</name></member>
+      <member refid="structVADC__G__TypeDef_1ae41092bb316a36672cdeeb3071fa1d02" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED19</name></member>
+      <member refid="structVADC__G__TypeDef_1a09244f1a3cf23dd05ea7089d11c9c29e" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="structVADC__G__TypeDef_1a0796e24cef6282dddcf94357a31597c3" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="structVADC__G__TypeDef_1a42f8832be1840ad63361e9044153580e" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="structVADC__G__TypeDef_1aed06afeefc88865d869c6abf51c576ba" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="structVADC__G__TypeDef_1a6bfed010442422d35ee06ac8f5259392" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="structVADC__G__TypeDef_1ad76722b4342f427a062ac844d5f2bd0f" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED7</name></member>
+      <member refid="structVADC__G__TypeDef_1aaf37dd68aad13a93de4f6f1b992fb573" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED8</name></member>
+      <member refid="structVADC__G__TypeDef_1a11f7c0e0b710eb9521a8576eac71d496" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RESERVED9</name></member>
+      <member refid="structVADC__G__TypeDef_1a94e1b256179659fa7a6e0a302130bf24" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>REVNP0</name></member>
+      <member refid="structVADC__G__TypeDef_1ac3f8c60959a7853dc1cf34fdf1199b9d" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>REVNP1</name></member>
+      <member refid="structVADC__G__TypeDef_1a872f56a94a1da629029d3aff03121f39" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>RRASS</name></member>
+      <member refid="structVADC__G__TypeDef_1a5e871249cfdcd304f9ab818b7e8271f0" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>SEFCLR</name></member>
+      <member refid="structVADC__G__TypeDef_1ad4028cce4e4ffa3ab30b39d1f984d23c" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>SEFLAG</name></member>
+      <member refid="structVADC__G__TypeDef_1a2dc89c5550eb5d72af70167eac523d10" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>SEVNP</name></member>
+      <member refid="structVADC__G__TypeDef_1a1bca2c2e2bcb3c70c9c6e1fcc1e0c4c0" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>SRACT</name></member>
+      <member refid="structVADC__G__TypeDef_1af5c6c9c8e95eb8d0a66e295196f6ebff" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>SYNCTR</name></member>
+      <member refid="structVADC__G__TypeDef_1a56bf23dca9b96841e15c19d28a10d6b3" prot="public" virt="non-virtual"><scope>VADC_G_TypeDef</scope><name>VFR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

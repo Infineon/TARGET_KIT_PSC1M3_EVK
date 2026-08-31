@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structMATH__Type" kind="struct" language="C++" prot="public">
+    <compoundname>MATH_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMATH__Type_1a64c768c3933f7fa8b49300a4a13fd3e6" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::RESERVED</definition>
+        <argsstring></argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>MATH_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40030000) MATH Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="320" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1afffe32d9177d680cd9a29e7c1cb0cde8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::GLBCON</definition>
+        <argsstring></argsstring>
+        <name>GLBCON</name>
+        <qualifiedname>MATH_Type::GLBCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030004) Global Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="321" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a8a2226da086947e2521991d8658b06eb" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>MATH_Type::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030008) Module Identification Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="322" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1aafba904cc626e0b2a33ddfed0da82cff" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::EVIER</definition>
+        <argsstring></argsstring>
+        <name>EVIER</name>
+        <qualifiedname>MATH_Type::EVIER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4003000C) Event Interrupt Enable Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="323" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a1e351877dbc449a16d258f9a508598bf" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::EVFR</definition>
+        <argsstring></argsstring>
+        <name>EVFR</name>
+        <qualifiedname>MATH_Type::EVFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030010) Event Flag Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="324" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a902d64a7987deb74de30bc6a5ee5c0e9" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t MATH_Type::EVFSR</definition>
+        <argsstring></argsstring>
+        <name>EVFSR</name>
+        <qualifiedname>MATH_Type::EVFSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030014) Event Flag Set Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="325" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1aa67b33199ffa7e80de2d515f75f75bfb" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t MATH_Type::EVFCR</definition>
+        <argsstring></argsstring>
+        <name>EVFCR</name>
+        <qualifiedname>MATH_Type::EVFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030018) Event Flag Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="326" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1ae742e220b74ba6c4817a616ccaf95545" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>MATH_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="327" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a9474b83e8b0291b28207870068245b5e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::DVD</definition>
+        <argsstring></argsstring>
+        <name>DVD</name>
+        <qualifiedname>MATH_Type::DVD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030020) Dividend Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="328" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a93a288282a8f235be7820bf2c2629f07" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::DVS</definition>
+        <argsstring></argsstring>
+        <name>DVS</name>
+        <qualifiedname>MATH_Type::DVS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030024) Divisor Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="329" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a18dcbc12a2a80f2e1f28e510edd0b7ec" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::QUOT</definition>
+        <argsstring></argsstring>
+        <name>QUOT</name>
+        <qualifiedname>MATH_Type::QUOT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030028) Quotient Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="330" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1ae2fa5a5e3b957821abed9527eb23ecef" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::RMD</definition>
+        <argsstring></argsstring>
+        <name>RMD</name>
+        <qualifiedname>MATH_Type::RMD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4003002C) Remainder Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="331" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a07c6540a4cc992588ea88447e55ad760" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::DIVST</definition>
+        <argsstring></argsstring>
+        <name>DIVST</name>
+        <qualifiedname>MATH_Type::DIVST</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030030) Divider Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="332" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a5bcb6159268dc32a5437855f2b342f4a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::DIVCON</definition>
+        <argsstring></argsstring>
+        <name>DIVCON</name>
+        <qualifiedname>MATH_Type::DIVCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030034) Divider Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="333" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a3a3b6aaf2a554058a166acee1f7e87af" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::RESERVED2[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>MATH_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="334" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a5110a556686b2c7daef78731b0ab49b6" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::STATC</definition>
+        <argsstring></argsstring>
+        <name>STATC</name>
+        <qualifiedname>MATH_Type::STATC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030040) CORDIC Status and Data Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="335" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1ad9e563a20f67c911a590b205de9b3ba8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::CON</definition>
+        <argsstring></argsstring>
+        <name>CON</name>
+        <qualifiedname>MATH_Type::CON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030044) CORDIC Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="336" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a577905f7b4f635e132efafd95ea939ee" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::CORDX</definition>
+        <argsstring></argsstring>
+        <name>CORDX</name>
+        <qualifiedname>MATH_Type::CORDX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030048) CORDIC X Data Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="337" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1ac401355b788b2cf3cd5f81cacd759121" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::CORDY</definition>
+        <argsstring></argsstring>
+        <name>CORDY</name>
+        <qualifiedname>MATH_Type::CORDY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4003004C) CORDIC Y Data Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="338" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1afd041b87058e51db2f57be7e180bf451" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t MATH_Type::CORDZ</definition>
+        <argsstring></argsstring>
+        <name>CORDZ</name>
+        <qualifiedname>MATH_Type::CORDZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030050) CORDIC Z Data Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="339" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a0a70a8d52cacf78fdb4ee58e77ff719f" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::CORRX</definition>
+        <argsstring></argsstring>
+        <name>CORRX</name>
+        <qualifiedname>MATH_Type::CORRX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030054) CORDIC X Result Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="340" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1a2328d0ea716df79fc8e91c8964348b00" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::CORRY</definition>
+        <argsstring></argsstring>
+        <name>CORRY</name>
+        <qualifiedname>MATH_Type::CORRY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40030058) CORDIC Y Result Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="341" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMATH__Type_1acea9e3a44af7b1cf630fb08b2b50351e" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t MATH_Type::CORRZ</definition>
+        <argsstring></argsstring>
+        <name>CORRZ</name>
+        <qualifiedname>MATH_Type::CORRZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4003005C) CORDIC Z Result Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="342" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MATH Unit (MATH) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="319" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="319" bodyend="343"/>
+    <listofallmembers>
+      <member refid="structMATH__Type_1ad9e563a20f67c911a590b205de9b3ba8" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CON</name></member>
+      <member refid="structMATH__Type_1a577905f7b4f635e132efafd95ea939ee" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CORDX</name></member>
+      <member refid="structMATH__Type_1ac401355b788b2cf3cd5f81cacd759121" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CORDY</name></member>
+      <member refid="structMATH__Type_1afd041b87058e51db2f57be7e180bf451" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CORDZ</name></member>
+      <member refid="structMATH__Type_1a0a70a8d52cacf78fdb4ee58e77ff719f" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CORRX</name></member>
+      <member refid="structMATH__Type_1a2328d0ea716df79fc8e91c8964348b00" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CORRY</name></member>
+      <member refid="structMATH__Type_1acea9e3a44af7b1cf630fb08b2b50351e" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>CORRZ</name></member>
+      <member refid="structMATH__Type_1a5bcb6159268dc32a5437855f2b342f4a" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>DIVCON</name></member>
+      <member refid="structMATH__Type_1a07c6540a4cc992588ea88447e55ad760" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>DIVST</name></member>
+      <member refid="structMATH__Type_1a9474b83e8b0291b28207870068245b5e" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>DVD</name></member>
+      <member refid="structMATH__Type_1a93a288282a8f235be7820bf2c2629f07" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>DVS</name></member>
+      <member refid="structMATH__Type_1aa67b33199ffa7e80de2d515f75f75bfb" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>EVFCR</name></member>
+      <member refid="structMATH__Type_1a1e351877dbc449a16d258f9a508598bf" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>EVFR</name></member>
+      <member refid="structMATH__Type_1a902d64a7987deb74de30bc6a5ee5c0e9" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>EVFSR</name></member>
+      <member refid="structMATH__Type_1aafba904cc626e0b2a33ddfed0da82cff" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>EVIER</name></member>
+      <member refid="structMATH__Type_1afffe32d9177d680cd9a29e7c1cb0cde8" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>GLBCON</name></member>
+      <member refid="structMATH__Type_1a8a2226da086947e2521991d8658b06eb" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>ID</name></member>
+      <member refid="structMATH__Type_1a18dcbc12a2a80f2e1f28e510edd0b7ec" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>QUOT</name></member>
+      <member refid="structMATH__Type_1a64c768c3933f7fa8b49300a4a13fd3e6" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>RESERVED</name></member>
+      <member refid="structMATH__Type_1ae742e220b74ba6c4817a616ccaf95545" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>RESERVED1</name></member>
+      <member refid="structMATH__Type_1a3a3b6aaf2a554058a166acee1f7e87af" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>RESERVED2</name></member>
+      <member refid="structMATH__Type_1ae2fa5a5e3b957821abed9527eb23ecef" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>RMD</name></member>
+      <member refid="structMATH__Type_1a5110a556686b2c7daef78731b0ab49b6" prot="public" virt="non-virtual"><scope>MATH_Type</scope><name>STATC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,858 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structUSIC__CH__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>USIC_CH_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a3d4aece6b28f99003105e1884d2ad847" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RESERVED</definition>
+        <argsstring></argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>USIC_CH_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x48000000) USIC_CH Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="500" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1af6911d4aa972e2d6573e956a62815234" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::CCFG</definition>
+        <argsstring></argsstring>
+        <name>CCFG</name>
+        <qualifiedname>USIC_CH_TypeDef::CCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000004) Channel Configuration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="501" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="501" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1aa86f564fa5e6202424dbfadfd6031cf7" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>USIC_CH_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="502" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="502" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ae72c906dc899bd7530d0c87504a34894" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::KSCFG</definition>
+        <argsstring></argsstring>
+        <name>KSCFG</name>
+        <qualifiedname>USIC_CH_TypeDef::KSCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800000C) Kernel State Configuration Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="503" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a5ffc45f64bdf1442abed1f59874a918b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::FDR</definition>
+        <argsstring></argsstring>
+        <name>FDR</name>
+        <qualifiedname>USIC_CH_TypeDef::FDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000010) Fractional Divider Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="504" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a6c3aa803e61c679cb6d73330ecb7edfd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::BRG</definition>
+        <argsstring></argsstring>
+        <name>BRG</name>
+        <qualifiedname>USIC_CH_TypeDef::BRG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000014) Baud Rate Generator Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="505" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1afe700445ab02571f1fc6112f720fdd65" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::INPR</definition>
+        <argsstring></argsstring>
+        <name>INPR</name>
+        <qualifiedname>USIC_CH_TypeDef::INPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000018) Interrupt Node Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="506" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a790c132d8e545b51b35b027c7a07dcda" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::DX0CR</definition>
+        <argsstring></argsstring>
+        <name>DX0CR</name>
+        <qualifiedname>USIC_CH_TypeDef::DX0CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800001C) Input Control Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="507" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="507" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ad777def3445eadebff0d7a47a4eb4ac9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::DX1CR</definition>
+        <argsstring></argsstring>
+        <name>DX1CR</name>
+        <qualifiedname>USIC_CH_TypeDef::DX1CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000020) Input Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="508" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a7517e872c286ef543653c25d77c35843" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::DX2CR</definition>
+        <argsstring></argsstring>
+        <name>DX2CR</name>
+        <qualifiedname>USIC_CH_TypeDef::DX2CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000024) Input Control Register 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="509" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ab937525f6ad996c1fb42b8c96b065bb4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::DX3CR</definition>
+        <argsstring></argsstring>
+        <name>DX3CR</name>
+        <qualifiedname>USIC_CH_TypeDef::DX3CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000028) Input Control Register 3 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="510" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a2e208a1bc68df939f1a5ec12448f1e05" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::DX4CR</definition>
+        <argsstring></argsstring>
+        <name>DX4CR</name>
+        <qualifiedname>USIC_CH_TypeDef::DX4CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800002C) Input Control Register 4 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="511" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a3902b152138b073695745704d14ee9e5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::DX5CR</definition>
+        <argsstring></argsstring>
+        <name>DX5CR</name>
+        <qualifiedname>USIC_CH_TypeDef::DX5CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000030) Input Control Register 5 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="512" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1af51480fed7bce51dc65e1cb864d4e934" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::SCTR</definition>
+        <argsstring></argsstring>
+        <name>SCTR</name>
+        <qualifiedname>USIC_CH_TypeDef::SCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000034) Shift Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="513" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a2c01370eca1ed957c587982923d01812" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::TCSR</definition>
+        <argsstring></argsstring>
+        <name>TCSR</name>
+        <qualifiedname>USIC_CH_TypeDef::TCSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000038) Transmit Control/Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="514" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ae698d2e2c0323b4ee5f870c7a389203a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PCR_IICMode</definition>
+        <argsstring></argsstring>
+        <name>PCR_IICMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PCR_IICMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800003C) Protocol Control Register [IIC Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="517" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a5f81ff028f5de81620c5939a14dfe41c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PCR_IISMode</definition>
+        <argsstring></argsstring>
+        <name>PCR_IISMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PCR_IISMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800003C) Protocol Control Register [IIS Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="518" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a98fccbeed7eed907e6e1fe26dba07559" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PCR_SSCMode</definition>
+        <argsstring></argsstring>
+        <name>PCR_SSCMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PCR_SSCMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800003C) Protocol Control Register [SSC Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="519" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1acfaebdc26121bbeebdad41a4795bd6eb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PCR</definition>
+        <argsstring></argsstring>
+        <name>PCR</name>
+        <qualifiedname>USIC_CH_TypeDef::PCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800003C) Protocol Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="520" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1abbf8acfc1d73855dac8faa2368f25b69" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PCR_ASCMode</definition>
+        <argsstring></argsstring>
+        <name>PCR_ASCMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PCR_ASCMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800003C) Protocol Control Register [ASC Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="521" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a3bae95459f558c349d6c93963736ed80" prot="public" static="no" mutable="no">
+        <type>union USIC_CH_TypeDef::@2</type>
+        <definition>union USIC_CH_TypeDef::@2 USIC_CH_TypeDef::@3</definition>
+        <argsstring></argsstring>
+        <name>@3</name>
+        <qualifiedname>USIC_CH_TypeDef::@3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="522" column="3"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1abf2a7a68e171a6930f687cbebc2fa849" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::CCR</definition>
+        <argsstring></argsstring>
+        <name>CCR</name>
+        <qualifiedname>USIC_CH_TypeDef::CCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000040) Channel Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="523" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a6e3a7bf8f53b0c10b806d9a9865f1427" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::CMTR</definition>
+        <argsstring></argsstring>
+        <name>CMTR</name>
+        <qualifiedname>USIC_CH_TypeDef::CMTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000044) Capture Mode Timer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="524" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a71b6e91314a427238ee09ef578cc8bb3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PSR_IICMode</definition>
+        <argsstring></argsstring>
+        <name>PSR_IICMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PSR_IICMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000048) Protocol Status Register [IIC Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="527" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a5c91c23a613ac811ee1d49bb6fe1f13c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PSR_IISMode</definition>
+        <argsstring></argsstring>
+        <name>PSR_IISMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PSR_IISMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000048) Protocol Status Register [IIS Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="528" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a2e7fcd391855c44d00ce2ff1d471370d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PSR_SSCMode</definition>
+        <argsstring></argsstring>
+        <name>PSR_SSCMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PSR_SSCMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000048) Protocol Status Register [SSC Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="529" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1aa12283046ff91cb7d18507f88c729444" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PSR</definition>
+        <argsstring></argsstring>
+        <name>PSR</name>
+        <qualifiedname>USIC_CH_TypeDef::PSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000048) Protocol Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="530" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a4dab099c0aab0e05d7c064f4c2825b72" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::PSR_ASCMode</definition>
+        <argsstring></argsstring>
+        <name>PSR_ASCMode</name>
+        <qualifiedname>USIC_CH_TypeDef::PSR_ASCMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000048) Protocol Status Register [ASC Mode] <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="531" column="20" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a52f101add0e9a7a8bebcd14d8b4c881c" prot="public" static="no" mutable="no">
+        <type>union USIC_CH_TypeDef::@4</type>
+        <definition>union USIC_CH_TypeDef::@4 USIC_CH_TypeDef::@5</definition>
+        <argsstring></argsstring>
+        <name>@5</name>
+        <qualifiedname>USIC_CH_TypeDef::@5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="532" column="3"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a9c7ba88d77eddd05e1c4ac2cb3a45c8d" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t USIC_CH_TypeDef::PSCR</definition>
+        <argsstring></argsstring>
+        <name>PSCR</name>
+        <qualifiedname>USIC_CH_TypeDef::PSCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800004C) Protocol Status Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="533" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a1b89ac39bf56d78ac423d13a368d4d69" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RBUFSR</definition>
+        <argsstring></argsstring>
+        <name>RBUFSR</name>
+        <qualifiedname>USIC_CH_TypeDef::RBUFSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000050) Receiver Buffer Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="534" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a5b93709d00a904e43aca5f55c81062be" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RBUF</definition>
+        <argsstring></argsstring>
+        <name>RBUF</name>
+        <qualifiedname>USIC_CH_TypeDef::RBUF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000054) Receiver Buffer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="535" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a3323a65bcf37930e06c43d190a141157" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RBUFD</definition>
+        <argsstring></argsstring>
+        <name>RBUFD</name>
+        <qualifiedname>USIC_CH_TypeDef::RBUFD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000058) Receiver Buffer Register for Debugger <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="536" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a42cdc1e99be47aeb18609e939f0e5a32" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RBUF0</definition>
+        <argsstring></argsstring>
+        <name>RBUF0</name>
+        <qualifiedname>USIC_CH_TypeDef::RBUF0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800005C) Receiver Buffer Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="537" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a7bb5774a8a015a0cc50691a0568dfb2d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RBUF1</definition>
+        <argsstring></argsstring>
+        <name>RBUF1</name>
+        <qualifiedname>USIC_CH_TypeDef::RBUF1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000060) Receiver Buffer Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="538" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1aab8d7ee5d4cbba766139616746ec9d66" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RBUF01SR</definition>
+        <argsstring></argsstring>
+        <name>RBUF01SR</name>
+        <qualifiedname>USIC_CH_TypeDef::RBUF01SR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000064) Receiver Buffer 01 Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="539" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ad75f7e6f65156421836aa1e5ad985fd6" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t USIC_CH_TypeDef::FMR</definition>
+        <argsstring></argsstring>
+        <name>FMR</name>
+        <qualifiedname>USIC_CH_TypeDef::FMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000068) Flag Modification Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="540" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a4807612740a708cdc4cc3267fcf45794" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RESERVED2[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>USIC_CH_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="541" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a8d971f93cf3914d58cfd088455a2ce94" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::TBUF[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>TBUF</name>
+        <qualifiedname>USIC_CH_TypeDef::TBUF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000080) Transmit Buffer <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="542" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="542" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ade9d1685b4d62e951990763c2038ee4d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::BYP</definition>
+        <argsstring></argsstring>
+        <name>BYP</name>
+        <qualifiedname>USIC_CH_TypeDef::BYP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000100) Bypass Data Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="543" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a282c446cf235eb2c3a402bf9ad9ff4f0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::BYPCR</definition>
+        <argsstring></argsstring>
+        <name>BYPCR</name>
+        <qualifiedname>USIC_CH_TypeDef::BYPCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000104) Bypass Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="544" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a912f6b24ab2d9544353a056ddd5a03fc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::TBCTR</definition>
+        <argsstring></argsstring>
+        <name>TBCTR</name>
+        <qualifiedname>USIC_CH_TypeDef::TBCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000108) Transmitter Buffer Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="545" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="545" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a00fddc57017c754c1d66a32ef7642efb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::RBCTR</definition>
+        <argsstring></argsstring>
+        <name>RBCTR</name>
+        <qualifiedname>USIC_CH_TypeDef::RBCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800010C) Receiver Buffer Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="546" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="546" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a9ea8a1a6d1241e8cd0a183a531ce24fc" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::TRBPTR</definition>
+        <argsstring></argsstring>
+        <name>TRBPTR</name>
+        <qualifiedname>USIC_CH_TypeDef::TRBPTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000110) Transmit/Receive Buffer Pointer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="547" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="547" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a886ea592bdbb14114a284c0c71420291" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USIC_CH_TypeDef::TRBSR</definition>
+        <argsstring></argsstring>
+        <name>TRBSR</name>
+        <qualifiedname>USIC_CH_TypeDef::TRBSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000114) Transmit/Receive Buffer Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="548" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a09a8f611eefcce6f0fead54d6dbd90f4" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t USIC_CH_TypeDef::TRBSCR</definition>
+        <argsstring></argsstring>
+        <name>TRBSCR</name>
+        <qualifiedname>USIC_CH_TypeDef::TRBSCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000118) Transmit/Receive Buffer Status Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="549" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1afe8679e5e190c0e813a71f537112afaa" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::OUTR</definition>
+        <argsstring></argsstring>
+        <name>OUTR</name>
+        <qualifiedname>USIC_CH_TypeDef::OUTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4800011C) Receiver Buffer Output Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="550" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a29bab57ee60247ab835149c3f0fc2762" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::OUTDR</definition>
+        <argsstring></argsstring>
+        <name>OUTDR</name>
+        <qualifiedname>USIC_CH_TypeDef::OUTDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000120) Receiver Buffer Output Register L for Debugger <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="551" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1ac53d0bb7218770647a44f581f36a96d3" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t USIC_CH_TypeDef::RESERVED3[23]</definition>
+        <argsstring>[23]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>USIC_CH_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="552" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUSIC__CH__TypeDef_1a7779671c0ce91445489d0654a1fe50e4" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t USIC_CH_TypeDef::IN[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>IN</name>
+        <qualifiedname>USIC_CH_TypeDef::IN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48000180) Transmit FIFO Buffer <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="553" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Universal Serial Interface Controller 0 (USIC_CH) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="499" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="499" bodyend="554"/>
+    <listofallmembers>
+      <member refid="structUSIC__CH__TypeDef_1a6c3aa803e61c679cb6d73330ecb7edfd" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>BRG</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ade9d1685b4d62e951990763c2038ee4d" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>BYP</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a282c446cf235eb2c3a402bf9ad9ff4f0" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>BYPCR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1af6911d4aa972e2d6573e956a62815234" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>CCFG</name></member>
+      <member refid="structUSIC__CH__TypeDef_1abf2a7a68e171a6930f687cbebc2fa849" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>CCR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a6e3a7bf8f53b0c10b806d9a9865f1427" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>CMTR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a790c132d8e545b51b35b027c7a07dcda" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>DX0CR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ad777def3445eadebff0d7a47a4eb4ac9" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>DX1CR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a7517e872c286ef543653c25d77c35843" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>DX2CR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ab937525f6ad996c1fb42b8c96b065bb4" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>DX3CR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a2e208a1bc68df939f1a5ec12448f1e05" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>DX4CR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a3902b152138b073695745704d14ee9e5" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>DX5CR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a5ffc45f64bdf1442abed1f59874a918b" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>FDR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ad75f7e6f65156421836aa1e5ad985fd6" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>FMR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a7779671c0ce91445489d0654a1fe50e4" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>IN</name></member>
+      <member refid="structUSIC__CH__TypeDef_1afe700445ab02571f1fc6112f720fdd65" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>INPR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ae72c906dc899bd7530d0c87504a34894" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>KSCFG</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a29bab57ee60247ab835149c3f0fc2762" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>OUTDR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1afe8679e5e190c0e813a71f537112afaa" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>OUTR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1acfaebdc26121bbeebdad41a4795bd6eb" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PCR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1abbf8acfc1d73855dac8faa2368f25b69" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PCR_ASCMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ae698d2e2c0323b4ee5f870c7a389203a" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PCR_IICMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a5f81ff028f5de81620c5939a14dfe41c" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PCR_IISMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a98fccbeed7eed907e6e1fe26dba07559" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PCR_SSCMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a9c7ba88d77eddd05e1c4ac2cb3a45c8d" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PSCR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1aa12283046ff91cb7d18507f88c729444" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PSR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a4dab099c0aab0e05d7c064f4c2825b72" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PSR_ASCMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a71b6e91314a427238ee09ef578cc8bb3" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PSR_IICMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a5c91c23a613ac811ee1d49bb6fe1f13c" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PSR_IISMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a2e7fcd391855c44d00ce2ff1d471370d" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>PSR_SSCMode</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a00fddc57017c754c1d66a32ef7642efb" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBCTR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a5b93709d00a904e43aca5f55c81062be" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBUF</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a42cdc1e99be47aeb18609e939f0e5a32" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBUF0</name></member>
+      <member refid="structUSIC__CH__TypeDef_1aab8d7ee5d4cbba766139616746ec9d66" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBUF01SR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a7bb5774a8a015a0cc50691a0568dfb2d" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBUF1</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a3323a65bcf37930e06c43d190a141157" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBUFD</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a1b89ac39bf56d78ac423d13a368d4d69" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RBUFSR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a3d4aece6b28f99003105e1884d2ad847" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="structUSIC__CH__TypeDef_1aa86f564fa5e6202424dbfadfd6031cf7" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a4807612740a708cdc4cc3267fcf45794" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="structUSIC__CH__TypeDef_1ac53d0bb7218770647a44f581f36a96d3" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="structUSIC__CH__TypeDef_1af51480fed7bce51dc65e1cb864d4e934" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>SCTR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a912f6b24ab2d9544353a056ddd5a03fc" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>TBCTR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a8d971f93cf3914d58cfd088455a2ce94" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>TBUF</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a2c01370eca1ed957c587982923d01812" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>TCSR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a9ea8a1a6d1241e8cd0a183a531ce24fc" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>TRBPTR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a09a8f611eefcce6f0fead54d6dbd90f4" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>TRBSCR</name></member>
+      <member refid="structUSIC__CH__TypeDef_1a886ea592bdbb14114a284c0c71420291" prot="public" virt="non-virtual"><scope>USIC_CH_TypeDef</scope><name>TRBSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

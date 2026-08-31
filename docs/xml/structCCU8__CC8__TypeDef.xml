@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCCU8__CC8__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>CCU8_CC8_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a8f4daa0f455e6b7506feef7dec962a72" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::INS2</definition>
+        <argsstring></argsstring>
+        <name>INS2</name>
+        <qualifiedname>CCU8_CC8_TypeDef::INS2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50000100) CCU8_CC8 Structure <linebreak/>
+ (@ 0x50000100) Input Selector Configuration 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="878" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="878" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a19be19c55210069283ed05655872ce9d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::CMC</definition>
+        <argsstring></argsstring>
+        <name>CMC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CMC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000104) Connection Matrix Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="879" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a0ff232a270146dfd74d8cfe4731e73f2" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::TCST</definition>
+        <argsstring></argsstring>
+        <name>TCST</name>
+        <qualifiedname>CCU8_CC8_TypeDef::TCST</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000108) Slice Timer Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="880" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="880" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a4e4376d3a5baada48d8b893844a73a30" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU8_CC8_TypeDef::TCSET</definition>
+        <argsstring></argsstring>
+        <name>TCSET</name>
+        <qualifiedname>CCU8_CC8_TypeDef::TCSET</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5000010C) Slice Timer Run Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="881" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="881" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a41e94a0751bc71d4a2c5870b6b188c50" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU8_CC8_TypeDef::TCCLR</definition>
+        <argsstring></argsstring>
+        <name>TCCLR</name>
+        <qualifiedname>CCU8_CC8_TypeDef::TCCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000110) Slice Timer Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="882" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a1da543ffc229ce869e897c650e377e39" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::TC</definition>
+        <argsstring></argsstring>
+        <name>TC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::TC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000114) Slice Timer Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="883" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="883" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a335329930c623ad199d391d329a36ee2" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::PSL</definition>
+        <argsstring></argsstring>
+        <name>PSL</name>
+        <qualifiedname>CCU8_CC8_TypeDef::PSL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000118) Passive Level Config <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="884" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a4e645a29dadaa51451e0a1d354d1f0d9" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::DIT</definition>
+        <argsstring></argsstring>
+        <name>DIT</name>
+        <qualifiedname>CCU8_CC8_TypeDef::DIT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5000011C) Dither Config <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="885" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1ad53110828777c56a4ef2d5f28604373f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::DITS</definition>
+        <argsstring></argsstring>
+        <name>DITS</name>
+        <qualifiedname>CCU8_CC8_TypeDef::DITS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000120) Dither Shadow Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="886" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a9a527fcfdca634017eaf4027059e6448" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::PSC</definition>
+        <argsstring></argsstring>
+        <name>PSC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::PSC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000124) Prescaler Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="887" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1adfb1a0d821d74fcecc368091e44a6d72" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::FPC</definition>
+        <argsstring></argsstring>
+        <name>FPC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::FPC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000128) Floating Prescaler Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="888" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1acdd47d3e62e9ffde9287ba6bd6aa16d2" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::FPCS</definition>
+        <argsstring></argsstring>
+        <name>FPCS</name>
+        <qualifiedname>CCU8_CC8_TypeDef::FPCS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5000012C) Floating Prescaler Shadow <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="889" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1ac32f8698a5c21843d55964e87d59c1b0" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::PR</definition>
+        <argsstring></argsstring>
+        <name>PR</name>
+        <qualifiedname>CCU8_CC8_TypeDef::PR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000130) Timer Period Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="890" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a738359c495da09c1fe127165f7b20746" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::PRS</definition>
+        <argsstring></argsstring>
+        <name>PRS</name>
+        <qualifiedname>CCU8_CC8_TypeDef::PRS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000134) Timer Shadow Period Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="891" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a859c5359e3ab3f768b725b4de5d5519d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::CR1</definition>
+        <argsstring></argsstring>
+        <name>CR1</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000138) Channel 1 Compare Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="892" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a6aabf320dd58b9701b20f84e0a6dab3a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::CR1S</definition>
+        <argsstring></argsstring>
+        <name>CR1S</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CR1S</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5000013C) Channel 1 Compare Shadow Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="893" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1ad21d9f2d977bc084fd9ec04d3c9ce858" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::CR2</definition>
+        <argsstring></argsstring>
+        <name>CR2</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000140) Channel 2 Compare Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="894" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a14ae3b8d1522e9c41a585f5075870abc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::CR2S</definition>
+        <argsstring></argsstring>
+        <name>CR2S</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CR2S</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000144) Channel 2 Compare Shadow Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="895" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1aedb7e9a5fc387f73b2d651762a9d2646" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::CHC</definition>
+        <argsstring></argsstring>
+        <name>CHC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CHC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000148) Channel Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="896" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1accd33af0f1c858a3c2baee425ba02758" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::DTC</definition>
+        <argsstring></argsstring>
+        <name>DTC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::DTC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5000014C) Dead Time Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="897" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1aed1aef2aa35c20898eea656cce08db12" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::DC1R</definition>
+        <argsstring></argsstring>
+        <name>DC1R</name>
+        <qualifiedname>CCU8_CC8_TypeDef::DC1R</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000150) Channel 1 Dead Time Values <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="898" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="898" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a34eccc00b7d8b4d6e46aa03249358b02" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::DC2R</definition>
+        <argsstring></argsstring>
+        <name>DC2R</name>
+        <qualifiedname>CCU8_CC8_TypeDef::DC2R</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000154) Channel 2 Dead Time Values <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="899" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a98d92bbc181f7c909829ee087e038dbc" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::RESERVED[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>CCU8_CC8_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="900" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a5ca8fae82a42e298d75a072e389c58db" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::TIMER</definition>
+        <argsstring></argsstring>
+        <name>TIMER</name>
+        <qualifiedname>CCU8_CC8_TypeDef::TIMER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000170) Timer Value <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="901" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a69ada894c57614cdbb9b75aa285f083e" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::CV[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>CV</name>
+        <qualifiedname>CCU8_CC8_TypeDef::CV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50000174) Capture Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="902" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="902" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a109c0513cb1893bc14c7e01c07045ca3" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::RESERVED1[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>CCU8_CC8_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="903" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="903" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a113e0174f96280269fba45ed42b32dcc" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::INTS</definition>
+        <argsstring></argsstring>
+        <name>INTS</name>
+        <qualifiedname>CCU8_CC8_TypeDef::INTS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001A0) Interrupt Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="904" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="904" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a5e15c2167810a1c7dc2a0ad4e2df09f0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::INTE</definition>
+        <argsstring></argsstring>
+        <name>INTE</name>
+        <qualifiedname>CCU8_CC8_TypeDef::INTE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001A4) Interrupt Enable Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="905" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a9fd68d460a41b66e9c9f5c69a2ead4e3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::SRS</definition>
+        <argsstring></argsstring>
+        <name>SRS</name>
+        <qualifiedname>CCU8_CC8_TypeDef::SRS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001A8) Service Request Selector <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="906" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a7ede45dff13d9876b186ee99d759e663" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU8_CC8_TypeDef::SWS</definition>
+        <argsstring></argsstring>
+        <name>SWS</name>
+        <qualifiedname>CCU8_CC8_TypeDef::SWS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001AC) Interrupt Status Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="907" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a08f2e9f3c6a49903ee3820abb27c1042" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CCU8_CC8_TypeDef::SWR</definition>
+        <argsstring></argsstring>
+        <name>SWR</name>
+        <qualifiedname>CCU8_CC8_TypeDef::SWR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001B0) Interrupt Status Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="908" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1aaf6ed3a22a1574eb4b79dc01f8f7f609" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::STC</definition>
+        <argsstring></argsstring>
+        <name>STC</name>
+        <qualifiedname>CCU8_CC8_TypeDef::STC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001B4) Shadow transfer control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="909" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a01e30228a3789e3175a6fd40a540544a" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::ECRD0</definition>
+        <argsstring></argsstring>
+        <name>ECRD0</name>
+        <qualifiedname>CCU8_CC8_TypeDef::ECRD0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001B8) Extended Read Back 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="910" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1af10e6130330d4e9e2f4a9824003d564b" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::ECRD1</definition>
+        <argsstring></argsstring>
+        <name>ECRD1</name>
+        <qualifiedname>CCU8_CC8_TypeDef::ECRD1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001BC) Extended Read Back 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="911" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1a51e25f1c7f58ea82f3a094832e8b7c23" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CCU8_CC8_TypeDef::RESERVED2[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>CCU8_CC8_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="912" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCCU8__CC8__TypeDef_1affdbde63602d06cacf31b3ce119cfea7" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CCU8_CC8_TypeDef::INS1</definition>
+        <argsstring></argsstring>
+        <name>INS1</name>
+        <qualifiedname>CCU8_CC8_TypeDef::INS1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500001D8) Input Selector Configuration 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="913" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Capture Compare Unit 8 - Unit 0 (CCU8_CC8) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="877" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="877" bodyend="914"/>
+    <listofallmembers>
+      <member refid="structCCU8__CC8__TypeDef_1aedb7e9a5fc387f73b2d651762a9d2646" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CHC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a19be19c55210069283ed05655872ce9d" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CMC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a859c5359e3ab3f768b725b4de5d5519d" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CR1</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a6aabf320dd58b9701b20f84e0a6dab3a" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CR1S</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1ad21d9f2d977bc084fd9ec04d3c9ce858" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CR2</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a14ae3b8d1522e9c41a585f5075870abc" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CR2S</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a69ada894c57614cdbb9b75aa285f083e" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>CV</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1aed1aef2aa35c20898eea656cce08db12" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>DC1R</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a34eccc00b7d8b4d6e46aa03249358b02" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>DC2R</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a4e645a29dadaa51451e0a1d354d1f0d9" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>DIT</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1ad53110828777c56a4ef2d5f28604373f" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>DITS</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1accd33af0f1c858a3c2baee425ba02758" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>DTC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a01e30228a3789e3175a6fd40a540544a" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>ECRD0</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1af10e6130330d4e9e2f4a9824003d564b" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>ECRD1</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1adfb1a0d821d74fcecc368091e44a6d72" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>FPC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1acdd47d3e62e9ffde9287ba6bd6aa16d2" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>FPCS</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1affdbde63602d06cacf31b3ce119cfea7" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>INS1</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a8f4daa0f455e6b7506feef7dec962a72" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>INS2</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a5e15c2167810a1c7dc2a0ad4e2df09f0" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>INTE</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a113e0174f96280269fba45ed42b32dcc" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>INTS</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1ac32f8698a5c21843d55964e87d59c1b0" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>PR</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a738359c495da09c1fe127165f7b20746" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>PRS</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a9a527fcfdca634017eaf4027059e6448" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>PSC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a335329930c623ad199d391d329a36ee2" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>PSL</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a98d92bbc181f7c909829ee087e038dbc" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a109c0513cb1893bc14c7e01c07045ca3" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a51e25f1c7f58ea82f3a094832e8b7c23" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a9fd68d460a41b66e9c9f5c69a2ead4e3" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>SRS</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1aaf6ed3a22a1574eb4b79dc01f8f7f609" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>STC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a08f2e9f3c6a49903ee3820abb27c1042" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>SWR</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a7ede45dff13d9876b186ee99d759e663" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>SWS</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a1da543ffc229ce869e897c650e377e39" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>TC</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a41e94a0751bc71d4a2c5870b6b188c50" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>TCCLR</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a4e4376d3a5baada48d8b893844a73a30" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>TCSET</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a0ff232a270146dfd74d8cfe4731e73f2" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>TCST</name></member>
+      <member refid="structCCU8__CC8__TypeDef_1a5ca8fae82a42e298d75a072e389c58db" prot="public" virt="non-virtual"><scope>CCU8_CC8_TypeDef</scope><name>TIMER</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

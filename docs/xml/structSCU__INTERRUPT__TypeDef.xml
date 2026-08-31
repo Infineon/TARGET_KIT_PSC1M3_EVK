@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSCU__INTERRUPT__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>SCU_INTERRUPT_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1a73d76b95c409721e96fbc1e40e11a9d0" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_INTERRUPT_TypeDef::SRRAW</definition>
+        <argsstring></argsstring>
+        <name>SRRAW</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRRAW</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010038) SCU_INTERRUPT Structure <linebreak/>
+ (@ 0x40010038) SCU Raw Service Request Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="659" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="659" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1acc47f2a6089a48276aafd43d7c2ac296" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_INTERRUPT_TypeDef::SRMSK</definition>
+        <argsstring></argsstring>
+        <name>SRMSK</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRMSK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001003C) SCU Service Request Mask <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="660" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="660" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1a7e31a2dcfbe466ba9a22e5cccd6074b2" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_INTERRUPT_TypeDef::SRCLR</definition>
+        <argsstring></argsstring>
+        <name>SRCLR</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010040) SCU Service Request Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="661" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1a5830426ab8d6cc17dd144ba0926571ee" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_INTERRUPT_TypeDef::SRSET</definition>
+        <argsstring></argsstring>
+        <name>SRSET</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRSET</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010044) SCU Service Request Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="662" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1a2245d2e68a60d7083a7ca37bd7cf4002" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_INTERRUPT_TypeDef::RESERVED[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="663" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="663" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1aff7432d2b3ecfbe519ff506287de1426" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_INTERRUPT_TypeDef::SRRAW1</definition>
+        <argsstring></argsstring>
+        <name>SRRAW1</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRRAW1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010058) SCU Raw Service Request Status 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="664" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1aa6b901ed98faffcc9f8d0bccadc15e22" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_INTERRUPT_TypeDef::SRMSK1</definition>
+        <argsstring></argsstring>
+        <name>SRMSK1</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRMSK1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001005C) SCU Service Request Mask 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="665" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1acc588b1a9130d0b8ff25ec515f547f00" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_INTERRUPT_TypeDef::SRCLR1</definition>
+        <argsstring></argsstring>
+        <name>SRCLR1</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRCLR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010060) SCU Service Request Clear 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="666" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__INTERRUPT__TypeDef_1ac58b2241b6442b552a93e195a85b0778" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_INTERRUPT_TypeDef::SRSET1</definition>
+        <argsstring></argsstring>
+        <name>SRSET1</name>
+        <qualifiedname>SCU_INTERRUPT_TypeDef::SRSET1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010064) SCU Service Request Set 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="667" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="667" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (SCU_INTERRUPT) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="658" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="658" bodyend="668"/>
+    <listofallmembers>
+      <member refid="structSCU__INTERRUPT__TypeDef_1a2245d2e68a60d7083a7ca37bd7cf4002" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1a7e31a2dcfbe466ba9a22e5cccd6074b2" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRCLR</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1acc588b1a9130d0b8ff25ec515f547f00" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRCLR1</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1acc47f2a6089a48276aafd43d7c2ac296" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRMSK</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1aa6b901ed98faffcc9f8d0bccadc15e22" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRMSK1</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1a73d76b95c409721e96fbc1e40e11a9d0" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRRAW</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1aff7432d2b3ecfbe519ff506287de1426" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRRAW1</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1a5830426ab8d6cc17dd144ba0926571ee" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRSET</name></member>
+      <member refid="structSCU__INTERRUPT__TypeDef_1ac58b2241b6442b552a93e195a85b0778" prot="public" virt="non-virtual"><scope>SCU_INTERRUPT_TypeDef</scope><name>SRSET1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

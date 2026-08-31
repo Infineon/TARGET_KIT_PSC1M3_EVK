@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structBCCU__DE__Type" kind="struct" language="C++" prot="public">
+    <compoundname>BCCU_DE_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structBCCU__DE__Type_1a24c1e1395aa63c6bf1d96e29ecad1b6b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_DE_Type::DLS</definition>
+        <argsstring></argsstring>
+        <name>DLS</name>
+        <qualifiedname>BCCU_DE_Type::DLS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x5003017C) BCCU_DE Structure <linebreak/>
+ (@ 0x5003017C) Dimming Level Shadow <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1167" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__DE__Type_1a718d5baaadbe585d5d7cbcc0c961e42c" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t BCCU_DE_Type::DL</definition>
+        <argsstring></argsstring>
+        <name>DL</name>
+        <qualifiedname>BCCU_DE_Type::DL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030180) Dimming Level <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1168" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__DE__Type_1a8e180c8bce0aa5d9bf435bb67ad3983f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_DE_Type::DTT</definition>
+        <argsstring></argsstring>
+        <name>DTT</name>
+        <qualifiedname>BCCU_DE_Type::DTT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030184) Dimming Transition Time <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1169" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BCCU Unit 0 (BCCU_DE) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1166" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1166" bodyend="1170"/>
+    <listofallmembers>
+      <member refid="structBCCU__DE__Type_1a718d5baaadbe585d5d7cbcc0c961e42c" prot="public" virt="non-virtual"><scope>BCCU_DE_Type</scope><name>DL</name></member>
+      <member refid="structBCCU__DE__Type_1a24c1e1395aa63c6bf1d96e29ecad1b6b" prot="public" virt="non-virtual"><scope>BCCU_DE_Type</scope><name>DLS</name></member>
+      <member refid="structBCCU__DE__Type_1a8e180c8bce0aa5d9bf435bb67ad3983f" prot="public" virt="non-virtual"><scope>BCCU_DE_Type</scope><name>DTT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

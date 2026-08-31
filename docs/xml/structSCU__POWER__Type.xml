@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSCU__POWER__Type" kind="struct" language="C++" prot="public">
+    <compoundname>SCU_POWER_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSCU__POWER__Type_1a87409bf80b5e3e39a90d8fe5f8f335f0" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_POWER_Type::VDESR</definition>
+        <argsstring></argsstring>
+        <name>VDESR</name>
+        <qualifiedname>SCU_POWER_Type::VDESR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010200) SCU_POWER Structure <linebreak/>
+ (@ 0x40010200) Voltage Detector Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="681" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (SCU_POWER) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="680" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="680" bodyend="682"/>
+    <listofallmembers>
+      <member refid="structSCU__POWER__Type_1a87409bf80b5e3e39a90d8fe5f8f335f0" prot="public" virt="non-virtual"><scope>SCU_POWER_Type</scope><name>VDESR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

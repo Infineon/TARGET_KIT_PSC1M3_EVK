@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSCU__ANALOG__Type" kind="struct" language="C++" prot="public">
+    <compoundname>SCU_ANALOG_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1adea9fbc4fe903700e9b8901714ce4cf1" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_ANALOG_Type::RESERVED[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40011000) SCU_ANALOG Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="755" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a66b84488a3c1d77d56516f5503c842f4" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANATSECTRL</definition>
+        <argsstring></argsstring>
+        <name>ANATSECTRL</name>
+        <qualifiedname>SCU_ANALOG_Type::ANATSECTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011024) Temperature Sensor Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="756" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a707e926cacf82626108a3e495e05075b" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED1[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="757" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1ad012d9f9b0b53e18150d8aa26686da23" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANATSEIH</definition>
+        <argsstring></argsstring>
+        <name>ANATSEIH</name>
+        <qualifiedname>SCU_ANALOG_Type::ANATSEIH</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011030) Temperature Sensor High Temperature Interrupt Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="758" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="758" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a567bbd1448b352b3941872e5ae786de4" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED2</definition>
+        <argsstring></argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="760" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a2ca9ebc588c2a76e873399b44f1f70fd" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANATSEIL</definition>
+        <argsstring></argsstring>
+        <name>ANATSEIL</name>
+        <qualifiedname>SCU_ANALOG_Type::ANATSEIL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011034) Temperature Sensor Low Temperature Interrupt Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="761" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a997879db17eac1e52194b02932007e4a" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED3[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="763" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a973294c262553031e57dcbf60fa6d32e" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::ANATSEMON</definition>
+        <argsstring></argsstring>
+        <name>ANATSEMON</name>
+        <qualifiedname>SCU_ANALOG_Type::ANATSEMON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011040) Temperature Sensor Counter2 Monitor Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="764" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="764" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a6ed4bad94bd2dabb5169b37fef86e38b" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED4[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="765" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a6edbc289772fff15ec5c3872f9b52140" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANAVDEL</definition>
+        <argsstring></argsstring>
+        <name>ANAVDEL</name>
+        <qualifiedname>SCU_ANALOG_Type::ANAVDEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011050) Voltage Detector Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="766" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="766" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1abf571edfad9954d73e927c84507815fe" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED5[13]</definition>
+        <argsstring>[13]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="767" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a8421b866be6b4942326b712fa4cde6bc" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANAOFFSET</definition>
+        <argsstring></argsstring>
+        <name>ANAOFFSET</name>
+        <qualifiedname>SCU_ANALOG_Type::ANAOFFSET</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001106C) DCO1 Offset Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="768" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1ab426195f1175557a8aca9b3aa8465fe6" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED6[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>RESERVED6</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="769" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1ad976411ccff7c11beb30ef14c5f65ba6" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANASYNC1</definition>
+        <argsstring></argsstring>
+        <name>ANASYNC1</name>
+        <qualifiedname>SCU_ANALOG_Type::ANASYNC1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011078) DCO1 Sync Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="770" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="770" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a7b0aed6f4b25f7f69ede2d92d7b69367" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED7</definition>
+        <argsstring></argsstring>
+        <name>RESERVED7</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="771" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="771" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1ac9d6895371a0cd02c65e9bb4fae8ccbd" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANASYNC2</definition>
+        <argsstring></argsstring>
+        <name>ANASYNC2</name>
+        <qualifiedname>SCU_ANALOG_Type::ANASYNC2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001107C) DCO1 Sync Control Register 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="772" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a9359609df7abbdee5682128871f9e241" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED8[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>RESERVED8</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="773" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="773" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a7e270d1e42992b281b7e166e00709ed4" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANAOSCLPCTRL</definition>
+        <argsstring></argsstring>
+        <name>ANAOSCLPCTRL</name>
+        <qualifiedname>SCU_ANALOG_Type::ANAOSCLPCTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001108C) OSC_LP Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="774" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a76827e092199f78683396d618c6d0a04" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t SCU_ANALOG_Type::RESERVED9</definition>
+        <argsstring></argsstring>
+        <name>RESERVED9</name>
+        <qualifiedname>SCU_ANALOG_Type::RESERVED9</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="775" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="775" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__ANALOG__Type_1a700cd9e0c99027e8e090acb29216f372" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t SCU_ANALOG_Type::ANAOSCHPCTRL</definition>
+        <argsstring></argsstring>
+        <name>ANAOSCHPCTRL</name>
+        <qualifiedname>SCU_ANALOG_Type::ANAOSCHPCTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011090) OSC_HP Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="776" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="776" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (SCU_ANALOG) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="754" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="754" bodyend="777"/>
+    <listofallmembers>
+      <member refid="structSCU__ANALOG__Type_1a8421b866be6b4942326b712fa4cde6bc" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANAOFFSET</name></member>
+      <member refid="structSCU__ANALOG__Type_1a700cd9e0c99027e8e090acb29216f372" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANAOSCHPCTRL</name></member>
+      <member refid="structSCU__ANALOG__Type_1a7e270d1e42992b281b7e166e00709ed4" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANAOSCLPCTRL</name></member>
+      <member refid="structSCU__ANALOG__Type_1ad976411ccff7c11beb30ef14c5f65ba6" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANASYNC1</name></member>
+      <member refid="structSCU__ANALOG__Type_1ac9d6895371a0cd02c65e9bb4fae8ccbd" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANASYNC2</name></member>
+      <member refid="structSCU__ANALOG__Type_1a66b84488a3c1d77d56516f5503c842f4" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANATSECTRL</name></member>
+      <member refid="structSCU__ANALOG__Type_1ad012d9f9b0b53e18150d8aa26686da23" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANATSEIH</name></member>
+      <member refid="structSCU__ANALOG__Type_1a2ca9ebc588c2a76e873399b44f1f70fd" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANATSEIL</name></member>
+      <member refid="structSCU__ANALOG__Type_1a973294c262553031e57dcbf60fa6d32e" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANATSEMON</name></member>
+      <member refid="structSCU__ANALOG__Type_1a6edbc289772fff15ec5c3872f9b52140" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>ANAVDEL</name></member>
+      <member refid="structSCU__ANALOG__Type_1adea9fbc4fe903700e9b8901714ce4cf1" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED</name></member>
+      <member refid="structSCU__ANALOG__Type_1a707e926cacf82626108a3e495e05075b" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED1</name></member>
+      <member refid="structSCU__ANALOG__Type_1a567bbd1448b352b3941872e5ae786de4" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED2</name></member>
+      <member refid="structSCU__ANALOG__Type_1a997879db17eac1e52194b02932007e4a" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED3</name></member>
+      <member refid="structSCU__ANALOG__Type_1a6ed4bad94bd2dabb5169b37fef86e38b" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED4</name></member>
+      <member refid="structSCU__ANALOG__Type_1abf571edfad9954d73e927c84507815fe" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED5</name></member>
+      <member refid="structSCU__ANALOG__Type_1ab426195f1175557a8aca9b3aa8465fe6" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED6</name></member>
+      <member refid="structSCU__ANALOG__Type_1a7b0aed6f4b25f7f69ede2d92d7b69367" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED7</name></member>
+      <member refid="structSCU__ANALOG__Type_1a9359609df7abbdee5682128871f9e241" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED8</name></member>
+      <member refid="structSCU__ANALOG__Type_1a76827e092199f78683396d618c6d0a04" prot="public" virt="non-virtual"><scope>SCU_ANALOG_Type</scope><name>RESERVED9</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structPPB__Type" kind="struct" language="C++" prot="public">
+    <compoundname>PPB_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPPB__Type_1a240da756ff31f24ce53eea63c09ae3d1" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>PPB_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0xE000E000) PPB Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="257" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1aec080f82335017710eba55c28d1a7245" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SYST_CSR</definition>
+        <argsstring></argsstring>
+        <name>SYST_CSR</name>
+        <qualifiedname>PPB_Type::SYST_CSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E010) SysTick Control and Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="258" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1aa63ed02091b0d64a998b334f7567fbcf" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SYST_RVR</definition>
+        <argsstring></argsstring>
+        <name>SYST_RVR</name>
+        <qualifiedname>PPB_Type::SYST_RVR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E014) SysTick Reload Value Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="259" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ae79e1380067c7b64cdd8745c86573323" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SYST_CVR</definition>
+        <argsstring></argsstring>
+        <name>SYST_CVR</name>
+        <qualifiedname>PPB_Type::SYST_CVR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E018) SysTick Current Value Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="260" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a48e322c02b795550da50e9f2b6a41389" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::SYST_CALIB</definition>
+        <argsstring></argsstring>
+        <name>SYST_CALIB</name>
+        <qualifiedname>PPB_Type::SYST_CALIB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E01C) SysTick Calibration Value Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="261" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ada6bb36769f94e1b5bd0679649d18053" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED1[56]</definition>
+        <argsstring>[56]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>PPB_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="262" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a23c5e5c46faae10d19938224d1375609" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_ISER</definition>
+        <argsstring></argsstring>
+        <name>NVIC_ISER</name>
+        <qualifiedname>PPB_Type::NVIC_ISER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E100) Interrupt Set-enable Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="263" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a8ed1f14b703cea61e01a858c41ee3c83" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED2[31]</definition>
+        <argsstring>[31]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>PPB_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="264" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1af0f5f836c06bb1a37ec9d72de9ca0a3c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_ICER</definition>
+        <argsstring></argsstring>
+        <name>NVIC_ICER</name>
+        <qualifiedname>PPB_Type::NVIC_ICER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E180) IInterrupt Clear-enable Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="265" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a0164f739472b3eef6e3f64fed626ed11" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED3[31]</definition>
+        <argsstring>[31]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>PPB_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="266" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a197ac1402e3226444c167ce4bf6c61f4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_ISPR</definition>
+        <argsstring></argsstring>
+        <name>NVIC_ISPR</name>
+        <qualifiedname>PPB_Type::NVIC_ISPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E200) Interrupt Set-pending Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="267" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ac823e357e85c085ed728f746490d89d6" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED4[31]</definition>
+        <argsstring>[31]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>PPB_Type::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="268" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a5951d0aa75e3c50b5b36e17d160b62c0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_ICPR</definition>
+        <argsstring></argsstring>
+        <name>NVIC_ICPR</name>
+        <qualifiedname>PPB_Type::NVIC_ICPR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E280) Interrupt Clear-pending Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="269" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1af5653607724de6455b020cd4aa0ce08b" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED5[95]</definition>
+        <argsstring>[95]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>PPB_Type::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="270" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a829a1f0a8257c30c1f7d1257a6c9cc17" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR0</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR0</name>
+        <qualifiedname>PPB_Type::NVIC_IPR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E400) Interrupt Priority Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="271" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a6e3bf741cb3748ce192e8c60c28116bb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR1</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR1</name>
+        <qualifiedname>PPB_Type::NVIC_IPR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E404) Interrupt Priority Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="272" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1aeb7927cb94807459b16ffef699fc29eb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR2</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR2</name>
+        <qualifiedname>PPB_Type::NVIC_IPR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E408) Interrupt Priority Register 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="273" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1accdb4ff918f5d7372211621f6eebcc68" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR3</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR3</name>
+        <qualifiedname>PPB_Type::NVIC_IPR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E40C) Interrupt Priority Register 3 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="274" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1aa7ad2fd01d07af95588dc749b73d8f6c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR4</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR4</name>
+        <qualifiedname>PPB_Type::NVIC_IPR4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E410) Interrupt Priority Register 4 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="275" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a6471826f2ecf83564f243a8559aec23d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR5</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR5</name>
+        <qualifiedname>PPB_Type::NVIC_IPR5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E414) Interrupt Priority Register 5 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="276" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ac8c569d747c012b79c9b7ebfae646f5c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR6</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR6</name>
+        <qualifiedname>PPB_Type::NVIC_IPR6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E418) Interrupt Priority Register 6 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="277" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a5f4741ed2cd9c57044a233294529f296" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::NVIC_IPR7</definition>
+        <argsstring></argsstring>
+        <name>NVIC_IPR7</name>
+        <qualifiedname>PPB_Type::NVIC_IPR7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000E41C) Interrupt Priority Register 7 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="278" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a89772ebc0f1e84bbbd9458fd0955f952" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED6[568]</definition>
+        <argsstring>[568]</argsstring>
+        <name>RESERVED6</name>
+        <qualifiedname>PPB_Type::RESERVED6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="279" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a0ece4f017403183b782ad544202aa7c1" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::CPUID</definition>
+        <argsstring></argsstring>
+        <name>CPUID</name>
+        <qualifiedname>PPB_Type::CPUID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED00) CPUID Base Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="280" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ab36f9d8d0a725702ee8e69a0918ac78a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::ICSR</definition>
+        <argsstring></argsstring>
+        <name>ICSR</name>
+        <qualifiedname>PPB_Type::ICSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED04) Interrupt Control and State Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="281" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a1613188fc6f28c0c2c0e4a19658d9172" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED7</definition>
+        <argsstring></argsstring>
+        <name>RESERVED7</name>
+        <qualifiedname>PPB_Type::RESERVED7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="282" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ae6fe366a15636b11008d43789c809deb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::AIRCR</definition>
+        <argsstring></argsstring>
+        <name>AIRCR</name>
+        <qualifiedname>PPB_Type::AIRCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED0C) Application Interrupt and Reset Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="283" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1aeaaba14051aa421817d5e10a7a84f05c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SCR</definition>
+        <argsstring></argsstring>
+        <name>SCR</name>
+        <qualifiedname>PPB_Type::SCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED10) System Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="284" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a3fd40076ace78f5f082e0a3f066add6e" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::CCR</definition>
+        <argsstring></argsstring>
+        <name>CCR</name>
+        <qualifiedname>PPB_Type::CCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED14) Configuration and Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="285" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a9610290ebcb4dd857f3fe296512b80b9" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PPB_Type::RESERVED8</definition>
+        <argsstring></argsstring>
+        <name>RESERVED8</name>
+        <qualifiedname>PPB_Type::RESERVED8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="286" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1ac349df5655814d229f4292b40931481e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SHPR2</definition>
+        <argsstring></argsstring>
+        <name>SHPR2</name>
+        <qualifiedname>PPB_Type::SHPR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED1C) System Handler Priority Register 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="287" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1aa6fdcea2da863a59a52328b5b7a92094" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SHPR3</definition>
+        <argsstring></argsstring>
+        <name>SHPR3</name>
+        <qualifiedname>PPB_Type::SHPR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED20) System Handler Priority Register 3 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="288" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPPB__Type_1a4bbc51258e1fbda70ca0416ada31ad9d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PPB_Type::SHCSR</definition>
+        <argsstring></argsstring>
+        <name>SHCSR</name>
+        <qualifiedname>PPB_Type::SHCSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0xE000ED24) System Handler Control and State Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="289" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Cortex-M0 Private Peripheral Block (PPB) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="256" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="256" bodyend="290"/>
+    <listofallmembers>
+      <member refid="structPPB__Type_1ae6fe366a15636b11008d43789c809deb" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>AIRCR</name></member>
+      <member refid="structPPB__Type_1a3fd40076ace78f5f082e0a3f066add6e" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>CCR</name></member>
+      <member refid="structPPB__Type_1a0ece4f017403183b782ad544202aa7c1" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>CPUID</name></member>
+      <member refid="structPPB__Type_1ab36f9d8d0a725702ee8e69a0918ac78a" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>ICSR</name></member>
+      <member refid="structPPB__Type_1af0f5f836c06bb1a37ec9d72de9ca0a3c" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_ICER</name></member>
+      <member refid="structPPB__Type_1a5951d0aa75e3c50b5b36e17d160b62c0" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_ICPR</name></member>
+      <member refid="structPPB__Type_1a829a1f0a8257c30c1f7d1257a6c9cc17" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR0</name></member>
+      <member refid="structPPB__Type_1a6e3bf741cb3748ce192e8c60c28116bb" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR1</name></member>
+      <member refid="structPPB__Type_1aeb7927cb94807459b16ffef699fc29eb" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR2</name></member>
+      <member refid="structPPB__Type_1accdb4ff918f5d7372211621f6eebcc68" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR3</name></member>
+      <member refid="structPPB__Type_1aa7ad2fd01d07af95588dc749b73d8f6c" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR4</name></member>
+      <member refid="structPPB__Type_1a6471826f2ecf83564f243a8559aec23d" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR5</name></member>
+      <member refid="structPPB__Type_1ac8c569d747c012b79c9b7ebfae646f5c" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR6</name></member>
+      <member refid="structPPB__Type_1a5f4741ed2cd9c57044a233294529f296" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_IPR7</name></member>
+      <member refid="structPPB__Type_1a23c5e5c46faae10d19938224d1375609" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_ISER</name></member>
+      <member refid="structPPB__Type_1a197ac1402e3226444c167ce4bf6c61f4" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>NVIC_ISPR</name></member>
+      <member refid="structPPB__Type_1a240da756ff31f24ce53eea63c09ae3d1" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED</name></member>
+      <member refid="structPPB__Type_1ada6bb36769f94e1b5bd0679649d18053" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED1</name></member>
+      <member refid="structPPB__Type_1a8ed1f14b703cea61e01a858c41ee3c83" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED2</name></member>
+      <member refid="structPPB__Type_1a0164f739472b3eef6e3f64fed626ed11" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED3</name></member>
+      <member refid="structPPB__Type_1ac823e357e85c085ed728f746490d89d6" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED4</name></member>
+      <member refid="structPPB__Type_1af5653607724de6455b020cd4aa0ce08b" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED5</name></member>
+      <member refid="structPPB__Type_1a89772ebc0f1e84bbbd9458fd0955f952" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED6</name></member>
+      <member refid="structPPB__Type_1a1613188fc6f28c0c2c0e4a19658d9172" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED7</name></member>
+      <member refid="structPPB__Type_1a9610290ebcb4dd857f3fe296512b80b9" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>RESERVED8</name></member>
+      <member refid="structPPB__Type_1aeaaba14051aa421817d5e10a7a84f05c" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SCR</name></member>
+      <member refid="structPPB__Type_1a4bbc51258e1fbda70ca0416ada31ad9d" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SHCSR</name></member>
+      <member refid="structPPB__Type_1ac349df5655814d229f4292b40931481e" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SHPR2</name></member>
+      <member refid="structPPB__Type_1aa6fdcea2da863a59a52328b5b7a92094" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SHPR3</name></member>
+      <member refid="structPPB__Type_1a48e322c02b795550da50e9f2b6a41389" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SYST_CALIB</name></member>
+      <member refid="structPPB__Type_1aec080f82335017710eba55c28d1a7245" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SYST_CSR</name></member>
+      <member refid="structPPB__Type_1ae79e1380067c7b64cdd8745c86573323" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SYST_CVR</name></member>
+      <member refid="structPPB__Type_1aa63ed02091b0d64a998b334f7567fbcf" prot="public" virt="non-virtual"><scope>PPB_Type</scope><name>SYST_RVR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structPAU__Type" kind="struct" language="C++" prot="public">
+    <compoundname>PAU_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPAU__Type_1a43b040e770c911697621e52cb671ff2f" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::RESERVED[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>PAU_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40000000) PAU Structure <linebreak/>
+ Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="356" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1a215a04a8f984de545f3462eeefcaf720" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::AVAIL0</definition>
+        <argsstring></argsstring>
+        <name>AVAIL0</name>
+        <qualifiedname>PAU_Type::AVAIL0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000040) Peripheral Availability Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="357" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1ab2ee18030bb18e82996749bc5eafc62d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::AVAIL1</definition>
+        <argsstring></argsstring>
+        <name>AVAIL1</name>
+        <qualifiedname>PAU_Type::AVAIL1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000044) Peripheral Availability Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="358" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1ae5daa1aba80bb3181f6a92e07a8721cb" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::AVAIL2</definition>
+        <argsstring></argsstring>
+        <name>AVAIL2</name>
+        <qualifiedname>PAU_Type::AVAIL2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000048) Peripheral Availability Register 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="359" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1a34366c15bacb8aff46f187c262248305" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::RESERVED1[13]</definition>
+        <argsstring>[13]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>PAU_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="360" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1a87ca19eea3b097b5b6ed69d0c2fa5ac6" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PAU_Type::PRIVDIS0</definition>
+        <argsstring></argsstring>
+        <name>PRIVDIS0</name>
+        <qualifiedname>PAU_Type::PRIVDIS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000080) Peripheral Privilege Access Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="361" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1a8cd36974d7ce1cf71a718a53a030330b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PAU_Type::PRIVDIS1</definition>
+        <argsstring></argsstring>
+        <name>PRIVDIS1</name>
+        <qualifiedname>PAU_Type::PRIVDIS1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000084) Peripheral Privilege Access Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="362" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1a90bffc386e49d0c8e14702af07b95662" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PAU_Type::PRIVDIS2</definition>
+        <argsstring></argsstring>
+        <name>PRIVDIS2</name>
+        <qualifiedname>PAU_Type::PRIVDIS2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000088) Peripheral Privilege Access Register 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="363" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1afa92e6b19a87c624cec43ecaf3c4acfd" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::RESERVED2[221]</definition>
+        <argsstring>[221]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>PAU_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="364" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1aa3fd56669e5c60ce9a2dec6cab2c8d79" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::ROMSIZE</definition>
+        <argsstring></argsstring>
+        <name>ROMSIZE</name>
+        <qualifiedname>PAU_Type::ROMSIZE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000400) ROM Size Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="365" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1a179b804e6fb1573936c880855007a20d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::FLSIZE</definition>
+        <argsstring></argsstring>
+        <name>FLSIZE</name>
+        <qualifiedname>PAU_Type::FLSIZE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000404) Flash Size Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="366" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1af9c9ddfd9575d137747988c4d3b4212d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::RESERVED3[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>PAU_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="367" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPAU__Type_1afead4e9a9e4ba1adf63309807ddd4ed9" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PAU_Type::RAM0SIZE</definition>
+        <argsstring></argsstring>
+        <name>RAM0SIZE</name>
+        <qualifiedname>PAU_Type::RAM0SIZE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40000410) RAM0 Size Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="368" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>PAU Unit (PAU) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="355" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="355" bodyend="369"/>
+    <listofallmembers>
+      <member refid="structPAU__Type_1a215a04a8f984de545f3462eeefcaf720" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>AVAIL0</name></member>
+      <member refid="structPAU__Type_1ab2ee18030bb18e82996749bc5eafc62d" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>AVAIL1</name></member>
+      <member refid="structPAU__Type_1ae5daa1aba80bb3181f6a92e07a8721cb" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>AVAIL2</name></member>
+      <member refid="structPAU__Type_1a179b804e6fb1573936c880855007a20d" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>FLSIZE</name></member>
+      <member refid="structPAU__Type_1a87ca19eea3b097b5b6ed69d0c2fa5ac6" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>PRIVDIS0</name></member>
+      <member refid="structPAU__Type_1a8cd36974d7ce1cf71a718a53a030330b" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>PRIVDIS1</name></member>
+      <member refid="structPAU__Type_1a90bffc386e49d0c8e14702af07b95662" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>PRIVDIS2</name></member>
+      <member refid="structPAU__Type_1afead4e9a9e4ba1adf63309807ddd4ed9" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>RAM0SIZE</name></member>
+      <member refid="structPAU__Type_1a43b040e770c911697621e52cb671ff2f" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>RESERVED</name></member>
+      <member refid="structPAU__Type_1a34366c15bacb8aff46f187c262248305" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>RESERVED1</name></member>
+      <member refid="structPAU__Type_1afa92e6b19a87c624cec43ecaf3c4acfd" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>RESERVED2</name></member>
+      <member refid="structPAU__Type_1af9c9ddfd9575d137747988c4d3b4212d" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>RESERVED3</name></member>
+      <member refid="structPAU__Type_1aa3fd56669e5c60ce9a2dec6cab2c8d79" prot="public" virt="non-virtual"><scope>PAU_Type</scope><name>ROMSIZE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

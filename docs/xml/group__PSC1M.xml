@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="group__PSC1M" kind="group">
+    <compoundname>PSC1M</compoundname>
+    <title>PSC1M</title>
+    <innergroup refid="group__Configuration__of__CMSIS">Configuration_of_CMSIS</innergroup>
+    <innergroup refid="group__PSC1M__IRQ__Handler__Defines">Interrupt Handler Definitions</innergroup>
+    <innergroup refid="group__Device__Peripheral__Registers">Device_Peripheral_Registers</innergroup>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__PSC1M_1ga7e1129cd8a196f4284d41db3e82ad5c8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>IRQn_Type</name>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a50ad21f2fd0d54d04b390d5a9145889a" prot="public">
+          <name>Reset_IRQn</name>
+          <initializer>= -15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>1 Reset Vector, invoked on Power up and warm reset <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ade177d9c70c89e084093024b932a4e30" prot="public">
+          <name>NonMaskableInt_IRQn</name>
+          <initializer>= -14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>2 Non maskable Interrupt, cannot be stopped or preempted <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ab1a222a34a32f0ef5ac65e714efc1f85" prot="public">
+          <name>HardFault_IRQn</name>
+          <initializer>= -13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>3 Hard Fault, all classes of Fault <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a4ce820b3cc6cf3a796b41aadc0cf1237" prot="public">
+          <name>SVCall_IRQn</name>
+          <initializer>=  -5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>11 System Service Call via SVC instruction <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a03c3cc89984928816d81793fc7bce4a2" prot="public">
+          <name>PendSV_IRQn</name>
+          <initializer>=  -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>14 Pendable request for system service <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a6dbff8f8543325f3474cbae2446776e7" prot="public">
+          <name>SysTick_IRQn</name>
+          <initializer>=  -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>15 System Tick Timer <linebreak/>
+ </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ae94a21ba3068101aaec0ccafef6b9a82" prot="public">
+          <name>IRQ0_IRQn</name>
+          <initializer>=   0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ae5c2cfb61d417e1feadaa89444cd01ff" prot="public">
+          <name>IRQ1_IRQn</name>
+          <initializer>=   1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8acdb2bda18053ac03b33e883480d4885b" prot="public">
+          <name>IRQ2_IRQn</name>
+          <initializer>=   2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a5bef352ae8f49f25801becda0b836ad7" prot="public">
+          <name>IRQ3_IRQn</name>
+          <initializer>=   3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a51e938af9087222ae58ac35f19ab0b7b" prot="public">
+          <name>IRQ4_IRQn</name>
+          <initializer>=   4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a57d419a490913ef31a9df01616366c66" prot="public">
+          <name>IRQ5_IRQn</name>
+          <initializer>=   5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8adac49bb91e28fcf44e2629118646292d" prot="public">
+          <name>IRQ6_IRQn</name>
+          <initializer>=   6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a0b0417a9c7f75f24ada82f2daddf29db" prot="public">
+          <name>IRQ7_IRQn</name>
+          <initializer>=   7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a819a086fd1baa883bdf2a305c57daac6" prot="public">
+          <name>IRQ8_IRQn</name>
+          <initializer>=   8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8aab43fc576b5129225eff0b8e81126269" prot="public">
+          <name>IRQ9_IRQn</name>
+          <initializer>=   9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a8e385ff9017e5c163e914efc00d02e6b" prot="public">
+          <name>IRQ10_IRQn</name>
+          <initializer>=  10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ae30472d554cfbc59b855d91b408cf3ad" prot="public">
+          <name>IRQ11_IRQn</name>
+          <initializer>=  11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a82db74d0d04eeaa68c3164446f903d80" prot="public">
+          <name>IRQ12_IRQn</name>
+          <initializer>=  12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a9d6ed24f6af79736f15d85ca9b1c5bc1" prot="public">
+          <name>IRQ13_IRQn</name>
+          <initializer>=  13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ae1302161c2b9df203f13e83a9c09fd3f" prot="public">
+          <name>IRQ14_IRQn</name>
+          <initializer>=  14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ad25fa782e05c397d7e959745fa548992" prot="public">
+          <name>IRQ15_IRQn</name>
+          <initializer>=  15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ab9bde9281da84d5e9ed2b17875533f6e" prot="public">
+          <name>IRQ16_IRQn</name>
+          <initializer>=  16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a949cadf2050305675403915a601a89cb" prot="public">
+          <name>IRQ17_IRQn</name>
+          <initializer>=  17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a48b4db803aaacf4881b4fd298961841f" prot="public">
+          <name>IRQ18_IRQn</name>
+          <initializer>=  18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a6af06fb200648ee4cf52818d955af642" prot="public">
+          <name>IRQ19_IRQn</name>
+          <initializer>=  19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a82153394361580fc6f4415bdce49b0eb" prot="public">
+          <name>IRQ20_IRQn</name>
+          <initializer>=  20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a7409f79991417988a1dc097cc80e8c4e" prot="public">
+          <name>IRQ21_IRQn</name>
+          <initializer>=  21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a747b9e10f21138a06ce37b6fd470ac74" prot="public">
+          <name>IRQ22_IRQn</name>
+          <initializer>=  22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8aae8c9e78bd196dca3d403242f994d2c7" prot="public">
+          <name>IRQ23_IRQn</name>
+          <initializer>=  23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8aaa07492fc51e1fdba2bf383337445acd" prot="public">
+          <name>IRQ24_IRQn</name>
+          <initializer>=  24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a95f410ab889a6eaf9097aa297b432772" prot="public">
+          <name>IRQ25_IRQn</name>
+          <initializer>=  25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a86b4ae402576dcc0bb0acb692057d48b" prot="public">
+          <name>IRQ26_IRQn</name>
+          <initializer>=  26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a602d491260331df802961615df7ad44d" prot="public">
+          <name>IRQ27_IRQn</name>
+          <initializer>=  27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ad534685b2710e1d97bdb285b2ea85f15" prot="public">
+          <name>IRQ28_IRQn</name>
+          <initializer>=  28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8ad0b9fe40617b9282800393d440170de0" prot="public">
+          <name>IRQ29_IRQn</name>
+          <initializer>=  29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a5ee80f7d68379258a0a51cc434623e30" prot="public">
+          <name>IRQ30_IRQn</name>
+          <initializer>=  30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__PSC1M_1gga7e1129cd8a196f4284d41db3e82ad5c8a7d8418313a6a8eba09340ffa47119813" prot="public">
+          <name>IRQ31_IRQn</name>
+          <initializer>=  31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Interrupt Number Definition for PSC1M device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Enumerates all interrupt sources, including Cortex-M0 core exceptions and PSC1M-specific peripheral interrupts (IRQ0..IRQ31). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="55" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="55" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__PSC1M_1gabed9fd843181e8ad41e3b7b87bdc8b58" prot="public" static="no">
+        <name>WR_REG</name>
+        <param><defname>reg</defname></param>
+        <param><defname>mask</defname></param>
+        <param><defname>pos</defname></param>
+        <param><defname>val</defname></param>
+        <initializer>		                                         reg = (((uint32_t)val &lt;&lt; pos) &amp; \
+		                                         ((uint32_t)mask)) | \
+                                          (reg &amp; ((uint32_t)~((uint32_t)mask)))</initializer>
+        <briefdescription>
+<para>Macro to modify desired bitfields of a register. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Cortex-M0 processor and core peripherals <linebreak/>
+</para>
+<para>&lt; PSC1M System <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="124" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M_1gab4badc47eee4af2d8aba8c5995848749" prot="public" static="no">
+        <name>WR_REG_SIZE</name>
+        <param><defname>reg</defname></param>
+        <param><defname>mask</defname></param>
+        <param><defname>pos</defname></param>
+        <param><defname>val</defname></param>
+        <param><defname>size</defname></param>
+        <initializer>{  \
+uint##size##_t VAL1 = (uint##size##_t)((uint##size##_t)val &lt;&lt; pos); \
+uint##size##_t VAL2 = (uint##size##_t) (VAL1 &amp; (uint##size##_t)mask); \
+uint##size##_t VAL3 = (uint##size##_t)~((uint##size##_t)mask); \
+uint##size##_t VAL4 = (uint##size##_t) ((uint##size##_t)reg &amp; VAL3); \
+reg = (uint##size##_t) (VAL2 | VAL4);\
+}</initializer>
+        <briefdescription>
+<para>Macro to modify desired bitfields of a register. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="129" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M_1ga10c8ab54aca2d58f8a06b16c5b4a9f8a" prot="public" static="no">
+        <name>RD_REG</name>
+        <param><defname>reg</defname></param>
+        <param><defname>mask</defname></param>
+        <param><defname>pos</defname></param>
+        <initializer>(((uint32_t)reg &amp; (uint32_t)mask) &gt;&gt; pos)</initializer>
+        <briefdescription>
+<para>Macro to read bitfields from a register. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="138" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M_1ga8f0cd79c0b2bc1dfa32c96ecdf5fc076" prot="public" static="no">
+        <name>RD_REG_SIZE</name>
+        <param><defname>reg</defname></param>
+        <param><defname>mask</defname></param>
+        <param><defname>pos</defname></param>
+        <param><defname>size</defname></param>
+        <initializer>                                                      ((uint##size##_t)(((uint32_t)reg &amp; \
+                                                      (uint32_t)mask) &gt;&gt; pos) )</initializer>
+        <briefdescription>
+<para>Macro to read bitfields from a register. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="141" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M_1gab0ff6921cee51b3ba22fcb9eb7dd1ce4" prot="public" static="no">
+        <name>SET_BIT</name>
+        <param><defname>reg</defname></param>
+        <param><defname>pos</defname></param>
+        <initializer>(reg |= ((uint32_t)1&lt;&lt;pos))</initializer>
+        <briefdescription>
+<para>Macro to set a bit in register. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="145" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M_1gafb984adf866e1699ca45b1de1a5ef325" prot="public" static="no">
+        <name>CLR_BIT</name>
+        <param><defname>reg</defname></param>
+        <param><defname>pos</defname></param>
+        <initializer>(reg = reg &amp; (uint32_t)(~((uint32_t)1&lt;&lt;pos)) )</initializer>
+        <briefdescription>
+<para>Macro to clear a bit in register. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="148" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

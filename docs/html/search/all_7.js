@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['gcsc_0',['GCSC',['../structCCU8__GLOBAL__TypeDef.html#a94f7cd4345a5edb5ac5716253dcce0be',1,'CCU8_GLOBAL_TypeDef::GCSC()'],['../structCCU4__GLOBAL__TypeDef.html#a0eb6f2b945d67b9b72fbb4650c9fcd9f',1,'CCU4_GLOBAL_TypeDef::GCSC()']]],
+  ['gcss_1',['GCSS',['../structCCU4__GLOBAL__TypeDef.html#a802cf952378c99c2fe482ea1dc9d60ac',1,'CCU4_GLOBAL_TypeDef::GCSS()'],['../structCCU8__GLOBAL__TypeDef.html#ab7bdf5eef82a9432f72da0d3002f9651',1,'CCU8_GLOBAL_TypeDef::GCSS()']]],
+  ['gcst_2',['GCST',['../structCCU4__GLOBAL__TypeDef.html#ad09d7027b9559c637a27b4f438c98939',1,'CCU4_GLOBAL_TypeDef::GCST()'],['../structCCU8__GLOBAL__TypeDef.html#afd690862790df24ade35f3afdc29a731',1,'CCU8_GLOBAL_TypeDef::GCST()']]],
+  ['gctrl_3',['GCTRL',['../structCCU4__GLOBAL__TypeDef.html#a4b0908d3593ff6dbcfd3d45615999939',1,'CCU4_GLOBAL_TypeDef::GCTRL()'],['../structCCU8__GLOBAL__TypeDef.html#a9843fc2b9dc4352e0fec8b621a69f1b7',1,'CCU8_GLOBAL_TypeDef::GCTRL()']]],
+  ['get_5firq_5fhandler_4',['GET_IRQ_HANDLER',['../group__PSC1M__IRQ__Handler__Defines.html#ga1bdca035530a01fbd2e5f015fbd5efb7',1,'PSC1M.h']]],
+  ['gidlc_5',['GIDLC',['../structCCU8__GLOBAL__TypeDef.html#a43cc79d0acaaa119714df34801a5d3fa',1,'CCU8_GLOBAL_TypeDef::GIDLC()'],['../structCCU4__GLOBAL__TypeDef.html#a627baf51bce291d0f4b9fc75d57ee217',1,'CCU4_GLOBAL_TypeDef::GIDLC()']]],
+  ['gidls_6',['GIDLS',['../structCCU4__GLOBAL__TypeDef.html#a2acd39dcf7a336a49ba9ee1ef94b69c1',1,'CCU4_GLOBAL_TypeDef::GIDLS()'],['../structCCU8__GLOBAL__TypeDef.html#aab192765f4bdd0ebfc9ee2d8cd1da26a',1,'CCU8_GLOBAL_TypeDef::GIDLS()']]],
+  ['glbcon_7',['GLBCON',['../structMATH__Type.html#afffe32d9177d680cd9a29e7c1cb0cde8',1,'MATH_Type']]],
+  ['globbound_8',['GLOBBOUND',['../structVADC__GLOBAL__TypeDef.html#a259b6965ae9dae14510e895eea482b34',1,'VADC_GLOBAL_TypeDef']]],
+  ['globcfg_9',['GLOBCFG',['../structVADC__GLOBAL__TypeDef.html#a06c278e04311a66af8fbaddb05778759',1,'VADC_GLOBAL_TypeDef']]],
+  ['globclk_10',['GLOBCLK',['../structBCCU__Type.html#a9eed13b82c41cfb384bb9b71003faac8',1,'BCCU_Type']]],
+  ['globcon_11',['GLOBCON',['../structBCCU__Type.html#a2793f4bd3a5b4349dce62155b4e72544',1,'BCCU_Type']]],
+  ['globctl_12',['GLOBCTL',['../structLEDTS0__GLOBAL__TypeDef.html#accf6a313d3089f1feadec00555633d36',1,'LEDTS0_GLOBAL_TypeDef']]],
+  ['globdim_13',['GLOBDIM',['../structBCCU__Type.html#aacde009626b4bde5652d97da85167531',1,'BCCU_Type']]],
+  ['globeflag_14',['GLOBEFLAG',['../structVADC__GLOBAL__TypeDef.html#aed271d34a624073681bfb0b09c4b3122',1,'VADC_GLOBAL_TypeDef']]],
+  ['globevnp_15',['GLOBEVNP',['../structVADC__GLOBAL__TypeDef.html#abcf5afb6309281343b7ffeaf64e78f81',1,'VADC_GLOBAL_TypeDef']]],
+  ['globiclass_16',['GLOBICLASS',['../structVADC__GLOBAL__TypeDef.html#a9f653e87db9e77b8cc465b362565b68c',1,'VADC_GLOBAL_TypeDef']]],
+  ['globrcr_17',['GLOBRCR',['../structVADC__GLOBAL__TypeDef.html#a94f84867520ddb79cd2d194348763078',1,'VADC_GLOBAL_TypeDef']]],
+  ['globres_18',['GLOBRES',['../structVADC__GLOBAL__TypeDef.html#a59e4d49c770c2417608c0a3f887b18a5',1,'VADC_GLOBAL_TypeDef']]],
+  ['globresd_19',['GLOBRESD',['../structVADC__GLOBAL__TypeDef.html#a9c98173d765e953f91f0e2fb6129d147',1,'VADC_GLOBAL_TypeDef']]],
+  ['gnctr00_20',['GNCTR00',['../structSHS__Type.html#ab5f1bd29d1d1420c006d90734203984f',1,'SHS_Type']]],
+  ['gnctr10_21',['GNCTR10',['../structSHS__Type.html#a1e22e44925832d0bae58df683b9bc532',1,'SHS_Type']]],
+  ['gpchk_22',['GPCHK',['../structCCU8__GLOBAL__TypeDef.html#a8d426bff080ae6769728468db12fbb1a',1,'CCU8_GLOBAL_TypeDef']]],
+  ['gstat_23',['GSTAT',['../structCCU4__GLOBAL__TypeDef.html#a9b6300aaa3e59947d00cd805095b046b',1,'CCU4_GLOBAL_TypeDef::GSTAT()'],['../structCCU8__GLOBAL__TypeDef.html#ad1aa9d0c8231330ca79d72d16790f3f6',1,'CCU8_GLOBAL_TypeDef::GSTAT()']]]
+];

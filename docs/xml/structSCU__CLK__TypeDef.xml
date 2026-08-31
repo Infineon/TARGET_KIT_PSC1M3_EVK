@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSCU__CLK__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>SCU_CLK_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1ae3c19d9b13460c3c982fa9c36be5ccd8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_CLK_TypeDef::CLKCR</definition>
+        <argsstring></argsstring>
+        <name>CLKCR</name>
+        <qualifiedname>SCU_CLK_TypeDef::CLKCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010300) SCU_CLK Structure <linebreak/>
+ (@ 0x40010300) Clock Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="695" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1a15b0581e43b2babbd940abd402925206" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_CLK_TypeDef::PWRSVCR</definition>
+        <argsstring></argsstring>
+        <name>PWRSVCR</name>
+        <qualifiedname>SCU_CLK_TypeDef::PWRSVCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010304) Power Save Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="696" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1a4bc7692adffd07e09ed1e31a323666a8" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_CLK_TypeDef::CGATSTAT0</definition>
+        <argsstring></argsstring>
+        <name>CGATSTAT0</name>
+        <qualifiedname>SCU_CLK_TypeDef::CGATSTAT0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010308) Peripheral 0 Clock Gating Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="697" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1a9683c2fc89cae9d4330d363fc452d3d0" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_CLK_TypeDef::CGATSET0</definition>
+        <argsstring></argsstring>
+        <name>CGATSET0</name>
+        <qualifiedname>SCU_CLK_TypeDef::CGATSET0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001030C) Peripheral 0 Clock Gating Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="698" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1a426d2e56b20d1d4f649237c6d4f9dfb7" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_CLK_TypeDef::CGATCLR0</definition>
+        <argsstring></argsstring>
+        <name>CGATCLR0</name>
+        <qualifiedname>SCU_CLK_TypeDef::CGATCLR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010310) Peripheral 0 Clock Gating Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="699" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1a2b51f228ed34cc3c98fc7ee44687c9ff" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_CLK_TypeDef::OSCCSR</definition>
+        <argsstring></argsstring>
+        <name>OSCCSR</name>
+        <qualifiedname>SCU_CLK_TypeDef::OSCCSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010314) Oscillator Control and Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="700" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1a7794567ac467b12a61ccf94f25d70bb3" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_CLK_TypeDef::RESERVED</definition>
+        <argsstring></argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>SCU_CLK_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="701" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__CLK__TypeDef_1ae65faea6cec2e898321aa88e7e983397" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_CLK_TypeDef::CLKCR1</definition>
+        <argsstring></argsstring>
+        <name>CLKCR1</name>
+        <qualifiedname>SCU_CLK_TypeDef::CLKCR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001031C) Clock Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="702" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (SCU_CLK) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="694" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="694" bodyend="703"/>
+    <listofallmembers>
+      <member refid="structSCU__CLK__TypeDef_1a426d2e56b20d1d4f649237c6d4f9dfb7" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>CGATCLR0</name></member>
+      <member refid="structSCU__CLK__TypeDef_1a9683c2fc89cae9d4330d363fc452d3d0" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>CGATSET0</name></member>
+      <member refid="structSCU__CLK__TypeDef_1a4bc7692adffd07e09ed1e31a323666a8" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>CGATSTAT0</name></member>
+      <member refid="structSCU__CLK__TypeDef_1ae3c19d9b13460c3c982fa9c36be5ccd8" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>CLKCR</name></member>
+      <member refid="structSCU__CLK__TypeDef_1ae65faea6cec2e898321aa88e7e983397" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>CLKCR1</name></member>
+      <member refid="structSCU__CLK__TypeDef_1a2b51f228ed34cc3c98fc7ee44687c9ff" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>OSCCSR</name></member>
+      <member refid="structSCU__CLK__TypeDef_1a15b0581e43b2babbd940abd402925206" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>PWRSVCR</name></member>
+      <member refid="structSCU__CLK__TypeDef_1a7794567ac467b12a61ccf94f25d70bb3" prot="public" virt="non-virtual"><scope>SCU_CLK_TypeDef</scope><name>RESERVED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

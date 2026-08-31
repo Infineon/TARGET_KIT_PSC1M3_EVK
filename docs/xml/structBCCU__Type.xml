@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structBCCU__Type" kind="struct" language="C++" prot="public">
+    <compoundname>BCCU_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structBCCU__Type_1a2793f4bd3a5b4349dce62155b4e72544" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::GLOBCON</definition>
+        <argsstring></argsstring>
+        <name>GLOBCON</name>
+        <qualifiedname>BCCU_Type::GLOBCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50030000) BCCU Structure <linebreak/>
+ (@ 0x50030000) Global Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1121" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a9eed13b82c41cfb384bb9b71003faac8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::GLOBCLK</definition>
+        <argsstring></argsstring>
+        <name>GLOBCLK</name>
+        <qualifiedname>BCCU_Type::GLOBCLK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030004) Global Clock <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1122" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1adf3720115bd5ef21f8e7ee2070f96506" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t BCCU_Type::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>BCCU_Type::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030008) Module Identification <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1123" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a485aa7ec615cfc2630046df6436a8f4c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::CHEN</definition>
+        <argsstring></argsstring>
+        <name>CHEN</name>
+        <qualifiedname>BCCU_Type::CHEN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5003000C) Channel Enable <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1124" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a59a125a4d1c82391241bce00120160c2" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::CHOCON</definition>
+        <argsstring></argsstring>
+        <name>CHOCON</name>
+        <qualifiedname>BCCU_Type::CHOCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030010) Channel Output Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1125" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a23aeac54bdbadcc0eb92a0dd7e3bd04b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::CHTRIG</definition>
+        <argsstring></argsstring>
+        <name>CHTRIG</name>
+        <qualifiedname>BCCU_Type::CHTRIG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030014) Channel Trigger <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1126" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a5eaab1edf8835f438ff1b4b3ad590207" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::CHSTRCON</definition>
+        <argsstring></argsstring>
+        <name>CHSTRCON</name>
+        <qualifiedname>BCCU_Type::CHSTRCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030018) Channel Shadow Transfer <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1127" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a693460f6bf0ff9c77a711f55bfe95082" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t BCCU_Type::LTCHOL</definition>
+        <argsstring></argsstring>
+        <name>LTCHOL</name>
+        <qualifiedname>BCCU_Type::LTCHOL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5003001C) Last Trigger Channel Output Level <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1128" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a68c8cd472f032c3f638a81d81ed7233f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::DEEN</definition>
+        <argsstring></argsstring>
+        <name>DEEN</name>
+        <qualifiedname>BCCU_Type::DEEN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030020) Dimming Engine Enable <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1129" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1ae44674ba5d06b5e330d8b1e83ea6fae3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::DESTRCON</definition>
+        <argsstring></argsstring>
+        <name>DESTRCON</name>
+        <qualifiedname>BCCU_Type::DESTRCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030024) Dimming Shadow Transfer <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1130" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1aacde009626b4bde5652d97da85167531" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::GLOBDIM</definition>
+        <argsstring></argsstring>
+        <name>GLOBDIM</name>
+        <qualifiedname>BCCU_Type::GLOBDIM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030028) Global Dimming Level <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1131" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a8d1efcf05092562b61c67b59975ee929" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t BCCU_Type::EVIER</definition>
+        <argsstring></argsstring>
+        <name>EVIER</name>
+        <qualifiedname>BCCU_Type::EVIER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5003002C) Event Interrupt Enable <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1132" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1acbb51b7738baea59ed6882dc0e6e1e30" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t BCCU_Type::EVFR</definition>
+        <argsstring></argsstring>
+        <name>EVFR</name>
+        <qualifiedname>BCCU_Type::EVFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030030) Event Flag <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1133" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1aac5cad3072ff5760c0a176dff226212f" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t BCCU_Type::EVFSR</definition>
+        <argsstring></argsstring>
+        <name>EVFSR</name>
+        <qualifiedname>BCCU_Type::EVFSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030034) Event Flag Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1134" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBCCU__Type_1a195cf1abe6f96d0f31f4d0ec3434f86d" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t BCCU_Type::EVFCR</definition>
+        <argsstring></argsstring>
+        <name>EVFCR</name>
+        <qualifiedname>BCCU_Type::EVFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50030038) Event Flag Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1135" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BCCU Unit 0 (BCCU) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1120" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1120" bodyend="1136"/>
+    <listofallmembers>
+      <member refid="structBCCU__Type_1a485aa7ec615cfc2630046df6436a8f4c" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>CHEN</name></member>
+      <member refid="structBCCU__Type_1a59a125a4d1c82391241bce00120160c2" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>CHOCON</name></member>
+      <member refid="structBCCU__Type_1a5eaab1edf8835f438ff1b4b3ad590207" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>CHSTRCON</name></member>
+      <member refid="structBCCU__Type_1a23aeac54bdbadcc0eb92a0dd7e3bd04b" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>CHTRIG</name></member>
+      <member refid="structBCCU__Type_1a68c8cd472f032c3f638a81d81ed7233f" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>DEEN</name></member>
+      <member refid="structBCCU__Type_1ae44674ba5d06b5e330d8b1e83ea6fae3" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>DESTRCON</name></member>
+      <member refid="structBCCU__Type_1a195cf1abe6f96d0f31f4d0ec3434f86d" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>EVFCR</name></member>
+      <member refid="structBCCU__Type_1acbb51b7738baea59ed6882dc0e6e1e30" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>EVFR</name></member>
+      <member refid="structBCCU__Type_1aac5cad3072ff5760c0a176dff226212f" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>EVFSR</name></member>
+      <member refid="structBCCU__Type_1a8d1efcf05092562b61c67b59975ee929" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>EVIER</name></member>
+      <member refid="structBCCU__Type_1a9eed13b82c41cfb384bb9b71003faac8" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>GLOBCLK</name></member>
+      <member refid="structBCCU__Type_1a2793f4bd3a5b4349dce62155b4e72544" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>GLOBCON</name></member>
+      <member refid="structBCCU__Type_1aacde009626b4bde5652d97da85167531" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>GLOBDIM</name></member>
+      <member refid="structBCCU__Type_1adf3720115bd5ef21f8e7ee2070f96506" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>ID</name></member>
+      <member refid="structBCCU__Type_1a693460f6bf0ff9c77a711f55bfe95082" prot="public" virt="non-virtual"><scope>BCCU_Type</scope><name>LTCHOL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

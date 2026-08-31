@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCAN__MO__CLUSTER__Type" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_MO_CLUSTER_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCAN__MO__CLUSTER__Type_1acc16417df0df1ec291965c0dc7d529bb" prot="public" static="no" mutable="no">
+        <type><ref refid="structCAN__MO__TypeDef" kindref="compound">CAN_MO_TypeDef</ref></type>
+        <definition>CAN_MO_TypeDef CAN_MO_CLUSTER_Type::MO[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>MO</name>
+        <qualifiedname>CAN_MO_CLUSTER_Type::MO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50041000) CAN_MO_CLUSTER Structure <linebreak/>
+ (@ 0x50041000) Message Object Registers <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="614" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="614" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller Area Networks (CAN_MO_CLUSTER) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CAN_MO_CLUSTER_Type</label>
+        <link refid="structCAN__MO__CLUSTER__Type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>MO</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CAN_MO_TypeDef</label>
+        <link refid="structCAN__MO__TypeDef"/>
+      </node>
+    </collaborationgraph>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="613" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="613" bodyend="615"/>
+    <listofallmembers>
+      <member refid="structCAN__MO__CLUSTER__Type_1acc16417df0df1ec291965c0dc7d529bb" prot="public" virt="non-virtual"><scope>CAN_MO_CLUSTER_Type</scope><name>MO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

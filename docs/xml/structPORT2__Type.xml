@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structPORT2__Type" kind="struct" language="C++" prot="public">
+    <compoundname>PORT2_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPORT2__Type_1a3291c691deebc94f080d258fb75a6880" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::OUT</definition>
+        <argsstring></argsstring>
+        <name>OUT</name>
+        <qualifiedname>PORT2_Type::OUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40040200) PORT2 Structure <linebreak/>
+ (@ 0x40040200) Port 2 Output Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1242" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1af56b262929a5b5a9a30cf44e9bf5cdd5" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t PORT2_Type::OMR</definition>
+        <argsstring></argsstring>
+        <name>OMR</name>
+        <qualifiedname>PORT2_Type::OMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040204) Port 2 Output Modification Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1243" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1aa25af50ac68f9c1c378a6db9efdefe74" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PORT2_Type::RESERVED[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>PORT2_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1244" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a5620c6f92551d36f04a25719472e868f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::IOCR0</definition>
+        <argsstring></argsstring>
+        <name>IOCR0</name>
+        <qualifiedname>PORT2_Type::IOCR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040210) Port 2 Input/Output Control Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1245" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a790a69abede1cfbdd0806d39f0099b9f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::IOCR4</definition>
+        <argsstring></argsstring>
+        <name>IOCR4</name>
+        <qualifiedname>PORT2_Type::IOCR4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040214) Port 2 Input/Output Control Register 4 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1246" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a69eacb27cdee20fb8bb81b28b4447796" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::IOCR8</definition>
+        <argsstring></argsstring>
+        <name>IOCR8</name>
+        <qualifiedname>PORT2_Type::IOCR8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040218) Port 2 Input/Output Control Register 8 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1247" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a381e75799173f4d02557110dd5b9de22" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::IOCR12</definition>
+        <argsstring></argsstring>
+        <name>IOCR12</name>
+        <qualifiedname>PORT2_Type::IOCR12</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4004021C) Port 2 Input/Output Control Register 12 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1248" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a88973e9ca74af4d6915b8bdd31a45685" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PORT2_Type::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>PORT2_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1249" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1af0d807abbb7bfc18b5886ff1e8dfef13" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PORT2_Type::IN</definition>
+        <argsstring></argsstring>
+        <name>IN</name>
+        <qualifiedname>PORT2_Type::IN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040224) Port 2 Input Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1250" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a0930495e51bca33917ea6102d7433dda" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PORT2_Type::RESERVED2[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>PORT2_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1251" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1aa40cff5ad4fab62346ad51a6b5333f2f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::PHCR0</definition>
+        <argsstring></argsstring>
+        <name>PHCR0</name>
+        <qualifiedname>PORT2_Type::PHCR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040240) Port 2 Pad Hysteresis Control Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1252" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1abb8c0a51e681d578cab1a737209d0767" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::PHCR1</definition>
+        <argsstring></argsstring>
+        <name>PHCR1</name>
+        <qualifiedname>PORT2_Type::PHCR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040244) Port 2 Pad Hysteresis Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1253" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a98d1fd37b8c1bbdf3fb277808fe3915d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PORT2_Type::RESERVED3[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>PORT2_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1254" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1afb8dca5230dde292a4d84d75ac1e1ff1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::PDISC</definition>
+        <argsstring></argsstring>
+        <name>PDISC</name>
+        <qualifiedname>PORT2_Type::PDISC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040260) Port 2 Pin Function Decision Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1255" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a8e2784b2257cde12b257d355ec3df10d" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t PORT2_Type::RESERVED4[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>PORT2_Type::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1256" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1aa7583b02040f38d3c303ac8faa2fb2b3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::PPS</definition>
+        <argsstring></argsstring>
+        <name>PPS</name>
+        <qualifiedname>PORT2_Type::PPS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040270) Port 2 Pin Power Save Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1257" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPORT2__Type_1a2aef4e5c5128a8ec463e10557f103a08" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PORT2_Type::HWSEL</definition>
+        <argsstring></argsstring>
+        <name>HWSEL</name>
+        <qualifiedname>PORT2_Type::HWSEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40040274) Port 2 Pin Hardware Select Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1258" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1258" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Port 2 (PORT2) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="1241" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="1241" bodyend="1259"/>
+    <listofallmembers>
+      <member refid="structPORT2__Type_1a2aef4e5c5128a8ec463e10557f103a08" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>HWSEL</name></member>
+      <member refid="structPORT2__Type_1af0d807abbb7bfc18b5886ff1e8dfef13" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>IN</name></member>
+      <member refid="structPORT2__Type_1a5620c6f92551d36f04a25719472e868f" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>IOCR0</name></member>
+      <member refid="structPORT2__Type_1a381e75799173f4d02557110dd5b9de22" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>IOCR12</name></member>
+      <member refid="structPORT2__Type_1a790a69abede1cfbdd0806d39f0099b9f" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>IOCR4</name></member>
+      <member refid="structPORT2__Type_1a69eacb27cdee20fb8bb81b28b4447796" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>IOCR8</name></member>
+      <member refid="structPORT2__Type_1af56b262929a5b5a9a30cf44e9bf5cdd5" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>OMR</name></member>
+      <member refid="structPORT2__Type_1a3291c691deebc94f080d258fb75a6880" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>OUT</name></member>
+      <member refid="structPORT2__Type_1afb8dca5230dde292a4d84d75ac1e1ff1" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>PDISC</name></member>
+      <member refid="structPORT2__Type_1aa40cff5ad4fab62346ad51a6b5333f2f" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>PHCR0</name></member>
+      <member refid="structPORT2__Type_1abb8c0a51e681d578cab1a737209d0767" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>PHCR1</name></member>
+      <member refid="structPORT2__Type_1aa7583b02040f38d3c303ac8faa2fb2b3" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>PPS</name></member>
+      <member refid="structPORT2__Type_1aa25af50ac68f9c1c378a6db9efdefe74" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>RESERVED</name></member>
+      <member refid="structPORT2__Type_1a88973e9ca74af4d6915b8bdd31a45685" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>RESERVED1</name></member>
+      <member refid="structPORT2__Type_1a0930495e51bca33917ea6102d7433dda" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>RESERVED2</name></member>
+      <member refid="structPORT2__Type_1a98d1fd37b8c1bbdf3fb277808fe3915d" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>RESERVED3</name></member>
+      <member refid="structPORT2__Type_1a8e2784b2257cde12b257d355ec3df10d" prot="public" virt="non-virtual"><scope>PORT2_Type</scope><name>RESERVED4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

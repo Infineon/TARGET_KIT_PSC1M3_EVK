@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structERU__GLOBAL__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>ERU_GLOBAL_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structERU__GLOBAL__TypeDef_1a736c9a3a04139f6a8d7b046ffb6f8141" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ERU_GLOBAL_TypeDef::EXISEL</definition>
+        <argsstring></argsstring>
+        <name>EXISEL</name>
+        <qualifiedname>ERU_GLOBAL_TypeDef::EXISEL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010600) ERU Structure <linebreak/>
+ (@ 0x40010600) Event Input Select <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="303" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structERU__GLOBAL__TypeDef_1a2b12fb65b78ec3109c507fef7cd9b9c6" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t ERU_GLOBAL_TypeDef::RESERVED[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>ERU_GLOBAL_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="304" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structERU__GLOBAL__TypeDef_1ae587e2824a580651159bcdfb650bdde8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ERU_GLOBAL_TypeDef::EXICON[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>EXICON</name>
+        <qualifiedname>ERU_GLOBAL_TypeDef::EXICON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010610) Event Input Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="305" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structERU__GLOBAL__TypeDef_1ad3f8a0550b88e93107c7cb40542232d3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ERU_GLOBAL_TypeDef::EXOCON[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>EXOCON</name>
+        <qualifiedname>ERU_GLOBAL_TypeDef::EXOCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010620) Event Output Trigger Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="306" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Event Request Unit 0 (ERU) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="302" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="302" bodyend="307"/>
+    <listofallmembers>
+      <member refid="structERU__GLOBAL__TypeDef_1ae587e2824a580651159bcdfb650bdde8" prot="public" virt="non-virtual"><scope>ERU_GLOBAL_TypeDef</scope><name>EXICON</name></member>
+      <member refid="structERU__GLOBAL__TypeDef_1a736c9a3a04139f6a8d7b046ffb6f8141" prot="public" virt="non-virtual"><scope>ERU_GLOBAL_TypeDef</scope><name>EXISEL</name></member>
+      <member refid="structERU__GLOBAL__TypeDef_1ad3f8a0550b88e93107c7cb40542232d3" prot="public" virt="non-virtual"><scope>ERU_GLOBAL_TypeDef</scope><name>EXOCON</name></member>
+      <member refid="structERU__GLOBAL__TypeDef_1a2b12fb65b78ec3109c507fef7cd9b9c6" prot="public" virt="non-virtual"><scope>ERU_GLOBAL_TypeDef</scope><name>RESERVED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSCU__RESET__Type" kind="struct" language="C++" prot="public">
+    <compoundname>SCU_RESET_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSCU__RESET__Type_1a1821b2008eeb4745e744d521efdb2696" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_RESET_Type::RSTSTAT</definition>
+        <argsstring></argsstring>
+        <name>RSTSTAT</name>
+        <qualifiedname>SCU_RESET_Type::RSTSTAT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010400) SCU_RESET Structure <linebreak/>
+ (@ 0x40010400) RCU Reset Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="716" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__RESET__Type_1a3858a66198a7f4cb3c971fc6b53398d0" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_RESET_Type::RSTSET</definition>
+        <argsstring></argsstring>
+        <name>RSTSET</name>
+        <qualifiedname>SCU_RESET_Type::RSTSET</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010404) RCU Reset Set Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="717" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__RESET__Type_1a2bdfd51c0c8c4ccccdb83122a18db6d7" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t SCU_RESET_Type::RSTCLR</definition>
+        <argsstring></argsstring>
+        <name>RSTCLR</name>
+        <qualifiedname>SCU_RESET_Type::RSTCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010408) RCU Reset Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="718" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__RESET__Type_1ac90602b2538ebdf4811ec0d1c7ecd4ee" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_RESET_Type::RSTCON</definition>
+        <argsstring></argsstring>
+        <name>RSTCON</name>
+        <qualifiedname>SCU_RESET_Type::RSTCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001040C) RCU Reset Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="719" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (SCU_RESET) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="715" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="715" bodyend="720"/>
+    <listofallmembers>
+      <member refid="structSCU__RESET__Type_1a2bdfd51c0c8c4ccccdb83122a18db6d7" prot="public" virt="non-virtual"><scope>SCU_RESET_Type</scope><name>RSTCLR</name></member>
+      <member refid="structSCU__RESET__Type_1ac90602b2538ebdf4811ec0d1c7ecd4ee" prot="public" virt="non-virtual"><scope>SCU_RESET_Type</scope><name>RSTCON</name></member>
+      <member refid="structSCU__RESET__Type_1a3858a66198a7f4cb3c971fc6b53398d0" prot="public" virt="non-virtual"><scope>SCU_RESET_Type</scope><name>RSTSET</name></member>
+      <member refid="structSCU__RESET__Type_1a1821b2008eeb4745e744d521efdb2696" prot="public" virt="non-virtual"><scope>SCU_RESET_Type</scope><name>RSTSTAT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

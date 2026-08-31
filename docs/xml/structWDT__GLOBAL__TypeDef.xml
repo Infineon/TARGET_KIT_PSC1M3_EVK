@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structWDT__GLOBAL__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>WDT_GLOBAL_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1a7ca1a61daa4ff3767a876c13a85987d8" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t WDT_GLOBAL_TypeDef::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40020000) WDT Structure <linebreak/>
+ (@ 0x40020000) WDT Module ID Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="400" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1ab7d54ea0a642824dfe5783550ac60d61" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t WDT_GLOBAL_TypeDef::CTR</definition>
+        <argsstring></argsstring>
+        <name>CTR</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::CTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40020004) WDT Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="401" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1a5f476b2c071cc19984856aa5a12c3193" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t WDT_GLOBAL_TypeDef::SRV</definition>
+        <argsstring></argsstring>
+        <name>SRV</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::SRV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40020008) WDT Service Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="402" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1a737dc6fa4a2efcc5b376f3c726a0cd57" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t WDT_GLOBAL_TypeDef::TIM</definition>
+        <argsstring></argsstring>
+        <name>TIM</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::TIM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4002000C) WDT Timer Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="403" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1a7ab73862fbc204dfd4958a0cf7326369" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t WDT_GLOBAL_TypeDef::WLB</definition>
+        <argsstring></argsstring>
+        <name>WLB</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::WLB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40020010) WDT Window Lower Bound Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="404" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1a0ee467a8a2bfa33c57838dd90280ff4d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t WDT_GLOBAL_TypeDef::WUB</definition>
+        <argsstring></argsstring>
+        <name>WUB</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::WUB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40020014) WDT Window Upper Bound Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="405" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1ae9b22c8475c75303ec3eb86b78035eb9" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t WDT_GLOBAL_TypeDef::WDTSTS</definition>
+        <argsstring></argsstring>
+        <name>WDTSTS</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::WDTSTS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40020018) WDT Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="406" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structWDT__GLOBAL__TypeDef_1ac3c08e05465291818a50c5688b5a0fd7" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t WDT_GLOBAL_TypeDef::WDTCLR</definition>
+        <argsstring></argsstring>
+        <name>WDTCLR</name>
+        <qualifiedname>WDT_GLOBAL_TypeDef::WDTCLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4002001C) WDT Clear Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="407" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Watch Dog Timer (WDT) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="399" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="399" bodyend="408"/>
+    <listofallmembers>
+      <member refid="structWDT__GLOBAL__TypeDef_1ab7d54ea0a642824dfe5783550ac60d61" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>CTR</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1a7ca1a61daa4ff3767a876c13a85987d8" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>ID</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1a5f476b2c071cc19984856aa5a12c3193" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>SRV</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1a737dc6fa4a2efcc5b376f3c726a0cd57" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>TIM</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1ac3c08e05465291818a50c5688b5a0fd7" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>WDTCLR</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1ae9b22c8475c75303ec3eb86b78035eb9" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>WDTSTS</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1a7ab73862fbc204dfd4958a0cf7326369" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>WLB</name></member>
+      <member refid="structWDT__GLOBAL__TypeDef_1a0ee467a8a2bfa33c57838dd90280ff4d" prot="public" virt="non-virtual"><scope>WDT_GLOBAL_TypeDef</scope><name>WUB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

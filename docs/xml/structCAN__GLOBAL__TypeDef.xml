@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCAN__GLOBAL__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_GLOBAL_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a8d0dda0d90a58702c13ec859de7f1129" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_GLOBAL_TypeDef::CLC</definition>
+        <argsstring></argsstring>
+        <name>CLC</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::CLC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50040000) CAN Structure <linebreak/>
+ (@ 0x50040000) CAN Clock Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="567" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a43f4b8cb68fb9cc9bef9f8edd2b621f6" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::RESERVED</definition>
+        <argsstring></argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="568" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a0e2c13f78004ef3ed180648137f16138" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040008) Module Identification Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="569" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1ac203e858f2116bf9d692b2c3d2103c47" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_GLOBAL_TypeDef::FDR</definition>
+        <argsstring></argsstring>
+        <name>FDR</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::FDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5004000C) CAN Fractional Divider Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="570" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1af143f9d2691826f88959dbf961cb485a" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::RESERVED1[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="571" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a98ef42ba724eaca7609cfb97bf9bfa7a" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::LIST[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>LIST</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::LIST</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040100) List Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="572" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a0c5ab7e14099540bd46a1d832d4e3278" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_GLOBAL_TypeDef::MSPND[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>MSPND</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::MSPND</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040140) Message Pending Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="573" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1ac452ed146b7b85476b1694c1cbc7f551" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::RESERVED2[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="574" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1ab05ccde74ec2f4f0aa28214f949c9ea7" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::MSID[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>MSID</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::MSID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50040180) Message Index Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="575" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1aa57340b440ade6ce4d4e902b239be1b7" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t CAN_GLOBAL_TypeDef::RESERVED3[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="576" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a544cb6f9610302cbd9b09bc5bfd38ceb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_GLOBAL_TypeDef::MSIMASK</definition>
+        <argsstring></argsstring>
+        <name>MSIMASK</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::MSIMASK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500401C0) Message Index Mask Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="577" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a921ea45670c5fdfcaef4c41f8d900ebb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_GLOBAL_TypeDef::PANCTR</definition>
+        <argsstring></argsstring>
+        <name>PANCTR</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::PANCTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500401C4) Panel Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="578" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1ac00958a85236729c92196bb10bc8b1fa" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_GLOBAL_TypeDef::MCR</definition>
+        <argsstring></argsstring>
+        <name>MCR</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::MCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500401C8) Module Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="579" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCAN__GLOBAL__TypeDef_1a7e50200eadad433762d328746fc5fbfb" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t CAN_GLOBAL_TypeDef::MITR</definition>
+        <argsstring></argsstring>
+        <name>MITR</name>
+        <qualifiedname>CAN_GLOBAL_TypeDef::MITR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x500401CC) Module Interrupt Trigger Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="580" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller Area Networks (CAN) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="566" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="566" bodyend="581"/>
+    <listofallmembers>
+      <member refid="structCAN__GLOBAL__TypeDef_1a8d0dda0d90a58702c13ec859de7f1129" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>CLC</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1ac203e858f2116bf9d692b2c3d2103c47" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>FDR</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a0e2c13f78004ef3ed180648137f16138" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>ID</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a98ef42ba724eaca7609cfb97bf9bfa7a" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>LIST</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1ac00958a85236729c92196bb10bc8b1fa" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>MCR</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a7e50200eadad433762d328746fc5fbfb" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>MITR</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1ab05ccde74ec2f4f0aa28214f949c9ea7" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>MSID</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a544cb6f9610302cbd9b09bc5bfd38ceb" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>MSIMASK</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a0c5ab7e14099540bd46a1d832d4e3278" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>MSPND</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a921ea45670c5fdfcaef4c41f8d900ebb" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>PANCTR</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1a43f4b8cb68fb9cc9bef9f8edd2b621f6" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1af143f9d2691826f88959dbf961cb485a" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1ac452ed146b7b85476b1694c1cbc7f551" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="structCAN__GLOBAL__TypeDef_1aa57340b440ade6ce4d4e902b239be1b7" prot="public" virt="non-virtual"><scope>CAN_GLOBAL_TypeDef</scope><name>RESERVED3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

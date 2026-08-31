@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structPRNG__Type" kind="struct" language="C++" prot="public">
+    <compoundname>PRNG_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPRNG__Type_1a0b500f731f3d865f024a6b0734c8e1c7" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t PRNG_Type::WORD</definition>
+        <argsstring></argsstring>
+        <name>WORD</name>
+        <qualifiedname>PRNG_Type::WORD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x48020000) PRNG Structure <linebreak/>
+ (@ 0x48020000) PRNG Word Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="444" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPRNG__Type_1a0d80360b02c645cb3aaad18087561043" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t PRNG_Type::RESERVED</definition>
+        <argsstring></argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>PRNG_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="445" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPRNG__Type_1a7450270fa9bbfabd08e599d01c5d403d" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t PRNG_Type::CHK</definition>
+        <argsstring></argsstring>
+        <name>CHK</name>
+        <qualifiedname>PRNG_Type::CHK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x48020004) PRNG Status Check Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="446" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPRNG__Type_1abc666d3e62bfee4ae6d70478a8404b75" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t PRNG_Type::RESERVED1[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>PRNG_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="447" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPRNG__Type_1a20fe351c10bd982262ff1b138964defb" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t PRNG_Type::CTRL</definition>
+        <argsstring></argsstring>
+        <name>CTRL</name>
+        <qualifiedname>PRNG_Type::CTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4802000C) PRNG Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="448" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>PRNG Unit (PRNG) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="443" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="443" bodyend="449"/>
+    <listofallmembers>
+      <member refid="structPRNG__Type_1a7450270fa9bbfabd08e599d01c5d403d" prot="public" virt="non-virtual"><scope>PRNG_Type</scope><name>CHK</name></member>
+      <member refid="structPRNG__Type_1a20fe351c10bd982262ff1b138964defb" prot="public" virt="non-virtual"><scope>PRNG_Type</scope><name>CTRL</name></member>
+      <member refid="structPRNG__Type_1a0d80360b02c645cb3aaad18087561043" prot="public" virt="non-virtual"><scope>PRNG_Type</scope><name>RESERVED</name></member>
+      <member refid="structPRNG__Type_1abc666d3e62bfee4ae6d70478a8404b75" prot="public" virt="non-virtual"><scope>PRNG_Type</scope><name>RESERVED1</name></member>
+      <member refid="structPRNG__Type_1a0b500f731f3d865f024a6b0734c8e1c7" prot="public" virt="non-virtual"><scope>PRNG_Type</scope><name>WORD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

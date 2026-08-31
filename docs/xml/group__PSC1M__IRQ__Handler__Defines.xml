@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="group__PSC1M__IRQ__Handler__Defines" kind="group">
+    <compoundname>PSC1M_IRQ_Handler_Defines</compoundname>
+    <title>Interrupt Handler Definitions</title>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga97731cf3fb2bc96f23acf7f480065c5d" prot="public" static="no">
+        <name>IRQ_Hdlr_0</name>
+        <initializer>IRQ0_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ0 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="161" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga3d281c709ab186e0465f57fd22371fda" prot="public" static="no">
+        <name>IRQ_Hdlr_1</name>
+        <initializer>IRQ1_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ1 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="162" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga08d3815c56d962b074c47681506bceed" prot="public" static="no">
+        <name>IRQ_Hdlr_2</name>
+        <initializer>IRQ2_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ2 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="163" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gae77a629c2c154e6b1a5dae1ea5b23a9b" prot="public" static="no">
+        <name>IRQ_Hdlr_3</name>
+        <initializer>IRQ3_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ3 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="164" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga9d4a1f4b38c2460eba7c1d64a0201d77" prot="public" static="no">
+        <name>IRQ_Hdlr_4</name>
+        <initializer>IRQ4_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ4 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="165" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga28e0b4473b8d753750fd2a0f896ac817" prot="public" static="no">
+        <name>IRQ_Hdlr_5</name>
+        <initializer>IRQ5_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ5 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="166" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga8a0a848337799b883ed720598ab076c6" prot="public" static="no">
+        <name>IRQ_Hdlr_6</name>
+        <initializer>IRQ6_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ6 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="167" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga5aebe4f67ce5eff4d17c6be04e4f3e70" prot="public" static="no">
+        <name>IRQ_Hdlr_7</name>
+        <initializer>IRQ7_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ7 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="168" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga1caac6fc3c00c765c092a87b31948a03" prot="public" static="no">
+        <name>IRQ_Hdlr_8</name>
+        <initializer>IRQ8_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ8 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="169" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga99db2749e447a908b6b2e9fe5e8e51fa" prot="public" static="no">
+        <name>IRQ_Hdlr_9</name>
+        <initializer>IRQ9_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ9 interrupt handler <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="170" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gad9c69fdcfc3436f2eca70c83468e140e" prot="public" static="no">
+        <name>IRQ_Hdlr_10</name>
+        <initializer>IRQ10_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ10 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="171" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gacd1b4925155b150fb9f08619983e3e47" prot="public" static="no">
+        <name>IRQ_Hdlr_11</name>
+        <initializer>IRQ11_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ11 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="172" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga8a0dff10748ceee9b7f92a0580f01a5e" prot="public" static="no">
+        <name>IRQ_Hdlr_12</name>
+        <initializer>IRQ12_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ12 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="173" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga5e5265c76b58af9261a3a3cd249fc7c2" prot="public" static="no">
+        <name>IRQ_Hdlr_13</name>
+        <initializer>IRQ13_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ13 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="174" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga48d9b8df4bf937c3dad7c6cf297d33e9" prot="public" static="no">
+        <name>IRQ_Hdlr_14</name>
+        <initializer>IRQ14_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ14 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="175" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga35d8b5dc045e4739974c4d7facd61c18" prot="public" static="no">
+        <name>IRQ_Hdlr_15</name>
+        <initializer>IRQ15_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ15 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="176" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga9bce1b3d025e988ff76c53e1a76b00ce" prot="public" static="no">
+        <name>IRQ_Hdlr_16</name>
+        <initializer>IRQ16_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ16 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="177" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga51d78b188e6a745df2df20b5842fca55" prot="public" static="no">
+        <name>IRQ_Hdlr_17</name>
+        <initializer>IRQ17_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ17 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="178" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga3cc03d1e99f2b0b7d9e0bbce34bb531b" prot="public" static="no">
+        <name>IRQ_Hdlr_18</name>
+        <initializer>IRQ18_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ18 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="179" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga88e1a5612891a868f2fd8a562ea9f4e3" prot="public" static="no">
+        <name>IRQ_Hdlr_19</name>
+        <initializer>IRQ19_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ19 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="180" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga7844d3e45a2e6a04b74c1047ef4d63f2" prot="public" static="no">
+        <name>IRQ_Hdlr_20</name>
+        <initializer>IRQ20_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ20 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="181" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gaf342cc222f808390e9e6b94fd40bcd6d" prot="public" static="no">
+        <name>IRQ_Hdlr_21</name>
+        <initializer>IRQ21_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ21 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="182" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga9effd8b863e45f4bf1505cb194b6992e" prot="public" static="no">
+        <name>IRQ_Hdlr_22</name>
+        <initializer>IRQ22_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ22 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="183" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gaa58ebfc6c17965b9d1c67e0ceb4e3625" prot="public" static="no">
+        <name>IRQ_Hdlr_23</name>
+        <initializer>IRQ23_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ23 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="184" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gaac6bf02aa3545f963cec9bae7588a841" prot="public" static="no">
+        <name>IRQ_Hdlr_24</name>
+        <initializer>IRQ24_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ24 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="185" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga5d966c67e8cebdecd798dfd89416c172" prot="public" static="no">
+        <name>IRQ_Hdlr_25</name>
+        <initializer>IRQ25_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ25 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="186" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga35f775f96c2ae319db63802f96fccd64" prot="public" static="no">
+        <name>IRQ_Hdlr_26</name>
+        <initializer>IRQ26_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ26 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="187" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gaff22ce8f7ec0061ca85655bc05a37e56" prot="public" static="no">
+        <name>IRQ_Hdlr_27</name>
+        <initializer>IRQ27_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ27 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="188" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1gac7bd86bb742674c289279de21530864c" prot="public" static="no">
+        <name>IRQ_Hdlr_28</name>
+        <initializer>IRQ28_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ28 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="189" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga94a95d9e91e7ecbaa2210df66da706e5" prot="public" static="no">
+        <name>IRQ_Hdlr_29</name>
+        <initializer>IRQ29_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ29 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="190" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga9d8342409d9b738d56f8e091b818e01c" prot="public" static="no">
+        <name>IRQ_Hdlr_30</name>
+        <initializer>IRQ30_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ30 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="191" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga54b24e39b191446620d6ac4b21221470" prot="public" static="no">
+        <name>IRQ_Hdlr_31</name>
+        <initializer>IRQ31_Handler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IRQ31 interrupt handler </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="192" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__PSC1M__IRQ__Handler__Defines_1ga1bdca035530a01fbd2e5f015fbd5efb7" prot="public" static="no">
+        <name>GET_IRQ_HANDLER</name>
+        <param><defname>N</defname></param>
+        <initializer>IRQ_Hdlr_##N</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the interrupt handler name for IRQ number N </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="199" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Macros mapping IRQ numbers (0-31) to their respective handler function names (e.g. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput>IRQ_Hdlr_0</computeroutput> maps to <computeroutput>IRQ0_Handler</computeroutput>). Use <ref refid="group__PSC1M__IRQ__Handler__Defines_1ga1bdca035530a01fbd2e5f015fbd5efb7" kindref="member">GET_IRQ_HANDLER</ref> to retrieve a handler name by IRQ number. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

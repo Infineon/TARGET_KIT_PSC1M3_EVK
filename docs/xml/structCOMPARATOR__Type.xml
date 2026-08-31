@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structCOMPARATOR__Type" kind="struct" language="C++" prot="public">
+    <compoundname>COMPARATOR_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a1dc7f42bf985d320eb7576bbbaaa610d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t COMPARATOR_Type::ORCCTRL</definition>
+        <argsstring></argsstring>
+        <name>ORCCTRL</name>
+        <qualifiedname>COMPARATOR_Type::ORCCTRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010500) COMPARATOR Structure <linebreak/>
+ (@ 0x40010500) Out Of Range Comparator Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="733" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a07bf402e04c938379b9233bcb1434848" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t COMPARATOR_Type::RESERVED[726]</definition>
+        <argsstring>[726]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>COMPARATOR_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="734" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a49a89446dd0233db75b4b3ac23a799cd" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t COMPARATOR_Type::ANACMP0</definition>
+        <argsstring></argsstring>
+        <name>ANACMP0</name>
+        <qualifiedname>COMPARATOR_Type::ANACMP0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001105C) Analog Comparator 0 Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="735" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a8748ff48b8a90c08e92934cd09547f17" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t COMPARATOR_Type::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>COMPARATOR_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="736" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a3064736a7b07bcb475e94780a2a03a3b" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t COMPARATOR_Type::ANACMP1</definition>
+        <argsstring></argsstring>
+        <name>ANACMP1</name>
+        <qualifiedname>COMPARATOR_Type::ANACMP1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011060) Analog Comparator 1 Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="737" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a7f9ea87361d3456200b19024165de436" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t COMPARATOR_Type::RESERVED2</definition>
+        <argsstring></argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>COMPARATOR_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="738" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="738" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a395daa45b63f2c5a15ce1065a8f16545" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t COMPARATOR_Type::ANACMP2</definition>
+        <argsstring></argsstring>
+        <name>ANACMP2</name>
+        <qualifiedname>COMPARATOR_Type::ANACMP2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011064) Analog Comparator 2 Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="739" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a2272230ac8bb7167bb805749687a7350" prot="public" static="no" mutable="no">
+        <type>__I uint16_t</type>
+        <definition>__I uint16_t COMPARATOR_Type::RESERVED3</definition>
+        <argsstring></argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>COMPARATOR_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="740" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCOMPARATOR__Type_1a527ecdea4a9d00c4c89d033b073d11cd" prot="public" static="no" mutable="no">
+        <type>__IO uint16_t</type>
+        <definition>__IO uint16_t COMPARATOR_Type::ANACMP3</definition>
+        <argsstring></argsstring>
+        <name>ANACMP3</name>
+        <qualifiedname>COMPARATOR_Type::ANACMP3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40011068) Analog Comparator 3 Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="741" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="741" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (COMPARATOR) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="732" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="732" bodyend="742"/>
+    <listofallmembers>
+      <member refid="structCOMPARATOR__Type_1a49a89446dd0233db75b4b3ac23a799cd" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>ANACMP0</name></member>
+      <member refid="structCOMPARATOR__Type_1a3064736a7b07bcb475e94780a2a03a3b" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>ANACMP1</name></member>
+      <member refid="structCOMPARATOR__Type_1a395daa45b63f2c5a15ce1065a8f16545" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>ANACMP2</name></member>
+      <member refid="structCOMPARATOR__Type_1a527ecdea4a9d00c4c89d033b073d11cd" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>ANACMP3</name></member>
+      <member refid="structCOMPARATOR__Type_1a1dc7f42bf985d320eb7576bbbaaa610d" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>ORCCTRL</name></member>
+      <member refid="structCOMPARATOR__Type_1a07bf402e04c938379b9233bcb1434848" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>RESERVED</name></member>
+      <member refid="structCOMPARATOR__Type_1a8748ff48b8a90c08e92934cd09547f17" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>RESERVED1</name></member>
+      <member refid="structCOMPARATOR__Type_1a7f9ea87361d3456200b19024165de436" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>RESERVED2</name></member>
+      <member refid="structCOMPARATOR__Type_1a2272230ac8bb7167bb805749687a7350" prot="public" virt="non-virtual"><scope>COMPARATOR_Type</scope><name>RESERVED3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

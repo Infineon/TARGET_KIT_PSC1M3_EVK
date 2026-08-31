@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_195eb80cb819787f33b0d1bc864a01ac" kind="dir">
+    <compoundname>TARGET_KIT_PSC1M3_EVK</compoundname>
+    <innerfile refid="cybsp_8c">cybsp.c</innerfile>
+    <innerfile refid="cybsp_8h">cybsp.h</innerfile>
+    <innerfile refid="cybsp__doc_8h">cybsp_doc.h</innerfile>
+    <innerfile refid="cybsp__hw__config_8h">cybsp_hw_config.h</innerfile>
+    <innerfile refid="cybsp__types_8h">cybsp_types.h</innerfile>
+    <innerfile refid="PSC1M_8h">PSC1M.h</innerfile>
+    <innerfile refid="PSC1M__RomFunctionTable_8h">PSC1M_RomFunctionTable.h</innerfile>
+    <innerfile refid="system__PSC1M_8c">system_PSC1M.c</innerfile>
+    <innerfile refid="system__PSC1M_8h">system_PSC1M.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/"/>
+  </compounddef>
+</doxygen>

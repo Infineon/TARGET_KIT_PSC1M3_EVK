@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structPOSIF__GLOBAL__TypeDef" kind="struct" language="C++" prot="public">
+    <compoundname>POSIF_GLOBAL_TypeDef</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a4161211044511e061baf5d59a711ecbf" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t POSIF_GLOBAL_TypeDef::PCONF</definition>
+        <argsstring></argsstring>
+        <name>PCONF</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PCONF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x50010000) POSIF Structure <linebreak/>
+ (@ 0x50010000) CORDIC Coprocessor configuration <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="927" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a344104f8e1b0785ad0e506b2adc1b563" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t POSIF_GLOBAL_TypeDef::PSUS</definition>
+        <argsstring></argsstring>
+        <name>PSUS</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PSUS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010004) CORDIC Coprocessor Suspend Config <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="928" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1ae500e0197da047ec13beb56723634adb" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t POSIF_GLOBAL_TypeDef::PRUNS</definition>
+        <argsstring></argsstring>
+        <name>PRUNS</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PRUNS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010008) CORDIC Coprocessor Run Bit Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="929" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1acaf3594df4531e1fb88c80b31774b0ac" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t POSIF_GLOBAL_TypeDef::PRUNC</definition>
+        <argsstring></argsstring>
+        <name>PRUNC</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PRUNC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5001000C) CORDIC Coprocessor Run Bit Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="930" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a017f5cc4996b04a7f2809d0b2c9be778" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::PRUN</definition>
+        <argsstring></argsstring>
+        <name>PRUN</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PRUN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010010) CORDIC Coprocessor Run Bit Status <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="931" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a4f456c15dbc2960d1d3f4dd67d27ba56" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::RESERVED[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="932" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a2adf19ec0f3a1cc864e2248b4fff24b0" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::MIDR</definition>
+        <argsstring></argsstring>
+        <name>MIDR</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::MIDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010020) Module Identification register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="933" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1ab511539126768720fe8998bbb6879969" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::RESERVED1[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="934" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="934" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a212e2a387e1e625d60ee7590536ee723" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::HALP</definition>
+        <argsstring></argsstring>
+        <name>HALP</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::HALP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010030) Hall Sensor Patterns <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="935" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="935" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a9556b6a8609d68f48b3d681933d0ee02" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t POSIF_GLOBAL_TypeDef::HALPS</definition>
+        <argsstring></argsstring>
+        <name>HALPS</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::HALPS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010034) Hall Sensor Shadow Patterns <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="936" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="936" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1ac285b9dc2bfae354478e006d7bf91669" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::RESERVED2[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="937" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="937" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1aea6807df1adedf7d5ba788004b2d731e" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::MCM</definition>
+        <argsstring></argsstring>
+        <name>MCM</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::MCM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010040) Multi-Channel Pattern <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="938" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1af98a0c2666bc8c13a5a8bab80e2d963c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t POSIF_GLOBAL_TypeDef::MCSM</definition>
+        <argsstring></argsstring>
+        <name>MCSM</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::MCSM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010044) Multi-Channel Shadow Pattern <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="939" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a3f12c6c40d2dfbf2a59a31de89e2c15d" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t POSIF_GLOBAL_TypeDef::MCMS</definition>
+        <argsstring></argsstring>
+        <name>MCMS</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::MCMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010048) Multi-Channel Pattern Control set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="940" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="940" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a99098615841745f90901aa00cf7cd7fa" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t POSIF_GLOBAL_TypeDef::MCMC</definition>
+        <argsstring></argsstring>
+        <name>MCMC</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::MCMC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5001004C) Multi-Channel Pattern Control clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="941" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="941" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1ad3dc7333d998c85fbcbc49a31c33cdc7" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::MCMF</definition>
+        <argsstring></argsstring>
+        <name>MCMF</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::MCMF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010050) Multi-Channel Pattern Control flag <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="942" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="942" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a35f4d91d69b060d8bc4766a143e48524" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::RESERVED3[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="943" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a75285d16439991a782ba4e113e89d0e1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t POSIF_GLOBAL_TypeDef::QDC</definition>
+        <argsstring></argsstring>
+        <name>QDC</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::QDC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010060) Quadrature Decoder Control <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="944" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a4adfc140ac845435240717edc91b0442" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::RESERVED4[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="945" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="945" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1abf75d478882a4edf9a572d41feabbab2" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::PFLG</definition>
+        <argsstring></argsstring>
+        <name>PFLG</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PFLG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010070) CORDIC Coprocessor Interrupt Flags <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="946" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="946" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a8f7164037c6cb73e60474f4b9d7245e3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t POSIF_GLOBAL_TypeDef::PFLGE</definition>
+        <argsstring></argsstring>
+        <name>PFLGE</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PFLGE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010074) CORDIC Coprocessor Interrupt Enable <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="947" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="947" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1ae8190ad6b8a66ee18aa1f470eb669ca7" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t POSIF_GLOBAL_TypeDef::SPFLG</definition>
+        <argsstring></argsstring>
+        <name>SPFLG</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::SPFLG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010078) CORDIC Coprocessor Interrupt Set <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="948" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="948" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1ac20f8cbf01dd1d4734ce7b3715c3d3bf" prot="public" static="no" mutable="no">
+        <type>__O uint32_t</type>
+        <definition>__O uint32_t POSIF_GLOBAL_TypeDef::RPFLG</definition>
+        <argsstring></argsstring>
+        <name>RPFLG</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RPFLG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x5001007C) CORDIC Coprocessor Interrupt Clear <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="949" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="949" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1afaa5bb4e583a845641336d5139d3dc5a" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::RESERVED5[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="950" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="950" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOSIF__GLOBAL__TypeDef_1a993e27c025603f37ce3bc86819047f68" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t POSIF_GLOBAL_TypeDef::PDBG</definition>
+        <argsstring></argsstring>
+        <name>PDBG</name>
+        <qualifiedname>POSIF_GLOBAL_TypeDef::PDBG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x50010100) CORDIC Coprocessor Debug register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="951" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="951" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Position Interface 0 (POSIF) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="926" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="926" bodyend="952"/>
+    <listofallmembers>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a212e2a387e1e625d60ee7590536ee723" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>HALP</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a9556b6a8609d68f48b3d681933d0ee02" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>HALPS</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1aea6807df1adedf7d5ba788004b2d731e" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>MCM</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a99098615841745f90901aa00cf7cd7fa" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>MCMC</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1ad3dc7333d998c85fbcbc49a31c33cdc7" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>MCMF</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a3f12c6c40d2dfbf2a59a31de89e2c15d" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>MCMS</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1af98a0c2666bc8c13a5a8bab80e2d963c" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>MCSM</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a2adf19ec0f3a1cc864e2248b4fff24b0" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>MIDR</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a4161211044511e061baf5d59a711ecbf" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PCONF</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a993e27c025603f37ce3bc86819047f68" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PDBG</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1abf75d478882a4edf9a572d41feabbab2" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PFLG</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a8f7164037c6cb73e60474f4b9d7245e3" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PFLGE</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a017f5cc4996b04a7f2809d0b2c9be778" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PRUN</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1acaf3594df4531e1fb88c80b31774b0ac" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PRUNC</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1ae500e0197da047ec13beb56723634adb" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PRUNS</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a344104f8e1b0785ad0e506b2adc1b563" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>PSUS</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a75285d16439991a782ba4e113e89d0e1" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>QDC</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a4f456c15dbc2960d1d3f4dd67d27ba56" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RESERVED</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1ab511539126768720fe8998bbb6879969" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1ac285b9dc2bfae354478e006d7bf91669" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a35f4d91d69b060d8bc4766a143e48524" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1a4adfc140ac845435240717edc91b0442" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1afaa5bb4e583a845641336d5139d3dc5a" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1ac20f8cbf01dd1d4734ce7b3715c3d3bf" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>RPFLG</name></member>
+      <member refid="structPOSIF__GLOBAL__TypeDef_1ae8190ad6b8a66ee18aa1f470eb669ca7" prot="public" virt="non-virtual"><scope>POSIF_GLOBAL_TypeDef</scope><name>SPFLG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

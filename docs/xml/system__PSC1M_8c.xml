@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="system__PSC1M_8c" kind="file" language="C++">
+    <compoundname>system_PSC1M.c</compoundname>
+    <includes refid="PSC1M_8h" local="yes">PSC1M.h</includes>
+    <includes refid="system__PSC1M_8h" local="yes">system_PSC1M.h</includes>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="system__PSC1M_8c_1a3e062c18663b78ccfa672a78a4725720" prot="public" static="no">
+        <name>DCO1_FREQUENCY</name>
+        <initializer>(48000000U)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="37" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1aa514971f1d00f306783843176ebb2e97" prot="public" static="no">
+        <name>OSCHP_FREQUENCY</name>
+        <initializer>(20000000U)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="56" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a5d615b0bb283e3c67e8c795b2fce7075" prot="public" static="no">
+        <name>DCLK_CLOCK_SRC</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="64" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a0b1672746bdd504061d415bc003252e1" prot="public" static="no">
+        <name>DCLK_CLOCK_SRC_DCO1</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="65" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a8693a4beb568662a5ed8bf57ce20371a" prot="public" static="no">
+        <name>DCLK_CLOCK_SRC_EXT_XTAL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="66" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a910a161f801fb228f4915c377c69efcc" prot="public" static="no">
+        <name>OSCHP_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="75" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1adaf5f11965ecce1f2266c25fc6b47488" prot="public" static="no">
+        <name>OSCHP_MODE_XTAL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="76" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a34b20fdb130891d2c7cb489914623783" prot="public" static="no">
+        <name>OSCHP_MODE_DIRECT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="77" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1acc45afe6f53b36669ef432296169a047" prot="public" static="no">
+        <name>OSCHP_MODE_POWER_DOWN</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="78" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a514bc27a095365320d2dd0653779591a" prot="public" static="no">
+        <name>OSCLP_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="86" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1ae5792ba926ac57fd01791dc1c5927721" prot="public" static="no">
+        <name>OSCLP_MODE_XTAL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="87" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a4e6ddef00707cef30dfc9ac3c01aeab8" prot="public" static="no">
+        <name>OSCLP_MODE_POWER_DOWN</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="88" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a15c8ba33b095a9d5e6acbb3d03ebb6f0" prot="public" static="no">
+        <name>RTC_CLOCK_SRC</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="96" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1ad5367a31bfe3c51cc9de5d422cc57d1d" prot="public" static="no">
+        <name>RTC_CLOCK_SRC_DCO2</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="97" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a15cd25805bd30f9ce224717f8264c1f7" prot="public" static="no">
+        <name>RTC_CLOCK_SRC_EXT_XTAL</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="98" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a68129830d202cb526fadfaa3eff6daec" prot="public" static="no">
+        <name>PCLK_CLOCK_SRC</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="105" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1a8100f8ec018970e17ff6dc0c87f5b58f" prot="public" static="no">
+        <name>PCLK_CLOCK_SRC_MCLK</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="106" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="system__PSC1M_8c_1afa3278369e1bb90c0a2bd3daf797bc5e" prot="public" static="no">
+        <name>PCLK_CLOCK_SRC_2XMCLK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="107" column="9" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="system__PSC1M_8c_1ac81336f930a6eb48b56d92247d4d0b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__WEAK void</type>
+        <definition>__WEAK void SystemInit</definition>
+        <argsstring>(void)</argsstring>
+        <name>SystemInit</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize the system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="155" column="13" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="system__PSC1M_8c_1a30b4f437e20e11dce859437f7203ffc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__WEAK void</type>
+        <definition>__WEAK void SystemCoreSetup</definition>
+        <argsstring>(void)</argsstring>
+        <name>SystemCoreSetup</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize CPU settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="161" column="13" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="161" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="system__PSC1M_8c_1a897d71cb548033efcf3abee052f4912c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__WEAK void</type>
+        <definition>__WEAK void SystemCoreClockSetup</definition>
+        <argsstring>(void)</argsstring>
+        <name>SystemCoreClockSetup</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Initialize clock. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="167" column="13" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="167" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="system__PSC1M_8c_1a4e8484c19e19484f2850f02fd6f2503a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__WEAK void</type>
+        <definition>__WEAK void SystemCoreClockUpdate</definition>
+        <argsstring>(void)</argsstring>
+        <name>SystemCoreClockUpdate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Update SystemCoreClock variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="251" column="13" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="251" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="system__PSC1M_8c_1ac577c487712a86694860732d3ad4e136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__WEAK uint32_t</type>
+        <definition>__WEAK uint32_t OSCHP_GetFrequency</definition>
+        <argsstring>(void)</argsstring>
+        <name>OSCHP_GetFrequency</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns frequency of the high performace oscillator User needs to overload this function to return the correct oscillator frequency. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" line="286" column="17" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c" bodystart="286" bodyend="289"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>@file<sp/><sp/><sp/><sp/><sp/>system_PSC1M.c</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>@brief<sp/><sp/><sp/><sp/>Device<sp/>specific<sp/>initialization<sp/>for<sp/>the<sp/>PSC1M-Series<sp/>according<sp/>to<sp/>CMSIS</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>@cond</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*****************************************************************************</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>\copyright</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>(c)<sp/>2016-2026,<sp/>Infineon<sp/>Technologies<sp/>AG<sp/>or<sp/>an<sp/>affiliate<sp/>of</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>Infineon<sp/>Technologies<sp/>AG.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>Apache-2.0</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*****************************************************************************</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>@endcond</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>HEADER<sp/>FILES</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;PSC1M.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;system_PSC1M.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DCO1_FREQUENCY<sp/>(48000000U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">//--------<sp/>&lt;&lt;&lt;<sp/>Use<sp/>Configuration<sp/>Wizard<sp/>in<sp/>Context<sp/>Menu<sp/>&gt;&gt;&gt;<sp/>------------------</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">//<sp/>&lt;h&gt;<sp/>Clock<sp/>configuration</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;o&gt;<sp/>External<sp/>crystal<sp/>frequency<sp/>[Hz]</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;8000000=&gt;<sp/>8MHz</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;12000000=&gt;<sp/>12MHz</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;16000000=&gt;<sp/>16MHz</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;20000000=&gt;<sp/>20MHz</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Defines<sp/>external<sp/>crystal<sp/>frequency</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Default:<sp/>20MHz</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCHP_FREQUENCY<sp/>(20000000U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;o&gt;<sp/>DCLK<sp/>clock<sp/>source<sp/>selection</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;0=&gt;<sp/>Internal<sp/>oscillator<sp/>DCO1<sp/>(48MHz)</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;1=&gt;<sp/>External<sp/>crystal<sp/>oscillator</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Default:<sp/>Internal<sp/>oscillator<sp/>DCO1<sp/>(48MHz)</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DCLK_CLOCK_SRC<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DCLK_CLOCK_SRC_DCO1<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DCLK_CLOCK_SRC_EXT_XTAL<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="69"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;o&gt;<sp/>OSCHP<sp/>external<sp/>oscillator<sp/>mode</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;0=&gt;<sp/>Crystal<sp/>mode</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;1=&gt;<sp/>External<sp/>clock<sp/>direct<sp/>input<sp/>mode</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;2=&gt;<sp/>Power<sp/>down</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Default:<sp/>Power<sp/>down</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCHP_MODE<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCHP_MODE_XTAL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCHP_MODE_DIRECT<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCHP_MODE_POWER_DOWN<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="81"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;o&gt;<sp/>OSCLP<sp/>external<sp/>oscillator<sp/>mode</highlight></codeline>
+<codeline lineno="82"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;0=&gt;<sp/>Oscillator<sp/>mode</highlight></codeline>
+<codeline lineno="83"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;2=&gt;<sp/>Power<sp/>down</highlight></codeline>
+<codeline lineno="84"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Default:<sp/>Power<sp/>down</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCLP_MODE<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCLP_MODE_XTAL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OSCLP_MODE_POWER_DOWN<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;o&gt;<sp/>RTC<sp/>clock<sp/>source<sp/>selection</highlight></codeline>
+<codeline lineno="92"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;0=&gt;<sp/>Internal<sp/>oscillator<sp/>DCO2<sp/>(32768Hz)</highlight></codeline>
+<codeline lineno="93"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;5=&gt;<sp/>External<sp/>crystal<sp/>oscillator</highlight></codeline>
+<codeline lineno="94"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Default:<sp/>Internal<sp/>oscillator<sp/>DCO2<sp/>(32768Hz)</highlight></codeline>
+<codeline lineno="95"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RTC_CLOCK_SRC<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RTC_CLOCK_SRC_DCO2<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RTC_CLOCK_SRC_EXT_XTAL<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="100"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;o&gt;<sp/>PCLK<sp/>clock<sp/>source<sp/>selection</highlight></codeline>
+<codeline lineno="101"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;0=&gt;<sp/>MCLK</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;1=&gt;<sp/>2xMCLK</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">//<sp/><sp/><sp/><sp/>&lt;i&gt;<sp/>Default:<sp/>2xMCLK</highlight></codeline>
+<codeline lineno="104"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PCLK_CLOCK_SRC<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PCLK_CLOCK_SRC_MCLK<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PCLK_CLOCK_SRC_2XMCLK<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(DCLK_CLOCK_SRC<sp/>==<sp/>DCLK_CLOCK_SRC_EXT_XTAL)<sp/>&amp;&amp;<sp/>(OSCHP_MODE<sp/>==<sp/>OSCHP_MODE_POWER_DOWN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>Selected<sp/>OSC_HP<sp/>as<sp/>DCLK<sp/>clock<sp/>source<sp/>but<sp/>OSC_HP<sp/>is<sp/>disabled</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(RTC_CLOCK_SRC<sp/>==<sp/>RTC_CLOCK_SRC_EXT_XTAL)<sp/>&amp;&amp;<sp/>(OSCLP_MODE<sp/>==<sp/>OSCLP_MODE_POWER_DOWN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>Selected<sp/>OSC_LP<sp/>as<sp/>RTC<sp/>clock<sp/>source<sp/>but<sp/>OSC_LP<sp/>is<sp/>disabled</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">//--------<sp/>&lt;&lt;&lt;<sp/>end<sp/>of<sp/>configuration<sp/>section<sp/>&gt;&gt;&gt;<sp/>------------------</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>GLOBAL<sp/>VARIABLES</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(<sp/>__CC_ARM<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">uint32_t<sp/>SystemCoreClock<sp/>__attribute__((at(0x20003FFC)));</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(__ARMCC_VERSION)<sp/>&amp;&amp;<sp/>(__ARMCC_VERSION<sp/>&gt;=<sp/>6010050)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">uint32_t<sp/>SystemCoreClock<sp/>__attribute__((section(</highlight><highlight class="stringliteral">&quot;.bss.ARM.__at_0x20003FFC&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__ICCARM__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">__no_init<sp/>uint32_t<sp/>SystemCoreClock;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__GNUC__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">uint32_t<sp/>SystemCoreClock<sp/>__attribute__((section(</highlight><highlight class="stringliteral">&quot;.no_init&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__TASKING__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">uint32_t<sp/>SystemCoreClock<sp/>__at(<sp/>0x20003FFC<sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/>LOCAL<sp/>FUNCTIONS</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(OSCHP_MODE<sp/>!=<sp/>OSCHP_MODE_POWER_DOWN)<sp/>||<sp/>((OSCLP_MODE<sp/>!=<sp/>OSCLP_MODE_POWER_DOWN)<sp/>&amp;&amp;<sp/>(!defined(DISABLE_WAIT_RTC_XTAL_OSC_STARTUP)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">__STATIC_FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>delay(uint32_t<sp/>cycles)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(--cycles<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>__NOP();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/>*<sp/>API<sp/>IMPLEMENTATION</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">__WEAK<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SystemInit(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/>SystemCoreSetup();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>SystemCoreClockSetup();</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">__WEAK<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SystemCoreSetup(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Enable<sp/>Prefetch<sp/>unit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga2b3a9abfd5b45d8ebd54f48c25aa46dc" kindref="member">SCU_GENERAL</ref>-&gt;PFUCR<sp/>&amp;=<sp/>~SCU_GENERAL_PFUCR_PFUBYP_Msk;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">__WEAK<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SystemCoreClockSetup(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Clock<sp/>setup<sp/>done<sp/>during<sp/>SSW<sp/>using<sp/>the<sp/>CLOCK_VAL1<sp/>and<sp/>CLOCK_VAL2<sp/>defined<sp/>in<sp/>vector<sp/>table<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>disable<sp/>bit<sp/>protection<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga2b3a9abfd5b45d8ebd54f48c25aa46dc" kindref="member">SCU_GENERAL</ref>-&gt;PASSWD<sp/>=<sp/>0x000000C0UL;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>OSCHP_MODE<sp/>!=<sp/>OSCHP_MODE_POWER_DOWN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>OSC_CM.D001<sp/>Additions<sp/>and<sp/>corrections<sp/>related<sp/>to<sp/>ANAOSCHPCTRL<sp/>register<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(OSCHP_GetFrequency()<sp/>&lt;=<sp/>20000000U)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga39a08a9da4e450e331411285b8383fb9" kindref="member">SCU_ANALOG</ref>-&gt;ANAOSCHPCTRL<sp/>|=<sp/><ref refid="group__Device__Peripheral__Registers_1gaae7aebe8a52b588348cc55d5f5a161fd" kindref="member">SCU_ANALOG_ANAOSCHPCTRL_HYSCTRL_Msk</ref>;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>OSCHP<sp/>source<sp/>selection<sp/>-<sp/>OSC<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga39a08a9da4e450e331411285b8383fb9" kindref="member">SCU_ANALOG</ref>-&gt;ANAOSCHPCTRL<sp/>=<sp/>(<ref refid="group__Device__Peripheral__Registers_1ga39a08a9da4e450e331411285b8383fb9" kindref="member">SCU_ANALOG</ref>-&gt;ANAOSCHPCTRL<sp/>&amp;<sp/>~SCU_ANALOG_ANAOSCHPCTRL_MODE_Msk)<sp/>|</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OSCHP_MODE<sp/>&lt;&lt;<sp/><ref refid="group__Device__Peripheral__Registers_1ga5af3440871a95cecfc6285064fc6c692" kindref="member">SCU_ANALOG_ANAOSCHPCTRL_MODE_Pos</ref>);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>clear<sp/>the<sp/>status<sp/>bit<sp/>before<sp/>restarting<sp/>the<sp/>detection.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga2d8ad8b1ca8abac243cc8237a69d145a" kindref="member">SCU_INTERRUPT</ref>-&gt;SRCLR1<sp/>=<sp/><ref refid="group__Device__Peripheral__Registers_1ga53dbaf10d12c3cf4db26bc7487176536" kindref="member">SCU_INTERRUPT_SRCLR1_LOECI_Msk</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>According<sp/>to<sp/>errata<sp/>SCU_CM.023,<sp/>to<sp/>reset<sp/>the<sp/>XOWD<sp/>it<sp/>is<sp/>needed<sp/>to<sp/>disable/enable<sp/>the<sp/>watchdog,<sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keeping<sp/>in<sp/>between<sp/>at<sp/>least<sp/>one<sp/>DCO2<sp/>cycle<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Disable<sp/>XOWD<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;OSCCSR<sp/>&amp;=<sp/>~SCU_CLK_OSCCSR_XOWDEN_Msk;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Clock<sp/>domains<sp/>synchronization,<sp/>at<sp/>least<sp/>1<sp/>DCO2<sp/>cycle<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>delay<sp/>value<sp/>calculation<sp/>assuming<sp/>worst<sp/>case<sp/>DCO1=48Mhz<sp/>and<sp/>3cycles<sp/>per<sp/>delay<sp/>iteration<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(538);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Enable<sp/>XOWD<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;OSCCSR<sp/>|=<sp/><ref refid="group__Device__Peripheral__Registers_1ga5bb7a05a5d25ab1a8731e248f70e782c" kindref="member">SCU_CLK_OSCCSR_XOWDEN_Msk</ref><sp/>|<sp/><ref refid="group__Device__Peripheral__Registers_1ga8592da7493d49daedf2093252afb4711" kindref="member">SCU_CLK_OSCCSR_XOWDRES_Msk</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>OSCCSR.XOWDRES<sp/>bit<sp/>will<sp/>be<sp/>automatically<sp/>reset<sp/>to<sp/>0<sp/>after<sp/>XOWD<sp/>is<sp/>reset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;OSCCSR<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1ga8592da7493d49daedf2093252afb4711" kindref="member">SCU_CLK_OSCCSR_XOWDRES_Msk</ref>);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>a<sp/>at<sp/>least<sp/>5<sp/>DCO2<sp/>cycles<sp/>for<sp/>the<sp/>update<sp/>of<sp/>the<sp/>XTAL<sp/>OWD<sp/>result<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>delay<sp/>value<sp/>calculation<sp/>assuming<sp/>worst<sp/>case<sp/>DCO1=48Mhz<sp/>and<sp/>3cycles<sp/>per<sp/>delay<sp/>iteration<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(2685);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="group__Device__Peripheral__Registers_1ga2d8ad8b1ca8abac243cc8237a69d145a" kindref="member">SCU_INTERRUPT</ref>-&gt;SRRAW1<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1gaa8debaa2a2612bb5613dcd96f0681436" kindref="member">SCU_INTERRUPT_SRRAW1_LOECI_Msk</ref>);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Disable<sp/>OSC_HP<sp/>*/</highlight><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga39a08a9da4e450e331411285b8383fb9" kindref="member">SCU_ANALOG</ref>-&gt;ANAOSCHPCTRL<sp/>|=<sp/><ref refid="group__Device__Peripheral__Registers_1ga79faa29815d82cf40c2cb54766a02bb0" kindref="member">SCU_ANALOG_ANAOSCHPCTRL_MODE_Msk</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>DCLK_CLOCK_SRC<sp/>!=<sp/>DCLK_CLOCK_SRC_DCO1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>DCLK<sp/>source<sp/>using<sp/>OSC_HP<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR1<sp/>|=<sp/><ref refid="group__Device__Peripheral__Registers_1ga00b295074e9b8076910e55560887786c" kindref="member">SCU_CLK_CLKCR1_DCLKSEL_Msk</ref>;<sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>DCLK<sp/>source<sp/>using<sp/>DCO1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR1<sp/>&amp;=<sp/>~SCU_CLK_CLKCR1_DCLKSEL_Msk;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>OSCLP_MODE<sp/>==<sp/>OSCLP_MODE_XTAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Enable<sp/>OSC_LP<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga39a08a9da4e450e331411285b8383fb9" kindref="member">SCU_ANALOG</ref>-&gt;ANAOSCLPCTRL<sp/>&amp;=<sp/>~SCU_ANALOG_ANAOSCLPCTRL_MODE_Msk;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DISABLE_WAIT_RTC_XTAL_OSC_STARTUP<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>oscillator<sp/>startup<sp/>time<sp/>~5s<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/>delay(6500000);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Disable<sp/>OSC_LP<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga39a08a9da4e450e331411285b8383fb9" kindref="member">SCU_ANALOG</ref>-&gt;ANAOSCLPCTRL<sp/>|=<sp/><ref refid="group__Device__Peripheral__Registers_1gab90146d50160f1a35e1513ab6fda8409" kindref="member">SCU_ANALOG_ANAOSCLPCTRL_MODE_Msk</ref>;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Update<sp/>PCLK<sp/>selection<sp/>mux.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Fractional<sp/>divider<sp/>enabled,<sp/>MCLK<sp/>frequency<sp/>equal<sp/>DCO1<sp/>frequency<sp/>or<sp/>external<sp/>crystal<sp/>frequency<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR<sp/>=<sp/>(1023UL<sp/>&lt;&lt;<ref refid="group__Device__Peripheral__Registers_1ga90fb615156cad986604e50e790836414" kindref="member">SCU_CLK_CLKCR_CNTADJ_Pos</ref>)<sp/>|</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(RTC_CLOCK_SRC<sp/>&lt;&lt;<sp/><ref refid="group__Device__Peripheral__Registers_1ga0e1c2c66fdc51ed8fcee146d484c9f03" kindref="member">SCU_CLK_CLKCR_RTCCLKSEL_Pos</ref>)<sp/>|</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PCLK_CLOCK_SRC<sp/>&lt;&lt;<sp/><ref refid="group__Device__Peripheral__Registers_1gab8a5eab589e96bc3dcf7cd19db6293a2" kindref="member">SCU_CLK_CLKCR_PCLKSEL_Pos</ref>)<sp/>|</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x100U;<sp/></highlight><highlight class="comment">/*<sp/>IDIV<sp/>=<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>enable<sp/>bit<sp/>protection<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><ref refid="group__Device__Peripheral__Registers_1ga2b3a9abfd5b45d8ebd54f48c25aa46dc" kindref="member">SCU_GENERAL</ref>-&gt;PASSWD<sp/>=<sp/>0x000000C3UL;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/>SystemCoreClockUpdate();</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal">__WEAK<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SystemCoreClockUpdate(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint32_t<sp/>IDIV,<sp/>FDIV;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/>IDIV<sp/>=<sp/>((<ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR)<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1ga6eb06cdbfbdf1eeceeec5307d005fd13" kindref="member">SCU_CLK_CLKCR_IDIV_Msk</ref>)<sp/>&gt;&gt;<sp/><ref refid="group__Device__Peripheral__Registers_1ga811bc3e2adecd9e63931629fb02dbe3d" kindref="member">SCU_CLK_CLKCR_IDIV_Pos</ref>;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(IDIV<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>FDIV<sp/>=<sp/>((<ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR)<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1ga91311ad189831480f8a0f49f560780bd" kindref="member">SCU_CLK_CLKCR_FDIV_Msk</ref>)<sp/>&gt;&gt;<sp/><ref refid="group__Device__Peripheral__Registers_1ga09a80ea94d0e9713784708eeefca17f7" kindref="member">SCU_CLK_CLKCR_FDIV_Pos</ref>;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>FDIV<sp/>|=<sp/>((<ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR1)<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1gafdfb0be1c470cb3ea1506a46112fa470" kindref="member">SCU_CLK_CLKCR1_FDIV_Msk</ref>)<sp/>&lt;&lt;<sp/>8;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Fractional<sp/>divider<sp/>is<sp/>enabled<sp/>and<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((<ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR1)<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1ga00b295074e9b8076910e55560887786c" kindref="member">SCU_CLK_CLKCR1_DCLKSEL_Msk</ref>)<sp/>==<sp/>0U)</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemCoreClock<sp/>=<sp/>((uint32_t)((DCO1_FREQUENCY<sp/>&lt;&lt;<sp/>6U)<sp/>/<sp/>((IDIV<sp/>&lt;&lt;<sp/>10)<sp/>+<sp/>FDIV)))<sp/>&lt;&lt;<sp/>4U;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemCoreClock<sp/>=<sp/>((uint32_t)((OSCHP_GetFrequency()<sp/>&lt;&lt;<sp/>6U)<sp/>/<sp/>((IDIV<sp/>&lt;&lt;<sp/>10)<sp/>+<sp/>FDIV)))<sp/>&lt;&lt;<sp/>4U;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Fractional<sp/>divider<sp/>bypassed.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((<ref refid="group__Device__Peripheral__Registers_1ga97e3b980e70d5f16d7105ffda4f8c10c" kindref="member">SCU_CLK</ref>-&gt;CLKCR1)<sp/>&amp;<sp/><ref refid="group__Device__Peripheral__Registers_1ga00b295074e9b8076910e55560887786c" kindref="member">SCU_CLK_CLKCR1_DCLKSEL_Msk</ref>)<sp/>==<sp/>0U)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemCoreClock<sp/>=<sp/>DCO1_FREQUENCY;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SystemCoreClock<sp/>=<sp/>OSCHP_GetFrequency();</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">__WEAK<sp/>uint32_t<sp/>OSCHP_GetFrequency(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>OSCHP_FREQUENCY;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/system_PSC1M.c"/>
+  </compounddef>
+</doxygen>

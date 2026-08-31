@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structSCU__GENERAL__Type" kind="struct" language="C++" prot="public">
+    <compoundname>SCU_GENERAL_Type</compoundname>
+    <includes local="no">PSC1M.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a37475cf440f252ff2aa3fdad70db482f" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::DBGROMID</definition>
+        <argsstring></argsstring>
+        <name>DBGROMID</name>
+        <qualifiedname>SCU_GENERAL_Type::DBGROMID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; (@ 0x40010000) SCU_GENERAL Structure <linebreak/>
+ (@ 0x40010000) Debug System ROM ID Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="628" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="628" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a9854572d5005d3652ef0c2c845efda47" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::IDCHIP</definition>
+        <argsstring></argsstring>
+        <name>IDCHIP</name>
+        <qualifiedname>SCU_GENERAL_Type::IDCHIP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010004) Chip ID Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="629" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="629" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a2e4b0ae1f944fae984665089c8807503" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <qualifiedname>SCU_GENERAL_Type::ID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010008) SCU Module ID Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="630" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a70840a9034ad47ffae297fdcdd062b68" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::RESERVED[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>SCU_GENERAL_Type::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="631" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a7ae464743447a7d25fdf4953e2a6bd00" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::SSW0</definition>
+        <argsstring></argsstring>
+        <name>SSW0</name>
+        <qualifiedname>SCU_GENERAL_Type::SSW0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010014) SSW Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="632" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a1c565c77e3efc0729577ed45e66e6a13" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::RESERVED1[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>SCU_GENERAL_Type::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="633" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a7b2b44ba266dd6a6519cd0aeb9de11f7" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::PASSWD</definition>
+        <argsstring></argsstring>
+        <name>PASSWD</name>
+        <qualifiedname>SCU_GENERAL_Type::PASSWD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010024) Password Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="634" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a05bbf6ee7538d98901bf9d316d11981b" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::RESERVED2[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>SCU_GENERAL_Type::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="635" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a9f8af8d9d0d2c13f4b8a5d48339d9417" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::CCUCON</definition>
+        <argsstring></argsstring>
+        <name>CCUCON</name>
+        <qualifiedname>SCU_GENERAL_Type::CCUCON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010030) CCU Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="636" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1af9cfdcdc057356e2188136a24ad469b9" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::RESERVED3[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>SCU_GENERAL_Type::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="637" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a343e46cfb0b619f221bb9d89543bd7cb" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::MIRRSTS</definition>
+        <argsstring></argsstring>
+        <name>MIRRSTS</name>
+        <qualifiedname>SCU_GENERAL_Type::MIRRSTS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010048) Mirror Update Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="638" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a746ce028155fdb0537719d94083dbcda" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::RESERVED4[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>SCU_GENERAL_Type::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="639" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a00780904b96249327381c8714c66e38d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::PMTSR</definition>
+        <argsstring></argsstring>
+        <name>PMTSR</name>
+        <qualifiedname>SCU_GENERAL_Type::PMTSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010054) Parity Memory Test Select Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="640" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1abca4d24cb41ee76f4bf0dddd34ec73da" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::RESERVED5[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>SCU_GENERAL_Type::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="641" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a372a0f060ba7e002480f4d7eba9c552e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::PFUCR</definition>
+        <argsstring></argsstring>
+        <name>PFUCR</name>
+        <qualifiedname>SCU_GENERAL_Type::PFUCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010068) Prefetch Unit Control Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="642" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a4d29f8d3fd8f47c400ad12c95969e022" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::INTCR0</definition>
+        <argsstring></argsstring>
+        <name>INTCR0</name>
+        <qualifiedname>SCU_GENERAL_Type::INTCR0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x4001006C) Interrupt Control Register 0 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="643" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a3b311d3bd7d3f1da7d0abfc784fac6b5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SCU_GENERAL_Type::INTCR1</definition>
+        <argsstring></argsstring>
+        <name>INTCR1</name>
+        <qualifiedname>SCU_GENERAL_Type::INTCR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010070) Interrupt Control Register 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="644" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSCU__GENERAL__Type_1a202643aaa9488b82bfc9111be2cae08c" prot="public" static="no" mutable="no">
+        <type>__I uint32_t</type>
+        <definition>__I uint32_t SCU_GENERAL_Type::STSTAT</definition>
+        <argsstring></argsstring>
+        <name>STSTAT</name>
+        <qualifiedname>SCU_GENERAL_Type::STSTAT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(@ 0x40010074) Startup Status Register <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="645" column="18" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="645" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System Control Unit (SCU_GENERAL) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" line="627" column="1" bodyfile="output/bsps/TARGET_KIT_PSC1M3_EVK/PSC1M.h" bodystart="627" bodyend="646"/>
+    <listofallmembers>
+      <member refid="structSCU__GENERAL__Type_1a9f8af8d9d0d2c13f4b8a5d48339d9417" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>CCUCON</name></member>
+      <member refid="structSCU__GENERAL__Type_1a37475cf440f252ff2aa3fdad70db482f" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>DBGROMID</name></member>
+      <member refid="structSCU__GENERAL__Type_1a2e4b0ae1f944fae984665089c8807503" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>ID</name></member>
+      <member refid="structSCU__GENERAL__Type_1a9854572d5005d3652ef0c2c845efda47" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>IDCHIP</name></member>
+      <member refid="structSCU__GENERAL__Type_1a4d29f8d3fd8f47c400ad12c95969e022" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>INTCR0</name></member>
+      <member refid="structSCU__GENERAL__Type_1a3b311d3bd7d3f1da7d0abfc784fac6b5" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>INTCR1</name></member>
+      <member refid="structSCU__GENERAL__Type_1a343e46cfb0b619f221bb9d89543bd7cb" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>MIRRSTS</name></member>
+      <member refid="structSCU__GENERAL__Type_1a7b2b44ba266dd6a6519cd0aeb9de11f7" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>PASSWD</name></member>
+      <member refid="structSCU__GENERAL__Type_1a372a0f060ba7e002480f4d7eba9c552e" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>PFUCR</name></member>
+      <member refid="structSCU__GENERAL__Type_1a00780904b96249327381c8714c66e38d" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>PMTSR</name></member>
+      <member refid="structSCU__GENERAL__Type_1a70840a9034ad47ffae297fdcdd062b68" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>RESERVED</name></member>
+      <member refid="structSCU__GENERAL__Type_1a1c565c77e3efc0729577ed45e66e6a13" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>RESERVED1</name></member>
+      <member refid="structSCU__GENERAL__Type_1a05bbf6ee7538d98901bf9d316d11981b" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>RESERVED2</name></member>
+      <member refid="structSCU__GENERAL__Type_1af9cfdcdc057356e2188136a24ad469b9" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>RESERVED3</name></member>
+      <member refid="structSCU__GENERAL__Type_1a746ce028155fdb0537719d94083dbcda" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>RESERVED4</name></member>
+      <member refid="structSCU__GENERAL__Type_1abca4d24cb41ee76f4bf0dddd34ec73da" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>RESERVED5</name></member>
+      <member refid="structSCU__GENERAL__Type_1a7ae464743447a7d25fdf4953e2a6bd00" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>SSW0</name></member>
+      <member refid="structSCU__GENERAL__Type_1a202643aaa9488b82bfc9111be2cae08c" prot="public" virt="non-virtual"><scope>SCU_GENERAL_Type</scope><name>STSTAT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
